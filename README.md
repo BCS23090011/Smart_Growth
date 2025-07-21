@@ -32,10 +32,13 @@ Built with a focus on Malaysian agriculture, this project simulates data for wea
   3. Terrain types (e.g., Highland, Lowland, Flat)
   4. Fertilizer types (e.g., NPK, Organic, Urea, None)
 
+  This project was developed during Hackathon Weekend(HackWknd) 2025 as a team submission. 
+
   🤖 Generative AI Suggestions:
   The Gemini API is used to provide intelligent, human-like planting suggestions based on model output and environmental data.
 
   📦 Local ML Models:
   ML models were trained on the simulated data using scikit-learn and deployed with joblib. No online training or external APIs are used for prediction.
 
+  
 
