@@ -16,7 +16,26 @@ Built with a focus on Malaysian agriculture, this project simulates data for wea
 - Other: pandas, numpy, dotenv
 
 📦 Installation
-git clone https://github.com/your-username/smart_growth.git
-cd smart_growth
-pip install -r requirements.txt
+1. git clone https://github.com/your-username/smart_growth.git
+2. cd smart_growth
+3. pip install -r requirements.txt
+4. replace with your own google api key in app.py
+
+
+
+📌 Notes
+  📊 Simulated Dataset:
+  This project uses AI-generated data instead of real-world datasets.
+  The data is designed to reflect typical Malaysian agricultural conditions, and includes:
+  1. Weekly rainfall, wind speed, sunlight hours
+  2. Soil types (e.g., Clay, Sandy, Loamy)
+  3. Terrain types (e.g., Highland, Lowland, Flat)
+  4. Fertilizer types (e.g., NPK, Organic, Urea, None)
+
+  🤖 Generative AI Suggestions:
+  The Gemini API is used to provide intelligent, human-like planting suggestions based on model output and environmental data.
+
+  📦 Local ML Models:
+  ML models were trained on the simulated data using scikit-learn and deployed with joblib. No online training or external APIs are used for prediction.
+
 
