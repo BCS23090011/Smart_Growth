@@ -1,0 +1,1873 @@
+Week,Rainfall(mm/week),CloudMovementSpeed(km/h),WindSpeed(km/h),SunlightDuration(hrs/day),ExtremeWeatherDays,SoilType,TerrainType,FertilizerType,FertilizerSuitability,SoilMoisture(%),CropType,Viability,GrowthGrade
+1,210,50,30,5,4,Sandy,Lowland,Not,No,100,Corn,Not Viable,Poor
+1,210,50,30,5,4,Sandy,Lowland,Organic,No,100,Chili,Not Viable,Poor
+1,210,50,30,5,4,Sandy,Lowland,NPK,Yes,100,Kangkung,Viable,Good
+1,210,50,30,5,4,Sandy,Lowland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+1,210,50,30,5,4,Sandy,Upland,Not,No,94,Corn,Not Viable,Poor
+1,210,50,30,5,4,Sandy,Upland,Organic,No,96,Okra,Not Viable,Poor
+1,210,50,30,5,4,Sandy,Upland,NPK,Yes,99,Corn,Viable,Good
+1,210,50,30,5,4,Sandy,Upland,Ammonium Sulfate,No,91,Kangkung,Not Viable,Poor
+1,210,50,30,5,4,Sandy,Slope,Not,No,88,Okra,Not Viable,Poor
+1,210,50,30,5,4,Sandy,Slope,Organic,No,81,Corn,Not Viable,Poor
+1,210,50,30,5,4,Sandy,Slope,NPK,Yes,81,Corn,Viable,Good
+1,210,50,30,5,4,Sandy,Slope,Ammonium Sulfate,No,85,Okra,Not Viable,Poor
+1,210,50,30,5,4,Clay,Lowland,Not,No,100,Kangkung,Not Viable,Poor
+1,210,50,30,5,4,Clay,Lowland,Organic,No,100,Kangkung,Not Viable,Poor
+1,210,50,30,5,4,Clay,Lowland,NPK,No,100,Chili,Not Viable,Poor
+1,210,50,30,5,4,Clay,Lowland,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+1,210,50,30,5,4,Clay,Upland,Not,No,100,Okra,Not Viable,Poor
+1,210,50,30,5,4,Clay,Upland,Organic,No,100,Corn,Not Viable,Poor
+1,210,50,30,5,4,Clay,Upland,NPK,No,100,Sweet Potato,Not Viable,Poor
+1,210,50,30,5,4,Clay,Upland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+1,210,50,30,5,4,Clay,Slope,Not,No,100,Corn,Not Viable,Poor
+1,210,50,30,5,4,Clay,Slope,Organic,No,100,Kangkung,Not Viable,Poor
+1,210,50,30,5,4,Clay,Slope,NPK,No,100,Sweet Potato,Not Viable,Poor
+1,210,50,30,5,4,Clay,Slope,Ammonium Sulfate,No,100,Okra,Not Viable,Poor
+1,210,50,30,5,4,Loam,Lowland,Not,No,100,Chili,Not Viable,Poor
+1,210,50,30,5,4,Loam,Lowland,Organic,Yes,100,Kangkung,Viable,Good
+1,210,50,30,5,4,Loam,Lowland,NPK,No,100,Kangkung,Not Viable,Poor
+1,210,50,30,5,4,Loam,Lowland,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+1,210,50,30,5,4,Loam,Upland,Not,No,100,Kangkung,Not Viable,Poor
+1,210,50,30,5,4,Loam,Upland,Organic,Yes,100,Okra,Viable,Good
+1,210,50,30,5,4,Loam,Upland,NPK,No,100,Corn,Not Viable,Poor
+1,210,50,30,5,4,Loam,Upland,Ammonium Sulfate,No,100,Okra,Not Viable,Poor
+1,210,50,30,5,4,Loam,Slope,Not,No,92,Chili,Not Viable,Poor
+1,210,50,30,5,4,Loam,Slope,Organic,Yes,94,Kangkung,Viable,Good
+1,210,50,30,5,4,Loam,Slope,NPK,No,94,Chili,Not Viable,Poor
+1,210,50,30,5,4,Loam,Slope,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+2,230,55,32,4.5,5,Sandy,Lowland,Not,No,100,Kangkung,Not Viable,Poor
+2,230,55,32,4.5,5,Sandy,Lowland,Organic,No,100,Kangkung,Not Viable,Poor
+2,230,55,32,4.5,5,Sandy,Lowland,NPK,Yes,100,Corn,Not Viable,Poor
+2,230,55,32,4.5,5,Sandy,Lowland,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+2,230,55,32,4.5,5,Sandy,Upland,Not,No,100,Okra,Not Viable,Poor
+2,230,55,32,4.5,5,Sandy,Upland,Organic,No,100,Kangkung,Not Viable,Poor
+2,230,55,32,4.5,5,Sandy,Upland,NPK,Yes,100,Chili,Not Viable,Poor
+2,230,55,32,4.5,5,Sandy,Upland,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+2,230,55,32,4.5,5,Sandy,Slope,Not,No,91,Kangkung,Not Viable,Poor
+2,230,55,32,4.5,5,Sandy,Slope,Organic,No,93,Chili,Not Viable,Poor
+2,230,55,32,4.5,5,Sandy,Slope,NPK,Yes,97,Okra,Not Viable,Poor
+2,230,55,32,4.5,5,Sandy,Slope,Ammonium Sulfate,No,93,Chili,Not Viable,Poor
+2,230,55,32,4.5,5,Clay,Lowland,Not,No,100,Corn,Not Viable,Poor
+2,230,55,32,4.5,5,Clay,Lowland,Organic,No,100,Sweet Potato,Not Viable,Poor
+2,230,55,32,4.5,5,Clay,Lowland,NPK,No,100,Okra,Not Viable,Poor
+2,230,55,32,4.5,5,Clay,Lowland,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+2,230,55,32,4.5,5,Clay,Upland,Not,No,100,Kangkung,Not Viable,Poor
+2,230,55,32,4.5,5,Clay,Upland,Organic,No,100,Kangkung,Not Viable,Poor
+2,230,55,32,4.5,5,Clay,Upland,NPK,No,100,Chili,Not Viable,Poor
+2,230,55,32,4.5,5,Clay,Upland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+2,230,55,32,4.5,5,Clay,Slope,Not,No,100,Sweet Potato,Not Viable,Poor
+2,230,55,32,4.5,5,Clay,Slope,Organic,No,100,Okra,Not Viable,Poor
+2,230,55,32,4.5,5,Clay,Slope,NPK,No,100,Okra,Not Viable,Poor
+2,230,55,32,4.5,5,Clay,Slope,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+2,230,55,32,4.5,5,Loam,Lowland,Not,No,100,Chili,Not Viable,Poor
+2,230,55,32,4.5,5,Loam,Lowland,Organic,Yes,100,Sweet Potato,Not Viable,Poor
+2,230,55,32,4.5,5,Loam,Lowland,NPK,No,100,Sweet Potato,Not Viable,Poor
+2,230,55,32,4.5,5,Loam,Lowland,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+2,230,55,32,4.5,5,Loam,Upland,Not,No,100,Corn,Not Viable,Poor
+2,230,55,32,4.5,5,Loam,Upland,Organic,Yes,100,Sweet Potato,Not Viable,Poor
+2,230,55,32,4.5,5,Loam,Upland,NPK,No,100,Kangkung,Not Viable,Poor
+2,230,55,32,4.5,5,Loam,Upland,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+2,230,55,32,4.5,5,Loam,Slope,Not,No,100,Corn,Not Viable,Poor
+2,230,55,32,4.5,5,Loam,Slope,Organic,Yes,100,Sweet Potato,Not Viable,Poor
+2,230,55,32,4.5,5,Loam,Slope,NPK,No,100,Okra,Not Viable,Poor
+2,230,55,32,4.5,5,Loam,Slope,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+3,190,48,28,5.2,3,Sandy,Lowland,Not,No,99,Kangkung,Not Viable,Poor
+3,190,48,28,5.2,3,Sandy,Lowland,Organic,No,93,Sweet Potato,Not Viable,Poor
+3,190,48,28,5.2,3,Sandy,Lowland,NPK,Yes,100,Corn,Viable,Good
+3,190,48,28,5.2,3,Sandy,Lowland,Ammonium Sulfate,No,99,Okra,Not Viable,Poor
+3,190,48,28,5.2,3,Sandy,Upland,Not,No,87,Corn,Not Viable,Poor
+3,190,48,28,5.2,3,Sandy,Upland,Organic,No,80,Chili,Not Viable,Poor
+3,190,48,28,5.2,3,Sandy,Upland,NPK,Yes,83,Corn,Viable,Good
+3,190,48,28,5.2,3,Sandy,Upland,Ammonium Sulfate,No,80,Sweet Potato,Not Viable,Poor
+3,190,48,28,5.2,3,Sandy,Slope,Not,No,72,Corn,Not Viable,Poor
+3,190,48,28,5.2,3,Sandy,Slope,Organic,No,78,Corn,Not Viable,Poor
+3,190,48,28,5.2,3,Sandy,Slope,NPK,Yes,74,Kangkung,Viable,Good
+3,190,48,28,5.2,3,Sandy,Slope,Ammonium Sulfate,No,78,Corn,Not Viable,Poor
+3,190,48,28,5.2,3,Clay,Lowland,Not,No,100,Sweet Potato,Not Viable,Poor
+3,190,48,28,5.2,3,Clay,Lowland,Organic,No,100,Okra,Not Viable,Poor
+3,190,48,28,5.2,3,Clay,Lowland,NPK,No,100,Sweet Potato,Not Viable,Poor
+3,190,48,28,5.2,3,Clay,Lowland,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+3,190,48,28,5.2,3,Clay,Upland,Not,No,100,Corn,Not Viable,Poor
+3,190,48,28,5.2,3,Clay,Upland,Organic,No,100,Corn,Not Viable,Poor
+3,190,48,28,5.2,3,Clay,Upland,NPK,No,100,Kangkung,Not Viable,Poor
+3,190,48,28,5.2,3,Clay,Upland,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+3,190,48,28,5.2,3,Clay,Slope,Not,No,94,Kangkung,Not Viable,Poor
+3,190,48,28,5.2,3,Clay,Slope,Organic,No,93,Kangkung,Not Viable,Poor
+3,190,48,28,5.2,3,Clay,Slope,NPK,No,93,Chili,Not Viable,Poor
+3,190,48,28,5.2,3,Clay,Slope,Ammonium Sulfate,No,96,Okra,Not Viable,Poor
+3,190,48,28,5.2,3,Loam,Lowland,Not,No,100,Chili,Not Viable,Poor
+3,190,48,28,5.2,3,Loam,Lowland,Organic,Yes,100,Chili,Viable,Good
+3,190,48,28,5.2,3,Loam,Lowland,NPK,No,100,Chili,Not Viable,Poor
+3,190,48,28,5.2,3,Loam,Lowland,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+3,190,48,28,5.2,3,Loam,Upland,Not,No,95,Kangkung,Not Viable,Poor
+3,190,48,28,5.2,3,Loam,Upland,Organic,Yes,93,Okra,Viable,Good
+3,190,48,28,5.2,3,Loam,Upland,NPK,No,96,Sweet Potato,Not Viable,Poor
+3,190,48,28,5.2,3,Loam,Upland,Ammonium Sulfate,No,92,Chili,Not Viable,Poor
+3,190,48,28,5.2,3,Loam,Slope,Not,No,86,Corn,Not Viable,Poor
+3,190,48,28,5.2,3,Loam,Slope,Organic,Yes,86,Kangkung,Viable,Good
+3,190,48,28,5.2,3,Loam,Slope,NPK,No,81,Okra,Not Viable,Poor
+3,190,48,28,5.2,3,Loam,Slope,Ammonium Sulfate,No,84,Sweet Potato,Not Viable,Poor
+4,240,58,35,4.2,6,Sandy,Lowland,Not,No,100,Sweet Potato,Not Viable,Poor
+4,240,58,35,4.2,6,Sandy,Lowland,Organic,No,100,Sweet Potato,Not Viable,Poor
+4,240,58,35,4.2,6,Sandy,Lowland,NPK,Yes,100,Okra,Not Viable,Poor
+4,240,58,35,4.2,6,Sandy,Lowland,Ammonium Sulfate,No,100,Okra,Not Viable,Poor
+4,240,58,35,4.2,6,Sandy,Upland,Not,No,100,Okra,Not Viable,Poor
+4,240,58,35,4.2,6,Sandy,Upland,Organic,No,100,Chili,Not Viable,Poor
+4,240,58,35,4.2,6,Sandy,Upland,NPK,Yes,100,Okra,Not Viable,Poor
+4,240,58,35,4.2,6,Sandy,Upland,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+4,240,58,35,4.2,6,Sandy,Slope,Not,No,100,Corn,Not Viable,Poor
+4,240,58,35,4.2,6,Sandy,Slope,Organic,No,100,Kangkung,Not Viable,Poor
+4,240,58,35,4.2,6,Sandy,Slope,NPK,Yes,100,Corn,Not Viable,Poor
+4,240,58,35,4.2,6,Sandy,Slope,Ammonium Sulfate,No,98,Okra,Not Viable,Poor
+4,240,58,35,4.2,6,Clay,Lowland,Not,No,100,Kangkung,Not Viable,Poor
+4,240,58,35,4.2,6,Clay,Lowland,Organic,No,100,Okra,Not Viable,Poor
+4,240,58,35,4.2,6,Clay,Lowland,NPK,No,100,Chili,Not Viable,Poor
+4,240,58,35,4.2,6,Clay,Lowland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+4,240,58,35,4.2,6,Clay,Upland,Not,No,100,Kangkung,Not Viable,Poor
+4,240,58,35,4.2,6,Clay,Upland,Organic,No,100,Chili,Not Viable,Poor
+4,240,58,35,4.2,6,Clay,Upland,NPK,No,100,Corn,Not Viable,Poor
+4,240,58,35,4.2,6,Clay,Upland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+4,240,58,35,4.2,6,Clay,Slope,Not,No,100,Sweet Potato,Not Viable,Poor
+4,240,58,35,4.2,6,Clay,Slope,Organic,No,100,Corn,Not Viable,Poor
+4,240,58,35,4.2,6,Clay,Slope,NPK,No,100,Chili,Not Viable,Poor
+4,240,58,35,4.2,6,Clay,Slope,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+4,240,58,35,4.2,6,Loam,Lowland,Not,No,100,Kangkung,Not Viable,Poor
+4,240,58,35,4.2,6,Loam,Lowland,Organic,Yes,100,Kangkung,Not Viable,Poor
+4,240,58,35,4.2,6,Loam,Lowland,NPK,No,100,Kangkung,Not Viable,Poor
+4,240,58,35,4.2,6,Loam,Lowland,Ammonium Sulfate,No,100,Okra,Not Viable,Poor
+4,240,58,35,4.2,6,Loam,Upland,Not,No,100,Chili,Not Viable,Poor
+4,240,58,35,4.2,6,Loam,Upland,Organic,Yes,100,Kangkung,Not Viable,Poor
+4,240,58,35,4.2,6,Loam,Upland,NPK,No,100,Corn,Not Viable,Poor
+4,240,58,35,4.2,6,Loam,Upland,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+4,240,58,35,4.2,6,Loam,Slope,Not,No,100,Okra,Not Viable,Poor
+4,240,58,35,4.2,6,Loam,Slope,Organic,Yes,100,Kangkung,Not Viable,Poor
+4,240,58,35,4.2,6,Loam,Slope,NPK,No,100,Chili,Not Viable,Poor
+4,240,58,35,4.2,6,Loam,Slope,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+5,200,45,25,5.5,3,Sandy,Lowland,Not,No,100,Corn,Not Viable,Poor
+5,200,45,25,5.5,3,Sandy,Lowland,Organic,No,96,Kangkung,Not Viable,Poor
+5,200,45,25,5.5,3,Sandy,Lowland,NPK,Yes,97,Corn,Viable,Good
+5,200,45,25,5.5,3,Sandy,Lowland,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+5,200,45,25,5.5,3,Sandy,Upland,Not,No,86,Chili,Not Viable,Poor
+5,200,45,25,5.5,3,Sandy,Upland,Organic,No,87,Okra,Not Viable,Poor
+5,200,45,25,5.5,3,Sandy,Upland,NPK,Yes,87,Corn,Viable,Good
+5,200,45,25,5.5,3,Sandy,Upland,Ammonium Sulfate,No,94,Kangkung,Not Viable,Poor
+5,200,45,25,5.5,3,Sandy,Slope,Not,No,81,Kangkung,Not Viable,Poor
+5,200,45,25,5.5,3,Sandy,Slope,Organic,No,85,Sweet Potato,Not Viable,Poor
+5,200,45,25,5.5,3,Sandy,Slope,NPK,Yes,85,Chili,Viable,Good
+5,200,45,25,5.5,3,Sandy,Slope,Ammonium Sulfate,No,75,Corn,Not Viable,Poor
+5,200,45,25,5.5,3,Clay,Lowland,Not,No,100,Okra,Not Viable,Poor
+5,200,45,25,5.5,3,Clay,Lowland,Organic,No,100,Okra,Not Viable,Poor
+5,200,45,25,5.5,3,Clay,Lowland,NPK,No,100,Kangkung,Not Viable,Poor
+5,200,45,25,5.5,3,Clay,Lowland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+5,200,45,25,5.5,3,Clay,Upland,Not,No,100,Chili,Not Viable,Poor
+5,200,45,25,5.5,3,Clay,Upland,Organic,No,100,Sweet Potato,Not Viable,Poor
+5,200,45,25,5.5,3,Clay,Upland,NPK,No,100,Chili,Not Viable,Poor
+5,200,45,25,5.5,3,Clay,Upland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+5,200,45,25,5.5,3,Clay,Slope,Not,No,100,Sweet Potato,Not Viable,Poor
+5,200,45,25,5.5,3,Clay,Slope,Organic,No,95,Corn,Not Viable,Poor
+5,200,45,25,5.5,3,Clay,Slope,NPK,No,100,Chili,Not Viable,Poor
+5,200,45,25,5.5,3,Clay,Slope,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+5,200,45,25,5.5,3,Loam,Lowland,Not,No,100,Kangkung,Not Viable,Poor
+5,200,45,25,5.5,3,Loam,Lowland,Organic,Yes,100,Sweet Potato,Viable,Good
+5,200,45,25,5.5,3,Loam,Lowland,NPK,No,100,Corn,Not Viable,Poor
+5,200,45,25,5.5,3,Loam,Lowland,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+5,200,45,25,5.5,3,Loam,Upland,Not,No,100,Kangkung,Not Viable,Poor
+5,200,45,25,5.5,3,Loam,Upland,Organic,Yes,98,Kangkung,Viable,Good
+5,200,45,25,5.5,3,Loam,Upland,NPK,No,100,Kangkung,Not Viable,Poor
+5,200,45,25,5.5,3,Loam,Upland,Ammonium Sulfate,No,100,Okra,Not Viable,Poor
+5,200,45,25,5.5,3,Loam,Slope,Not,No,94,Okra,Not Viable,Poor
+5,200,45,25,5.5,3,Loam,Slope,Organic,Yes,86,Corn,Viable,Good
+5,200,45,25,5.5,3,Loam,Slope,NPK,No,92,Kangkung,Not Viable,Poor
+5,200,45,25,5.5,3,Loam,Slope,Ammonium Sulfate,No,87,Kangkung,Not Viable,Poor
+6,180,42,24,5.8,2,Sandy,Lowland,Not,No,86,Okra,Not Viable,Poor
+6,180,42,24,5.8,2,Sandy,Lowland,Organic,No,90,Kangkung,Not Viable,Poor
+6,180,42,24,5.8,2,Sandy,Lowland,NPK,Yes,91,Corn,Viable,Good
+6,180,42,24,5.8,2,Sandy,Lowland,Ammonium Sulfate,No,89,Chili,Not Viable,Poor
+6,180,42,24,5.8,2,Sandy,Upland,Not,No,80,Okra,Not Viable,Poor
+6,180,42,24,5.8,2,Sandy,Upland,Organic,No,76,Chili,Not Viable,Poor
+6,180,42,24,5.8,2,Sandy,Upland,NPK,Yes,79,Okra,Viable,Good
+6,180,42,24,5.8,2,Sandy,Upland,Ammonium Sulfate,No,79,Kangkung,Not Viable,Poor
+6,180,42,24,5.8,2,Sandy,Slope,Not,No,65,Sweet Potato,Not Viable,Poor
+6,180,42,24,5.8,2,Sandy,Slope,Organic,No,71,Corn,Not Viable,Poor
+6,180,42,24,5.8,2,Sandy,Slope,NPK,Yes,70,Kangkung,Viable,Good
+6,180,42,24,5.8,2,Sandy,Slope,Ammonium Sulfate,No,66,Kangkung,Not Viable,Poor
+6,180,42,24,5.8,2,Clay,Lowland,Not,No,100,Chili,Not Viable,Poor
+6,180,42,24,5.8,2,Clay,Lowland,Organic,No,100,Corn,Not Viable,Poor
+6,180,42,24,5.8,2,Clay,Lowland,NPK,No,100,Chili,Not Viable,Poor
+6,180,42,24,5.8,2,Clay,Lowland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+6,180,42,24,5.8,2,Clay,Upland,Not,No,100,Okra,Not Viable,Poor
+6,180,42,24,5.8,2,Clay,Upland,Organic,No,96,Chili,Not Viable,Poor
+6,180,42,24,5.8,2,Clay,Upland,NPK,No,97,Sweet Potato,Not Viable,Poor
+6,180,42,24,5.8,2,Clay,Upland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+6,180,42,24,5.8,2,Clay,Slope,Not,No,89,Okra,Not Viable,Poor
+6,180,42,24,5.8,2,Clay,Slope,Organic,No,92,Sweet Potato,Not Viable,Poor
+6,180,42,24,5.8,2,Clay,Slope,NPK,No,95,Kangkung,Not Viable,Poor
+6,180,42,24,5.8,2,Clay,Slope,Ammonium Sulfate,No,86,Chili,Not Viable,Poor
+6,180,42,24,5.8,2,Loam,Lowland,Not,No,100,Corn,Not Viable,Poor
+6,180,42,24,5.8,2,Loam,Lowland,Organic,Yes,96,Sweet Potato,Viable,Good
+6,180,42,24,5.8,2,Loam,Lowland,NPK,No,100,Okra,Not Viable,Poor
+6,180,42,24,5.8,2,Loam,Lowland,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+6,180,42,24,5.8,2,Loam,Upland,Not,No,87,Okra,Not Viable,Poor
+6,180,42,24,5.8,2,Loam,Upland,Organic,Yes,89,Corn,Viable,Good
+6,180,42,24,5.8,2,Loam,Upland,NPK,No,85,Chili,Not Viable,Poor
+6,180,42,24,5.8,2,Loam,Upland,Ammonium Sulfate,No,91,Corn,Not Viable,Poor
+6,180,42,24,5.8,2,Loam,Slope,Not,No,79,Corn,Not Viable,Poor
+6,180,42,24,5.8,2,Loam,Slope,Organic,Yes,77,Sweet Potato,Viable,Good
+6,180,42,24,5.8,2,Loam,Slope,NPK,No,82,Chili,Not Viable,Poor
+6,180,42,24,5.8,2,Loam,Slope,Ammonium Sulfate,No,84,Okra,Not Viable,Poor
+7,220,52,31,4.8,4,Sandy,Lowland,Not,No,100,Corn,Not Viable,Poor
+7,220,52,31,4.8,4,Sandy,Lowland,Organic,No,100,Corn,Not Viable,Poor
+7,220,52,31,4.8,4,Sandy,Lowland,NPK,Yes,100,Corn,Viable,Fair
+7,220,52,31,4.8,4,Sandy,Lowland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+7,220,52,31,4.8,4,Sandy,Upland,Not,No,100,Chili,Not Viable,Poor
+7,220,52,31,4.8,4,Sandy,Upland,Organic,No,100,Okra,Not Viable,Poor
+7,220,52,31,4.8,4,Sandy,Upland,NPK,Yes,100,Corn,Viable,Fair
+7,220,52,31,4.8,4,Sandy,Upland,Ammonium Sulfate,No,95,Kangkung,Not Viable,Poor
+7,220,52,31,4.8,4,Sandy,Slope,Not,No,93,Corn,Not Viable,Poor
+7,220,52,31,4.8,4,Sandy,Slope,Organic,No,87,Chili,Not Viable,Poor
+7,220,52,31,4.8,4,Sandy,Slope,NPK,Yes,92,Okra,Viable,Fair
+7,220,52,31,4.8,4,Sandy,Slope,Ammonium Sulfate,No,93,Chili,Not Viable,Poor
+7,220,52,31,4.8,4,Clay,Lowland,Not,No,100,Chili,Not Viable,Poor
+7,220,52,31,4.8,4,Clay,Lowland,Organic,No,100,Chili,Not Viable,Poor
+7,220,52,31,4.8,4,Clay,Lowland,NPK,No,100,Chili,Not Viable,Poor
+7,220,52,31,4.8,4,Clay,Lowland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+7,220,52,31,4.8,4,Clay,Upland,Not,No,100,Sweet Potato,Not Viable,Poor
+7,220,52,31,4.8,4,Clay,Upland,Organic,No,100,Kangkung,Not Viable,Poor
+7,220,52,31,4.8,4,Clay,Upland,NPK,No,100,Sweet Potato,Not Viable,Poor
+7,220,52,31,4.8,4,Clay,Upland,Ammonium Sulfate,No,100,Okra,Not Viable,Poor
+7,220,52,31,4.8,4,Clay,Slope,Not,No,100,Kangkung,Not Viable,Poor
+7,220,52,31,4.8,4,Clay,Slope,Organic,No,100,Corn,Not Viable,Poor
+7,220,52,31,4.8,4,Clay,Slope,NPK,No,100,Kangkung,Not Viable,Poor
+7,220,52,31,4.8,4,Clay,Slope,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+7,220,52,31,4.8,4,Loam,Lowland,Not,No,100,Kangkung,Not Viable,Poor
+7,220,52,31,4.8,4,Loam,Lowland,Organic,Yes,100,Kangkung,Viable,Fair
+7,220,52,31,4.8,4,Loam,Lowland,NPK,No,100,Okra,Not Viable,Poor
+7,220,52,31,4.8,4,Loam,Lowland,Ammonium Sulfate,No,100,Okra,Not Viable,Poor
+7,220,52,31,4.8,4,Loam,Upland,Not,No,100,Okra,Not Viable,Poor
+7,220,52,31,4.8,4,Loam,Upland,Organic,Yes,100,Kangkung,Viable,Fair
+7,220,52,31,4.8,4,Loam,Upland,NPK,No,100,Kangkung,Not Viable,Poor
+7,220,52,31,4.8,4,Loam,Upland,Ammonium Sulfate,No,100,Okra,Not Viable,Poor
+7,220,52,31,4.8,4,Loam,Slope,Not,No,99,Corn,Not Viable,Poor
+7,220,52,31,4.8,4,Loam,Slope,Organic,Yes,96,Sweet Potato,Viable,Fair
+7,220,52,31,4.8,4,Loam,Slope,NPK,No,95,Corn,Not Viable,Poor
+7,220,52,31,4.8,4,Loam,Slope,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+8,170,40,22,6,2,Sandy,Lowland,Not,No,89,Sweet Potato,Not Viable,Poor
+8,170,40,22,6,2,Sandy,Lowland,Organic,No,89,Okra,Not Viable,Poor
+8,170,40,22,6,2,Sandy,Lowland,NPK,Yes,89,Corn,Viable,Excellent
+8,170,40,22,6,2,Sandy,Lowland,Ammonium Sulfate,No,89,Corn,Not Viable,Poor
+8,170,40,22,6,2,Sandy,Upland,Not,No,70,Kangkung,Not Viable,Poor
+8,170,40,22,6,2,Sandy,Upland,Organic,No,74,Okra,Not Viable,Poor
+8,170,40,22,6,2,Sandy,Upland,NPK,Yes,72,Chili,Viable,Excellent
+8,170,40,22,6,2,Sandy,Upland,Ammonium Sulfate,No,72,Chili,Not Viable,Poor
+8,170,40,22,6,2,Sandy,Slope,Not,No,61,Corn,Not Viable,Poor
+8,170,40,22,6,2,Sandy,Slope,Organic,No,68,Okra,Not Viable,Poor
+8,170,40,22,6,2,Sandy,Slope,NPK,Yes,61,Chili,Viable,Good
+8,170,40,22,6,2,Sandy,Slope,Ammonium Sulfate,No,66,Kangkung,Not Viable,Poor
+8,170,40,22,6,2,Clay,Lowland,Not,No,100,Kangkung,Not Viable,Poor
+8,170,40,22,6,2,Clay,Lowland,Organic,No,100,Kangkung,Not Viable,Poor
+8,170,40,22,6,2,Clay,Lowland,NPK,No,100,Corn,Not Viable,Poor
+8,170,40,22,6,2,Clay,Lowland,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+8,170,40,22,6,2,Clay,Upland,Not,No,95,Chili,Not Viable,Poor
+8,170,40,22,6,2,Clay,Upland,Organic,No,92,Sweet Potato,Not Viable,Poor
+8,170,40,22,6,2,Clay,Upland,NPK,No,100,Chili,Not Viable,Poor
+8,170,40,22,6,2,Clay,Upland,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+8,170,40,22,6,2,Clay,Slope,Not,No,82,Okra,Not Viable,Poor
+8,170,40,22,6,2,Clay,Slope,Organic,No,88,Corn,Not Viable,Poor
+8,170,40,22,6,2,Clay,Slope,NPK,No,80,Okra,Not Viable,Poor
+8,170,40,22,6,2,Clay,Slope,Ammonium Sulfate,No,89,Chili,Not Viable,Poor
+8,170,40,22,6,2,Loam,Lowland,Not,No,91,Corn,Not Viable,Poor
+8,170,40,22,6,2,Loam,Lowland,Organic,Yes,100,Chili,Viable,Excellent
+8,170,40,22,6,2,Loam,Lowland,NPK,No,99,Corn,Not Viable,Poor
+8,170,40,22,6,2,Loam,Lowland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+8,170,40,22,6,2,Loam,Upland,Not,No,81,Kangkung,Not Viable,Poor
+8,170,40,22,6,2,Loam,Upland,Organic,Yes,84,Chili,Viable,Excellent
+8,170,40,22,6,2,Loam,Upland,NPK,No,90,Corn,Not Viable,Poor
+8,170,40,22,6,2,Loam,Upland,Ammonium Sulfate,No,83,Okra,Not Viable,Poor
+8,170,40,22,6,2,Loam,Slope,Not,No,73,Okra,Not Viable,Poor
+8,170,40,22,6,2,Loam,Slope,Organic,Yes,76,Chili,Viable,Excellent
+8,170,40,22,6,2,Loam,Slope,NPK,No,76,Okra,Not Viable,Poor
+8,170,40,22,6,2,Loam,Slope,Ammonium Sulfate,No,74,Sweet Potato,Not Viable,Poor
+9,30,18,9,11.5,0,Sandy,Lowland,Not,No,18,Sweet Potato,Not Viable,Poor
+9,30,18,9,11.5,0,Sandy,Lowland,Organic,No,11,Okra,Not Viable,Poor
+9,30,18,9,11.5,0,Sandy,Lowland,NPK,Yes,16,Corn,Not Viable,Poor
+9,30,18,9,11.5,0,Sandy,Lowland,Ammonium Sulfate,No,12,Sweet Potato,Not Viable,Poor
+9,30,18,9,11.5,0,Sandy,Upland,Not,No,8,Chili,Not Viable,Poor
+9,30,18,9,11.5,0,Sandy,Upland,Organic,No,4,Corn,Not Viable,Poor
+9,30,18,9,11.5,0,Sandy,Upland,NPK,Yes,6,Okra,Not Viable,Poor
+9,30,18,9,11.5,0,Sandy,Upland,Ammonium Sulfate,No,1,Okra,Not Viable,Poor
+9,30,18,9,11.5,0,Sandy,Slope,Not,No,0,Corn,Not Viable,Poor
+9,30,18,9,11.5,0,Sandy,Slope,Organic,No,0,Corn,Not Viable,Poor
+9,30,18,9,11.5,0,Sandy,Slope,NPK,Yes,0,Okra,Not Viable,Poor
+9,30,18,9,11.5,0,Sandy,Slope,Ammonium Sulfate,No,0,Kangkung,Not Viable,Poor
+9,30,18,9,11.5,0,Clay,Lowland,Not,No,32,Sweet Potato,Not Viable,Poor
+9,30,18,9,11.5,0,Clay,Lowland,Organic,No,39,Okra,Not Viable,Poor
+9,30,18,9,11.5,0,Clay,Lowland,NPK,No,38,Kangkung,Not Viable,Poor
+9,30,18,9,11.5,0,Clay,Lowland,Ammonium Sulfate,No,31,Sweet Potato,Not Viable,Poor
+9,30,18,9,11.5,0,Clay,Upland,Not,No,24,Corn,Not Viable,Poor
+9,30,18,9,11.5,0,Clay,Upland,Organic,No,29,Sweet Potato,Not Viable,Poor
+9,30,18,9,11.5,0,Clay,Upland,NPK,No,23,Kangkung,Not Viable,Poor
+9,30,18,9,11.5,0,Clay,Upland,Ammonium Sulfate,No,29,Sweet Potato,Not Viable,Poor
+9,30,18,9,11.5,0,Clay,Slope,Not,No,11,Chili,Not Viable,Poor
+9,30,18,9,11.5,0,Clay,Slope,Organic,No,18,Chili,Not Viable,Poor
+9,30,18,9,11.5,0,Clay,Slope,NPK,No,12,Okra,Not Viable,Poor
+9,30,18,9,11.5,0,Clay,Slope,Ammonium Sulfate,No,18,Sweet Potato,Not Viable,Poor
+9,30,18,9,11.5,0,Loam,Lowland,Not,No,23,Chili,Not Viable,Poor
+9,30,18,9,11.5,0,Loam,Lowland,Organic,Yes,26,Chili,Not Viable,Poor
+9,30,18,9,11.5,0,Loam,Lowland,NPK,No,25,Chili,Not Viable,Poor
+9,30,18,9,11.5,0,Loam,Lowland,Ammonium Sulfate,No,25,Sweet Potato,Not Viable,Poor
+9,30,18,9,11.5,0,Loam,Upland,Not,No,18,Corn,Not Viable,Poor
+9,30,18,9,11.5,0,Loam,Upland,Organic,Yes,11,Kangkung,Not Viable,Poor
+9,30,18,9,11.5,0,Loam,Upland,NPK,No,18,Kangkung,Not Viable,Poor
+9,30,18,9,11.5,0,Loam,Upland,Ammonium Sulfate,No,17,Sweet Potato,Not Viable,Poor
+9,30,18,9,11.5,0,Loam,Slope,Not,No,1,Sweet Potato,Not Viable,Poor
+9,30,18,9,11.5,0,Loam,Slope,Organic,Yes,8,Kangkung,Not Viable,Poor
+9,30,18,9,11.5,0,Loam,Slope,NPK,No,9,Kangkung,Not Viable,Poor
+9,30,18,9,11.5,0,Loam,Slope,Ammonium Sulfate,No,8,Kangkung,Not Viable,Poor
+10,10,12,5,12,0,Sandy,Lowland,Not,No,3,Kangkung,Not Viable,Poor
+10,10,12,5,12,0,Sandy,Lowland,Organic,No,4,Okra,Not Viable,Poor
+10,10,12,5,12,0,Sandy,Lowland,NPK,Yes,2,Kangkung,Not Viable,Poor
+10,10,12,5,12,0,Sandy,Lowland,Ammonium Sulfate,No,9,Sweet Potato,Not Viable,Poor
+10,10,12,5,12,0,Sandy,Upland,Not,No,0,Sweet Potato,Not Viable,Poor
+10,10,12,5,12,0,Sandy,Upland,Organic,No,0,Sweet Potato,Not Viable,Poor
+10,10,12,5,12,0,Sandy,Upland,NPK,Yes,0,Chili,Not Viable,Poor
+10,10,12,5,12,0,Sandy,Upland,Ammonium Sulfate,No,0,Okra,Not Viable,Poor
+10,10,12,5,12,0,Sandy,Slope,Not,No,0,Chili,Not Viable,Poor
+10,10,12,5,12,0,Sandy,Slope,Organic,No,0,Chili,Not Viable,Poor
+10,10,12,5,12,0,Sandy,Slope,NPK,Yes,0,Kangkung,Not Viable,Poor
+10,10,12,5,12,0,Sandy,Slope,Ammonium Sulfate,No,0,Okra,Not Viable,Poor
+10,10,12,5,12,0,Clay,Lowland,Not,No,26,Corn,Not Viable,Poor
+10,10,12,5,12,0,Clay,Lowland,Organic,No,23,Okra,Not Viable,Poor
+10,10,12,5,12,0,Clay,Lowland,NPK,No,29,Kangkung,Not Viable,Poor
+10,10,12,5,12,0,Clay,Lowland,Ammonium Sulfate,No,25,Chili,Not Viable,Poor
+10,10,12,5,12,0,Clay,Upland,Not,No,17,Okra,Not Viable,Poor
+10,10,12,5,12,0,Clay,Upland,Organic,No,18,Okra,Not Viable,Poor
+10,10,12,5,12,0,Clay,Upland,NPK,No,13,Okra,Not Viable,Poor
+10,10,12,5,12,0,Clay,Upland,Ammonium Sulfate,No,20,Sweet Potato,Not Viable,Poor
+10,10,12,5,12,0,Clay,Slope,Not,No,9,Sweet Potato,Not Viable,Poor
+10,10,12,5,12,0,Clay,Slope,Organic,No,5,Corn,Not Viable,Poor
+10,10,12,5,12,0,Clay,Slope,NPK,No,8,Corn,Not Viable,Poor
+10,10,12,5,12,0,Clay,Slope,Ammonium Sulfate,No,9,Corn,Not Viable,Poor
+10,10,12,5,12,0,Loam,Lowland,Not,No,18,Corn,Not Viable,Poor
+10,10,12,5,12,0,Loam,Lowland,Organic,Yes,18,Kangkung,Not Viable,Poor
+10,10,12,5,12,0,Loam,Lowland,NPK,No,17,Chili,Not Viable,Poor
+10,10,12,5,12,0,Loam,Lowland,Ammonium Sulfate,No,12,Okra,Not Viable,Poor
+10,10,12,5,12,0,Loam,Upland,Not,No,5,Sweet Potato,Not Viable,Poor
+10,10,12,5,12,0,Loam,Upland,Organic,Yes,7,Sweet Potato,Not Viable,Poor
+10,10,12,5,12,0,Loam,Upland,NPK,No,2,Chili,Not Viable,Poor
+10,10,12,5,12,0,Loam,Upland,Ammonium Sulfate,No,4,Sweet Potato,Not Viable,Poor
+10,10,12,5,12,0,Loam,Slope,Not,No,0,Okra,Not Viable,Poor
+10,10,12,5,12,0,Loam,Slope,Organic,Yes,0,Okra,Not Viable,Poor
+10,10,12,5,12,0,Loam,Slope,NPK,No,0,Okra,Not Viable,Poor
+10,10,12,5,12,0,Loam,Slope,Ammonium Sulfate,No,0,Kangkung,Not Viable,Poor
+11,20,15,8,11.8,0,Sandy,Lowland,Not,No,13,Sweet Potato,Not Viable,Poor
+11,20,15,8,11.8,0,Sandy,Lowland,Organic,No,8,Corn,Not Viable,Poor
+11,20,15,8,11.8,0,Sandy,Lowland,NPK,Yes,13,Okra,Not Viable,Poor
+11,20,15,8,11.8,0,Sandy,Lowland,Ammonium Sulfate,No,12,Kangkung,Not Viable,Poor
+11,20,15,8,11.8,0,Sandy,Upland,Not,No,4,Chili,Not Viable,Poor
+11,20,15,8,11.8,0,Sandy,Upland,Organic,No,2,Chili,Not Viable,Poor
+11,20,15,8,11.8,0,Sandy,Upland,NPK,Yes,5,Chili,Not Viable,Poor
+11,20,15,8,11.8,0,Sandy,Upland,Ammonium Sulfate,No,3,Kangkung,Not Viable,Poor
+11,20,15,8,11.8,0,Sandy,Slope,Not,No,0,Chili,Not Viable,Poor
+11,20,15,8,11.8,0,Sandy,Slope,Organic,No,0,Corn,Not Viable,Poor
+11,20,15,8,11.8,0,Sandy,Slope,NPK,Yes,0,Corn,Not Viable,Poor
+11,20,15,8,11.8,0,Sandy,Slope,Ammonium Sulfate,No,0,Sweet Potato,Not Viable,Poor
+11,20,15,8,11.8,0,Clay,Lowland,Not,No,27,Chili,Not Viable,Poor
+11,20,15,8,11.8,0,Clay,Lowland,Organic,No,32,Sweet Potato,Not Viable,Poor
+11,20,15,8,11.8,0,Clay,Lowland,NPK,No,27,Kangkung,Not Viable,Poor
+11,20,15,8,11.8,0,Clay,Lowland,Ammonium Sulfate,No,31,Kangkung,Not Viable,Poor
+11,20,15,8,11.8,0,Clay,Upland,Not,No,16,Chili,Not Viable,Poor
+11,20,15,8,11.8,0,Clay,Upland,Organic,No,18,Kangkung,Not Viable,Poor
+11,20,15,8,11.8,0,Clay,Upland,NPK,No,18,Corn,Not Viable,Poor
+11,20,15,8,11.8,0,Clay,Upland,Ammonium Sulfate,No,19,Chili,Not Viable,Poor
+11,20,15,8,11.8,0,Clay,Slope,Not,No,10,Okra,Not Viable,Poor
+11,20,15,8,11.8,0,Clay,Slope,Organic,No,10,Sweet Potato,Not Viable,Poor
+11,20,15,8,11.8,0,Clay,Slope,NPK,No,7,Kangkung,Not Viable,Poor
+11,20,15,8,11.8,0,Clay,Slope,Ammonium Sulfate,No,8,Corn,Not Viable,Poor
+11,20,15,8,11.8,0,Loam,Lowland,Not,No,17,Sweet Potato,Not Viable,Poor
+11,20,15,8,11.8,0,Loam,Lowland,Organic,Yes,23,Corn,Not Viable,Poor
+11,20,15,8,11.8,0,Loam,Lowland,NPK,No,18,Chili,Not Viable,Poor
+11,20,15,8,11.8,0,Loam,Lowland,Ammonium Sulfate,No,18,Sweet Potato,Not Viable,Poor
+11,20,15,8,11.8,0,Loam,Upland,Not,No,9,Corn,Not Viable,Poor
+11,20,15,8,11.8,0,Loam,Upland,Organic,Yes,12,Sweet Potato,Not Viable,Poor
+11,20,15,8,11.8,0,Loam,Upland,NPK,No,8,Okra,Not Viable,Poor
+11,20,15,8,11.8,0,Loam,Upland,Ammonium Sulfate,No,13,Okra,Not Viable,Poor
+11,20,15,8,11.8,0,Loam,Slope,Not,No,0,Okra,Not Viable,Poor
+11,20,15,8,11.8,0,Loam,Slope,Organic,Yes,0,Sweet Potato,Not Viable,Poor
+11,20,15,8,11.8,0,Loam,Slope,NPK,No,0,Chili,Not Viable,Poor
+11,20,15,8,11.8,0,Loam,Slope,Ammonium Sulfate,No,0,Kangkung,Not Viable,Poor
+12,40,20,10,11,0,Sandy,Lowland,Not,No,21,Sweet Potato,Not Viable,Poor
+12,40,20,10,11,0,Sandy,Lowland,Organic,No,15,Chili,Not Viable,Poor
+12,40,20,10,11,0,Sandy,Lowland,NPK,Yes,24,Sweet Potato,Not Viable,Poor
+12,40,20,10,11,0,Sandy,Lowland,Ammonium Sulfate,No,19,Kangkung,Not Viable,Poor
+12,40,20,10,11,0,Sandy,Upland,Not,No,8,Kangkung,Not Viable,Poor
+12,40,20,10,11,0,Sandy,Upland,Organic,No,7,Kangkung,Not Viable,Poor
+12,40,20,10,11,0,Sandy,Upland,NPK,Yes,5,Corn,Not Viable,Poor
+12,40,20,10,11,0,Sandy,Upland,Ammonium Sulfate,No,13,Kangkung,Not Viable,Poor
+12,40,20,10,11,0,Sandy,Slope,Not,No,2,Sweet Potato,Not Viable,Poor
+12,40,20,10,11,0,Sandy,Slope,Organic,No,3,Corn,Not Viable,Poor
+12,40,20,10,11,0,Sandy,Slope,NPK,Yes,0,Corn,Not Viable,Poor
+12,40,20,10,11,0,Sandy,Slope,Ammonium Sulfate,No,1,Okra,Not Viable,Poor
+12,40,20,10,11,0,Clay,Lowland,Not,No,40,Okra,Not Viable,Poor
+12,40,20,10,11,0,Clay,Lowland,Organic,No,43,Kangkung,Not Viable,Poor
+12,40,20,10,11,0,Clay,Lowland,NPK,No,45,Sweet Potato,Not Viable,Poor
+12,40,20,10,11,0,Clay,Lowland,Ammonium Sulfate,No,44,Kangkung,Not Viable,Poor
+12,40,20,10,11,0,Clay,Upland,Not,No,29,Sweet Potato,Not Viable,Poor
+12,40,20,10,11,0,Clay,Upland,Organic,No,34,Kangkung,Not Viable,Poor
+12,40,20,10,11,0,Clay,Upland,NPK,No,32,Corn,Not Viable,Poor
+12,40,20,10,11,0,Clay,Upland,Ammonium Sulfate,No,30,Kangkung,Not Viable,Poor
+12,40,20,10,11,0,Clay,Slope,Not,No,17,Corn,Not Viable,Poor
+12,40,20,10,11,0,Clay,Slope,Organic,No,18,Kangkung,Not Viable,Poor
+12,40,20,10,11,0,Clay,Slope,NPK,No,20,Okra,Not Viable,Poor
+12,40,20,10,11,0,Clay,Slope,Ammonium Sulfate,No,25,Corn,Not Viable,Poor
+12,40,20,10,11,0,Loam,Lowland,Not,No,34,Kangkung,Not Viable,Poor
+12,40,20,10,11,0,Loam,Lowland,Organic,Yes,31,Okra,Viable,Poor
+12,40,20,10,11,0,Loam,Lowland,NPK,No,33,Chili,Not Viable,Poor
+12,40,20,10,11,0,Loam,Lowland,Ammonium Sulfate,No,30,Kangkung,Not Viable,Poor
+12,40,20,10,11,0,Loam,Upland,Not,No,16,Okra,Not Viable,Poor
+12,40,20,10,11,0,Loam,Upland,Organic,Yes,24,Corn,Not Viable,Poor
+12,40,20,10,11,0,Loam,Upland,NPK,No,18,Kangkung,Not Viable,Poor
+12,40,20,10,11,0,Loam,Upland,Ammonium Sulfate,No,18,Corn,Not Viable,Poor
+12,40,20,10,11,0,Loam,Slope,Not,No,6,Okra,Not Viable,Poor
+12,40,20,10,11,0,Loam,Slope,Organic,Yes,10,Sweet Potato,Not Viable,Poor
+12,40,20,10,11,0,Loam,Slope,NPK,No,14,Okra,Not Viable,Poor
+12,40,20,10,11,0,Loam,Slope,Ammonium Sulfate,No,10,Kangkung,Not Viable,Poor
+13,50,22,12,10.5,1,Sandy,Lowland,Not,No,27,Chili,Not Viable,Poor
+13,50,22,12,10.5,1,Sandy,Lowland,Organic,No,25,Chili,Not Viable,Poor
+13,50,22,12,10.5,1,Sandy,Lowland,NPK,Yes,22,Kangkung,Not Viable,Poor
+13,50,22,12,10.5,1,Sandy,Lowland,Ammonium Sulfate,No,21,Kangkung,Not Viable,Poor
+13,50,22,12,10.5,1,Sandy,Upland,Not,No,12,Okra,Not Viable,Poor
+13,50,22,12,10.5,1,Sandy,Upland,Organic,No,11,Sweet Potato,Not Viable,Poor
+13,50,22,12,10.5,1,Sandy,Upland,NPK,Yes,19,Chili,Not Viable,Poor
+13,50,22,12,10.5,1,Sandy,Upland,Ammonium Sulfate,No,16,Okra,Not Viable,Poor
+13,50,22,12,10.5,1,Sandy,Slope,Not,No,2,Okra,Not Viable,Poor
+13,50,22,12,10.5,1,Sandy,Slope,Organic,No,2,Okra,Not Viable,Poor
+13,50,22,12,10.5,1,Sandy,Slope,NPK,Yes,8,Kangkung,Not Viable,Poor
+13,50,22,12,10.5,1,Sandy,Slope,Ammonium Sulfate,No,9,Corn,Not Viable,Poor
+13,50,22,12,10.5,1,Clay,Lowland,Not,No,50,Sweet Potato,Not Viable,Poor
+13,50,22,12,10.5,1,Clay,Lowland,Organic,No,47,Corn,Not Viable,Poor
+13,50,22,12,10.5,1,Clay,Lowland,NPK,No,49,Okra,Not Viable,Poor
+13,50,22,12,10.5,1,Clay,Lowland,Ammonium Sulfate,No,40,Kangkung,Not Viable,Poor
+13,50,22,12,10.5,1,Clay,Upland,Not,No,32,Sweet Potato,Not Viable,Poor
+13,50,22,12,10.5,1,Clay,Upland,Organic,No,39,Okra,Not Viable,Poor
+13,50,22,12,10.5,1,Clay,Upland,NPK,No,40,Okra,Not Viable,Poor
+13,50,22,12,10.5,1,Clay,Upland,Ammonium Sulfate,No,37,Chili,Not Viable,Poor
+13,50,22,12,10.5,1,Clay,Slope,Not,No,21,Sweet Potato,Not Viable,Poor
+13,50,22,12,10.5,1,Clay,Slope,Organic,No,27,Kangkung,Not Viable,Poor
+13,50,22,12,10.5,1,Clay,Slope,NPK,No,24,Sweet Potato,Not Viable,Poor
+13,50,22,12,10.5,1,Clay,Slope,Ammonium Sulfate,No,30,Chili,Not Viable,Poor
+13,50,22,12,10.5,1,Loam,Lowland,Not,No,31,Corn,Not Viable,Poor
+13,50,22,12,10.5,1,Loam,Lowland,Organic,Yes,33,Okra,Viable,Poor
+13,50,22,12,10.5,1,Loam,Lowland,NPK,No,34,Kangkung,Not Viable,Poor
+13,50,22,12,10.5,1,Loam,Lowland,Ammonium Sulfate,No,31,Okra,Not Viable,Poor
+13,50,22,12,10.5,1,Loam,Upland,Not,No,24,Kangkung,Not Viable,Poor
+13,50,22,12,10.5,1,Loam,Upland,Organic,Yes,22,Okra,Not Viable,Poor
+13,50,22,12,10.5,1,Loam,Upland,NPK,No,22,Kangkung,Not Viable,Poor
+13,50,22,12,10.5,1,Loam,Upland,Ammonium Sulfate,No,29,Okra,Not Viable,Poor
+13,50,22,12,10.5,1,Loam,Slope,Not,No,12,Kangkung,Not Viable,Poor
+13,50,22,12,10.5,1,Loam,Slope,Organic,Yes,17,Okra,Not Viable,Poor
+13,50,22,12,10.5,1,Loam,Slope,NPK,No,16,Chili,Not Viable,Poor
+13,50,22,12,10.5,1,Loam,Slope,Ammonium Sulfate,No,11,Chili,Not Viable,Poor
+14,25,16,7,11.9,0,Sandy,Lowland,Not,No,11,Corn,Not Viable,Poor
+14,25,16,7,11.9,0,Sandy,Lowland,Organic,No,9,Corn,Not Viable,Poor
+14,25,16,7,11.9,0,Sandy,Lowland,NPK,Yes,16,Okra,Not Viable,Poor
+14,25,16,7,11.9,0,Sandy,Lowland,Ammonium Sulfate,No,8,Corn,Not Viable,Poor
+14,25,16,7,11.9,0,Sandy,Upland,Not,No,5,Sweet Potato,Not Viable,Poor
+14,25,16,7,11.9,0,Sandy,Upland,Organic,No,7,Chili,Not Viable,Poor
+14,25,16,7,11.9,0,Sandy,Upland,NPK,Yes,7,Sweet Potato,Not Viable,Poor
+14,25,16,7,11.9,0,Sandy,Upland,Ammonium Sulfate,No,3,Chili,Not Viable,Poor
+14,25,16,7,11.9,0,Sandy,Slope,Not,No,0,Chili,Not Viable,Poor
+14,25,16,7,11.9,0,Sandy,Slope,Organic,No,0,Kangkung,Not Viable,Poor
+14,25,16,7,11.9,0,Sandy,Slope,NPK,Yes,0,Sweet Potato,Not Viable,Poor
+14,25,16,7,11.9,0,Sandy,Slope,Ammonium Sulfate,No,0,Kangkung,Not Viable,Poor
+14,25,16,7,11.9,0,Clay,Lowland,Not,No,32,Okra,Not Viable,Poor
+14,25,16,7,11.9,0,Clay,Lowland,Organic,No,36,Chili,Not Viable,Poor
+14,25,16,7,11.9,0,Clay,Lowland,NPK,No,34,Okra,Not Viable,Poor
+14,25,16,7,11.9,0,Clay,Lowland,Ammonium Sulfate,No,36,Kangkung,Not Viable,Poor
+14,25,16,7,11.9,0,Clay,Upland,Not,No,18,Chili,Not Viable,Poor
+14,25,16,7,11.9,0,Clay,Upland,Organic,No,18,Sweet Potato,Not Viable,Poor
+14,25,16,7,11.9,0,Clay,Upland,NPK,No,18,Kangkung,Not Viable,Poor
+14,25,16,7,11.9,0,Clay,Upland,Ammonium Sulfate,No,19,Sweet Potato,Not Viable,Poor
+14,25,16,7,11.9,0,Clay,Slope,Not,No,11,Kangkung,Not Viable,Poor
+14,25,16,7,11.9,0,Clay,Slope,Organic,No,14,Kangkung,Not Viable,Poor
+14,25,16,7,11.9,0,Clay,Slope,NPK,No,17,Chili,Not Viable,Poor
+14,25,16,7,11.9,0,Clay,Slope,Ammonium Sulfate,No,14,Chili,Not Viable,Poor
+14,25,16,7,11.9,0,Loam,Lowland,Not,No,23,Sweet Potato,Not Viable,Poor
+14,25,16,7,11.9,0,Loam,Lowland,Organic,Yes,18,Okra,Not Viable,Poor
+14,25,16,7,11.9,0,Loam,Lowland,NPK,No,21,Corn,Not Viable,Poor
+14,25,16,7,11.9,0,Loam,Lowland,Ammonium Sulfate,No,27,Chili,Not Viable,Poor
+14,25,16,7,11.9,0,Loam,Upland,Not,No,12,Sweet Potato,Not Viable,Poor
+14,25,16,7,11.9,0,Loam,Upland,Organic,Yes,12,Chili,Not Viable,Poor
+14,25,16,7,11.9,0,Loam,Upland,NPK,No,16,Chili,Not Viable,Poor
+14,25,16,7,11.9,0,Loam,Upland,Ammonium Sulfate,No,9,Sweet Potato,Not Viable,Poor
+14,25,16,7,11.9,0,Loam,Slope,Not,No,0,Sweet Potato,Not Viable,Poor
+14,25,16,7,11.9,0,Loam,Slope,Organic,Yes,7,Kangkung,Not Viable,Poor
+14,25,16,7,11.9,0,Loam,Slope,NPK,No,3,Corn,Not Viable,Poor
+14,25,16,7,11.9,0,Loam,Slope,Ammonium Sulfate,No,7,Okra,Not Viable,Poor
+15,15,14,6,12,0,Sandy,Lowland,Not,No,10,Kangkung,Not Viable,Poor
+15,15,14,6,12,0,Sandy,Lowland,Organic,No,10,Kangkung,Not Viable,Poor
+15,15,14,6,12,0,Sandy,Lowland,NPK,Yes,3,Okra,Not Viable,Poor
+15,15,14,6,12,0,Sandy,Lowland,Ammonium Sulfate,No,12,Corn,Not Viable,Poor
+15,15,14,6,12,0,Sandy,Upland,Not,No,0,Okra,Not Viable,Poor
+15,15,14,6,12,0,Sandy,Upland,Organic,No,0,Corn,Not Viable,Poor
+15,15,14,6,12,0,Sandy,Upland,NPK,Yes,0,Chili,Not Viable,Poor
+15,15,14,6,12,0,Sandy,Upland,Ammonium Sulfate,No,0,Kangkung,Not Viable,Poor
+15,15,14,6,12,0,Sandy,Slope,Not,No,0,Chili,Not Viable,Poor
+15,15,14,6,12,0,Sandy,Slope,Organic,No,0,Kangkung,Not Viable,Poor
+15,15,14,6,12,0,Sandy,Slope,NPK,Yes,0,Sweet Potato,Not Viable,Poor
+15,15,14,6,12,0,Sandy,Slope,Ammonium Sulfate,No,0,Okra,Not Viable,Poor
+15,15,14,6,12,0,Clay,Lowland,Not,No,26,Kangkung,Not Viable,Poor
+15,15,14,6,12,0,Clay,Lowland,Organic,No,29,Corn,Not Viable,Poor
+15,15,14,6,12,0,Clay,Lowland,NPK,No,24,Chili,Not Viable,Poor
+15,15,14,6,12,0,Clay,Lowland,Ammonium Sulfate,No,28,Sweet Potato,Not Viable,Poor
+15,15,14,6,12,0,Clay,Upland,Not,No,15,Corn,Not Viable,Poor
+15,15,14,6,12,0,Clay,Upland,Organic,No,19,Okra,Not Viable,Poor
+15,15,14,6,12,0,Clay,Upland,NPK,No,17,Okra,Not Viable,Poor
+15,15,14,6,12,0,Clay,Upland,Ammonium Sulfate,No,15,Chili,Not Viable,Poor
+15,15,14,6,12,0,Clay,Slope,Not,No,4,Okra,Not Viable,Poor
+15,15,14,6,12,0,Clay,Slope,Organic,No,7,Sweet Potato,Not Viable,Poor
+15,15,14,6,12,0,Clay,Slope,NPK,No,9,Chili,Not Viable,Poor
+15,15,14,6,12,0,Clay,Slope,Ammonium Sulfate,No,6,Sweet Potato,Not Viable,Poor
+15,15,14,6,12,0,Loam,Lowland,Not,No,17,Corn,Not Viable,Poor
+15,15,14,6,12,0,Loam,Lowland,Organic,Yes,16,Sweet Potato,Not Viable,Poor
+15,15,14,6,12,0,Loam,Lowland,NPK,No,17,Kangkung,Not Viable,Poor
+15,15,14,6,12,0,Loam,Lowland,Ammonium Sulfate,No,18,Kangkung,Not Viable,Poor
+15,15,14,6,12,0,Loam,Upland,Not,No,8,Kangkung,Not Viable,Poor
+15,15,14,6,12,0,Loam,Upland,Organic,Yes,6,Chili,Not Viable,Poor
+15,15,14,6,12,0,Loam,Upland,NPK,No,11,Sweet Potato,Not Viable,Poor
+15,15,14,6,12,0,Loam,Upland,Ammonium Sulfate,No,6,Kangkung,Not Viable,Poor
+15,15,14,6,12,0,Loam,Slope,Not,No,1,Okra,Not Viable,Poor
+15,15,14,6,12,0,Loam,Slope,Organic,Yes,0,Okra,Not Viable,Poor
+15,15,14,6,12,0,Loam,Slope,NPK,No,0,Kangkung,Not Viable,Poor
+15,15,14,6,12,0,Loam,Slope,Ammonium Sulfate,No,0,Kangkung,Not Viable,Poor
+16,35,19,11,11.2,0,Sandy,Lowland,Not,No,21,Corn,Not Viable,Poor
+16,35,19,11,11.2,0,Sandy,Lowland,Organic,No,18,Corn,Not Viable,Poor
+16,35,19,11,11.2,0,Sandy,Lowland,NPK,Yes,18,Corn,Not Viable,Poor
+16,35,19,11,11.2,0,Sandy,Lowland,Ammonium Sulfate,No,14,Chili,Not Viable,Poor
+16,35,19,11,11.2,0,Sandy,Upland,Not,No,7,Chili,Not Viable,Poor
+16,35,19,11,11.2,0,Sandy,Upland,Organic,No,11,Sweet Potato,Not Viable,Poor
+16,35,19,11,11.2,0,Sandy,Upland,NPK,Yes,9,Okra,Not Viable,Poor
+16,35,19,11,11.2,0,Sandy,Upland,Ammonium Sulfate,No,10,Okra,Not Viable,Poor
+16,35,19,11,11.2,0,Sandy,Slope,Not,No,2,Sweet Potato,Not Viable,Poor
+16,35,19,11,11.2,0,Sandy,Slope,Organic,No,0,Kangkung,Not Viable,Poor
+16,35,19,11,11.2,0,Sandy,Slope,NPK,Yes,2,Sweet Potato,Not Viable,Poor
+16,35,19,11,11.2,0,Sandy,Slope,Ammonium Sulfate,No,0,Sweet Potato,Not Viable,Poor
+16,35,19,11,11.2,0,Clay,Lowland,Not,No,39,Kangkung,Not Viable,Poor
+16,35,19,11,11.2,0,Clay,Lowland,Organic,No,37,Okra,Not Viable,Poor
+16,35,19,11,11.2,0,Clay,Lowland,NPK,No,42,Okra,Not Viable,Poor
+16,35,19,11,11.2,0,Clay,Lowland,Ammonium Sulfate,No,42,Corn,Not Viable,Poor
+16,35,19,11,11.2,0,Clay,Upland,Not,No,26,Chili,Not Viable,Poor
+16,35,19,11,11.2,0,Clay,Upland,Organic,No,24,Sweet Potato,Not Viable,Poor
+16,35,19,11,11.2,0,Clay,Upland,NPK,No,29,Corn,Not Viable,Poor
+16,35,19,11,11.2,0,Clay,Upland,Ammonium Sulfate,No,30,Okra,Not Viable,Poor
+16,35,19,11,11.2,0,Clay,Slope,Not,No,17,Corn,Not Viable,Poor
+16,35,19,11,11.2,0,Clay,Slope,Organic,No,21,Corn,Not Viable,Poor
+16,35,19,11,11.2,0,Clay,Slope,NPK,No,14,Chili,Not Viable,Poor
+16,35,19,11,11.2,0,Clay,Slope,Ammonium Sulfate,No,22,Okra,Not Viable,Poor
+16,35,19,11,11.2,0,Loam,Lowland,Not,No,28,Chili,Not Viable,Poor
+16,35,19,11,11.2,0,Loam,Lowland,Organic,Yes,24,Sweet Potato,Not Viable,Poor
+16,35,19,11,11.2,0,Loam,Lowland,NPK,No,29,Sweet Potato,Not Viable,Poor
+16,35,19,11,11.2,0,Loam,Lowland,Ammonium Sulfate,No,28,Corn,Not Viable,Poor
+16,35,19,11,11.2,0,Loam,Upland,Not,No,16,Chili,Not Viable,Poor
+16,35,19,11,11.2,0,Loam,Upland,Organic,Yes,13,Chili,Not Viable,Poor
+16,35,19,11,11.2,0,Loam,Upland,NPK,No,22,Corn,Not Viable,Poor
+16,35,19,11,11.2,0,Loam,Upland,Ammonium Sulfate,No,18,Chili,Not Viable,Poor
+16,35,19,11,11.2,0,Loam,Slope,Not,No,7,Okra,Not Viable,Poor
+16,35,19,11,11.2,0,Loam,Slope,Organic,Yes,6,Okra,Not Viable,Poor
+16,35,19,11,11.2,0,Loam,Slope,NPK,No,6,Chili,Not Viable,Poor
+16,35,19,11,11.2,0,Loam,Slope,Ammonium Sulfate,No,7,Chili,Not Viable,Poor
+17,130,36,20,8,2,Sandy,Lowland,Not,No,68,Kangkung,Not Viable,Poor
+17,130,36,20,8,2,Sandy,Lowland,Organic,No,69,Corn,Not Viable,Poor
+17,130,36,20,8,2,Sandy,Lowland,NPK,Yes,65,Okra,Viable,Good
+17,130,36,20,8,2,Sandy,Lowland,Ammonium Sulfate,No,63,Chili,Not Viable,Poor
+17,130,36,20,8,2,Sandy,Upland,Not,No,56,Chili,Not Viable,Poor
+17,130,36,20,8,2,Sandy,Upland,Organic,No,58,Sweet Potato,Not Viable,Poor
+17,130,36,20,8,2,Sandy,Upland,NPK,Yes,59,Chili,Viable,Good
+17,130,36,20,8,2,Sandy,Upland,Ammonium Sulfate,No,56,Sweet Potato,Not Viable,Poor
+17,130,36,20,8,2,Sandy,Slope,Not,No,45,Chili,Not Viable,Poor
+17,130,36,20,8,2,Sandy,Slope,Organic,No,44,Okra,Not Viable,Poor
+17,130,36,20,8,2,Sandy,Slope,NPK,Yes,41,Chili,Viable,Poor
+17,130,36,20,8,2,Sandy,Slope,Ammonium Sulfate,No,41,Okra,Not Viable,Poor
+17,130,36,20,8,2,Clay,Lowland,Not,No,82,Chili,Not Viable,Poor
+17,130,36,20,8,2,Clay,Lowland,Organic,No,86,Kangkung,Not Viable,Poor
+17,130,36,20,8,2,Clay,Lowland,NPK,No,87,Chili,Not Viable,Poor
+17,130,36,20,8,2,Clay,Lowland,Ammonium Sulfate,No,82,Sweet Potato,Not Viable,Poor
+17,130,36,20,8,2,Clay,Upland,Not,No,76,Sweet Potato,Not Viable,Poor
+17,130,36,20,8,2,Clay,Upland,Organic,No,78,Sweet Potato,Not Viable,Poor
+17,130,36,20,8,2,Clay,Upland,NPK,No,78,Sweet Potato,Not Viable,Poor
+17,130,36,20,8,2,Clay,Upland,Ammonium Sulfate,No,77,Sweet Potato,Not Viable,Poor
+17,130,36,20,8,2,Clay,Slope,Not,No,69,Corn,Not Viable,Poor
+17,130,36,20,8,2,Clay,Slope,Organic,No,69,Kangkung,Not Viable,Poor
+17,130,36,20,8,2,Clay,Slope,NPK,No,61,Chili,Not Viable,Poor
+17,130,36,20,8,2,Clay,Slope,Ammonium Sulfate,No,63,Kangkung,Not Viable,Poor
+17,130,36,20,8,2,Loam,Lowland,Not,No,79,Chili,Not Viable,Poor
+17,130,36,20,8,2,Loam,Lowland,Organic,Yes,76,Okra,Viable,Excellent
+17,130,36,20,8,2,Loam,Lowland,NPK,No,74,Sweet Potato,Not Viable,Poor
+17,130,36,20,8,2,Loam,Lowland,Ammonium Sulfate,No,71,Okra,Not Viable,Poor
+17,130,36,20,8,2,Loam,Upland,Not,No,63,Sweet Potato,Not Viable,Poor
+17,130,36,20,8,2,Loam,Upland,Organic,Yes,61,Sweet Potato,Viable,Good
+17,130,36,20,8,2,Loam,Upland,NPK,No,60,Okra,Not Viable,Poor
+17,130,36,20,8,2,Loam,Upland,Ammonium Sulfate,No,63,Kangkung,Not Viable,Poor
+17,130,36,20,8,2,Loam,Slope,Not,No,53,Chili,Not Viable,Poor
+17,130,36,20,8,2,Loam,Slope,Organic,Yes,57,Kangkung,Viable,Good
+17,130,36,20,8,2,Loam,Slope,NPK,No,52,Sweet Potato,Not Viable,Poor
+17,130,36,20,8,2,Loam,Slope,Ammonium Sulfate,No,56,Okra,Not Viable,Poor
+18,150,40,23,7.5,2,Sandy,Lowland,Not,No,80,Kangkung,Not Viable,Poor
+18,150,40,23,7.5,2,Sandy,Lowland,Organic,No,73,Okra,Not Viable,Poor
+18,150,40,23,7.5,2,Sandy,Lowland,NPK,Yes,71,Chili,Viable,Excellent
+18,150,40,23,7.5,2,Sandy,Lowland,Ammonium Sulfate,No,79,Okra,Not Viable,Poor
+18,150,40,23,7.5,2,Sandy,Upland,Not,No,63,Kangkung,Not Viable,Poor
+18,150,40,23,7.5,2,Sandy,Upland,Organic,No,66,Okra,Not Viable,Poor
+18,150,40,23,7.5,2,Sandy,Upland,NPK,Yes,68,Sweet Potato,Viable,Good
+18,150,40,23,7.5,2,Sandy,Upland,Ammonium Sulfate,No,61,Kangkung,Not Viable,Poor
+18,150,40,23,7.5,2,Sandy,Slope,Not,No,54,Okra,Not Viable,Poor
+18,150,40,23,7.5,2,Sandy,Slope,Organic,No,51,Sweet Potato,Not Viable,Poor
+18,150,40,23,7.5,2,Sandy,Slope,NPK,Yes,57,Kangkung,Viable,Good
+18,150,40,23,7.5,2,Sandy,Slope,Ammonium Sulfate,No,52,Okra,Not Viable,Poor
+18,150,40,23,7.5,2,Clay,Lowland,Not,No,95,Kangkung,Not Viable,Poor
+18,150,40,23,7.5,2,Clay,Lowland,Organic,No,96,Corn,Not Viable,Poor
+18,150,40,23,7.5,2,Clay,Lowland,NPK,No,92,Sweet Potato,Not Viable,Poor
+18,150,40,23,7.5,2,Clay,Lowland,Ammonium Sulfate,No,97,Kangkung,Not Viable,Poor
+18,150,40,23,7.5,2,Clay,Upland,Not,No,87,Kangkung,Not Viable,Poor
+18,150,40,23,7.5,2,Clay,Upland,Organic,No,85,Okra,Not Viable,Poor
+18,150,40,23,7.5,2,Clay,Upland,NPK,No,86,Corn,Not Viable,Poor
+18,150,40,23,7.5,2,Clay,Upland,Ammonium Sulfate,No,87,Chili,Not Viable,Poor
+18,150,40,23,7.5,2,Clay,Slope,Not,No,79,Okra,Not Viable,Poor
+18,150,40,23,7.5,2,Clay,Slope,Organic,No,73,Chili,Not Viable,Poor
+18,150,40,23,7.5,2,Clay,Slope,NPK,No,70,Corn,Not Viable,Poor
+18,150,40,23,7.5,2,Clay,Slope,Ammonium Sulfate,No,73,Corn,Not Viable,Poor
+18,150,40,23,7.5,2,Loam,Lowland,Not,No,87,Sweet Potato,Not Viable,Poor
+18,150,40,23,7.5,2,Loam,Lowland,Organic,Yes,82,Sweet Potato,Viable,Excellent
+18,150,40,23,7.5,2,Loam,Lowland,NPK,No,83,Sweet Potato,Not Viable,Poor
+18,150,40,23,7.5,2,Loam,Lowland,Ammonium Sulfate,No,87,Chili,Not Viable,Poor
+18,150,40,23,7.5,2,Loam,Upland,Not,No,73,Sweet Potato,Not Viable,Poor
+18,150,40,23,7.5,2,Loam,Upland,Organic,Yes,75,Chili,Viable,Excellent
+18,150,40,23,7.5,2,Loam,Upland,NPK,No,76,Chili,Not Viable,Poor
+18,150,40,23,7.5,2,Loam,Upland,Ammonium Sulfate,No,75,Corn,Not Viable,Poor
+18,150,40,23,7.5,2,Loam,Slope,Not,No,64,Okra,Not Viable,Poor
+18,150,40,23,7.5,2,Loam,Slope,Organic,Yes,60,Kangkung,Viable,Good
+18,150,40,23,7.5,2,Loam,Slope,NPK,No,64,Sweet Potato,Not Viable,Poor
+18,150,40,23,7.5,2,Loam,Slope,Ammonium Sulfate,No,69,Corn,Not Viable,Poor
+19,160,42,25,7,3,Sandy,Lowland,Not,No,78,Sweet Potato,Not Viable,Poor
+19,160,42,25,7,3,Sandy,Lowland,Organic,No,81,Corn,Not Viable,Poor
+19,160,42,25,7,3,Sandy,Lowland,NPK,Yes,83,Kangkung,Viable,Excellent
+19,160,42,25,7,3,Sandy,Lowland,Ammonium Sulfate,No,83,Sweet Potato,Not Viable,Poor
+19,160,42,25,7,3,Sandy,Upland,Not,No,68,Corn,Not Viable,Poor
+19,160,42,25,7,3,Sandy,Upland,Organic,No,74,Kangkung,Not Viable,Poor
+19,160,42,25,7,3,Sandy,Upland,NPK,Yes,71,Okra,Viable,Excellent
+19,160,42,25,7,3,Sandy,Upland,Ammonium Sulfate,No,70,Chili,Not Viable,Poor
+19,160,42,25,7,3,Sandy,Slope,Not,No,56,Corn,Not Viable,Poor
+19,160,42,25,7,3,Sandy,Slope,Organic,No,60,Okra,Not Viable,Poor
+19,160,42,25,7,3,Sandy,Slope,NPK,Yes,63,Chili,Viable,Good
+19,160,42,25,7,3,Sandy,Slope,Ammonium Sulfate,No,64,Kangkung,Not Viable,Poor
+19,160,42,25,7,3,Clay,Lowland,Not,No,98,Kangkung,Not Viable,Poor
+19,160,42,25,7,3,Clay,Lowland,Organic,No,100,Chili,Not Viable,Poor
+19,160,42,25,7,3,Clay,Lowland,NPK,No,100,Chili,Not Viable,Poor
+19,160,42,25,7,3,Clay,Lowland,Ammonium Sulfate,No,95,Kangkung,Not Viable,Poor
+19,160,42,25,7,3,Clay,Upland,Not,No,94,Sweet Potato,Not Viable,Poor
+19,160,42,25,7,3,Clay,Upland,Organic,No,93,Corn,Not Viable,Poor
+19,160,42,25,7,3,Clay,Upland,NPK,No,88,Okra,Not Viable,Poor
+19,160,42,25,7,3,Clay,Upland,Ammonium Sulfate,No,88,Sweet Potato,Not Viable,Poor
+19,160,42,25,7,3,Clay,Slope,Not,No,82,Chili,Not Viable,Poor
+19,160,42,25,7,3,Clay,Slope,Organic,No,79,Sweet Potato,Not Viable,Poor
+19,160,42,25,7,3,Clay,Slope,NPK,No,85,Okra,Not Viable,Poor
+19,160,42,25,7,3,Clay,Slope,Ammonium Sulfate,No,76,Kangkung,Not Viable,Poor
+19,160,42,25,7,3,Loam,Lowland,Not,No,94,Chili,Not Viable,Poor
+19,160,42,25,7,3,Loam,Lowland,Organic,Yes,90,Sweet Potato,Viable,Excellent
+19,160,42,25,7,3,Loam,Lowland,NPK,No,89,Kangkung,Not Viable,Poor
+19,160,42,25,7,3,Loam,Lowland,Ammonium Sulfate,No,89,Corn,Not Viable,Poor
+19,160,42,25,7,3,Loam,Upland,Not,No,83,Chili,Not Viable,Poor
+19,160,42,25,7,3,Loam,Upland,Organic,Yes,82,Kangkung,Viable,Excellent
+19,160,42,25,7,3,Loam,Upland,NPK,No,78,Okra,Not Viable,Poor
+19,160,42,25,7,3,Loam,Upland,Ammonium Sulfate,No,78,Corn,Not Viable,Poor
+19,160,42,25,7,3,Loam,Slope,Not,No,74,Chili,Not Viable,Poor
+19,160,42,25,7,3,Loam,Slope,Organic,Yes,66,Kangkung,Viable,Good
+19,160,42,25,7,3,Loam,Slope,NPK,No,68,Okra,Not Viable,Poor
+19,160,42,25,7,3,Loam,Slope,Ammonium Sulfate,No,69,Kangkung,Not Viable,Poor
+20,140,38,21,7.8,2,Sandy,Lowland,Not,No,73,Kangkung,Not Viable,Poor
+20,140,38,21,7.8,2,Sandy,Lowland,Organic,No,70,Kangkung,Not Viable,Poor
+20,140,38,21,7.8,2,Sandy,Lowland,NPK,Yes,71,Sweet Potato,Viable,Excellent
+20,140,38,21,7.8,2,Sandy,Lowland,Ammonium Sulfate,No,70,Kangkung,Not Viable,Poor
+20,140,38,21,7.8,2,Sandy,Upland,Not,No,64,Kangkung,Not Viable,Poor
+20,140,38,21,7.8,2,Sandy,Upland,Organic,No,56,Corn,Not Viable,Poor
+20,140,38,21,7.8,2,Sandy,Upland,NPK,Yes,59,Okra,Viable,Good
+20,140,38,21,7.8,2,Sandy,Upland,Ammonium Sulfate,No,55,Corn,Not Viable,Poor
+20,140,38,21,7.8,2,Sandy,Slope,Not,No,47,Chili,Not Viable,Poor
+20,140,38,21,7.8,2,Sandy,Slope,Organic,No,51,Corn,Not Viable,Poor
+20,140,38,21,7.8,2,Sandy,Slope,NPK,Yes,49,Okra,Viable,Fair
+20,140,38,21,7.8,2,Sandy,Slope,Ammonium Sulfate,No,49,Okra,Not Viable,Poor
+20,140,38,21,7.8,2,Clay,Lowland,Not,No,95,Chili,Not Viable,Poor
+20,140,38,21,7.8,2,Clay,Lowland,Organic,No,88,Chili,Not Viable,Poor
+20,140,38,21,7.8,2,Clay,Lowland,NPK,No,92,Chili,Not Viable,Poor
+20,140,38,21,7.8,2,Clay,Lowland,Ammonium Sulfate,No,92,Kangkung,Not Viable,Poor
+20,140,38,21,7.8,2,Clay,Upland,Not,No,75,Kangkung,Not Viable,Poor
+20,140,38,21,7.8,2,Clay,Upland,Organic,No,84,Chili,Not Viable,Poor
+20,140,38,21,7.8,2,Clay,Upland,NPK,No,77,Corn,Not Viable,Poor
+20,140,38,21,7.8,2,Clay,Upland,Ammonium Sulfate,No,77,Corn,Not Viable,Poor
+20,140,38,21,7.8,2,Clay,Slope,Not,No,73,Chili,Not Viable,Poor
+20,140,38,21,7.8,2,Clay,Slope,Organic,No,72,Corn,Not Viable,Poor
+20,140,38,21,7.8,2,Clay,Slope,NPK,No,67,Okra,Not Viable,Poor
+20,140,38,21,7.8,2,Clay,Slope,Ammonium Sulfate,No,68,Kangkung,Not Viable,Poor
+20,140,38,21,7.8,2,Loam,Lowland,Not,No,76,Chili,Not Viable,Poor
+20,140,38,21,7.8,2,Loam,Lowland,Organic,Yes,78,Sweet Potato,Viable,Excellent
+20,140,38,21,7.8,2,Loam,Lowland,NPK,No,81,Kangkung,Not Viable,Poor
+20,140,38,21,7.8,2,Loam,Lowland,Ammonium Sulfate,No,83,Kangkung,Not Viable,Poor
+20,140,38,21,7.8,2,Loam,Upland,Not,No,66,Corn,Not Viable,Poor
+20,140,38,21,7.8,2,Loam,Upland,Organic,Yes,66,Sweet Potato,Viable,Good
+20,140,38,21,7.8,2,Loam,Upland,NPK,No,67,Okra,Not Viable,Poor
+20,140,38,21,7.8,2,Loam,Upland,Ammonium Sulfate,No,67,Corn,Not Viable,Poor
+20,140,38,21,7.8,2,Loam,Slope,Not,No,55,Corn,Not Viable,Poor
+20,140,38,21,7.8,2,Loam,Slope,Organic,Yes,63,Sweet Potato,Viable,Good
+20,140,38,21,7.8,2,Loam,Slope,NPK,No,64,Okra,Not Viable,Poor
+20,140,38,21,7.8,2,Loam,Slope,Ammonium Sulfate,No,58,Corn,Not Viable,Poor
+21,170,44,26,6.8,3,Sandy,Lowland,Not,No,84,Sweet Potato,Not Viable,Poor
+21,170,44,26,6.8,3,Sandy,Lowland,Organic,No,83,Corn,Not Viable,Poor
+21,170,44,26,6.8,3,Sandy,Lowland,NPK,Yes,87,Chili,Viable,Excellent
+21,170,44,26,6.8,3,Sandy,Lowland,Ammonium Sulfate,No,83,Kangkung,Not Viable,Poor
+21,170,44,26,6.8,3,Sandy,Upland,Not,No,71,Chili,Not Viable,Poor
+21,170,44,26,6.8,3,Sandy,Upland,Organic,No,74,Sweet Potato,Not Viable,Poor
+21,170,44,26,6.8,3,Sandy,Upland,NPK,Yes,73,Sweet Potato,Viable,Excellent
+21,170,44,26,6.8,3,Sandy,Upland,Ammonium Sulfate,No,71,Corn,Not Viable,Poor
+21,170,44,26,6.8,3,Sandy,Slope,Not,No,64,Kangkung,Not Viable,Poor
+21,170,44,26,6.8,3,Sandy,Slope,Organic,No,69,Okra,Not Viable,Poor
+21,170,44,26,6.8,3,Sandy,Slope,NPK,Yes,69,Chili,Viable,Good
+21,170,44,26,6.8,3,Sandy,Slope,Ammonium Sulfate,No,61,Sweet Potato,Not Viable,Poor
+21,170,44,26,6.8,3,Clay,Lowland,Not,No,100,Corn,Not Viable,Poor
+21,170,44,26,6.8,3,Clay,Lowland,Organic,No,100,Chili,Not Viable,Poor
+21,170,44,26,6.8,3,Clay,Lowland,NPK,No,100,Chili,Not Viable,Poor
+21,170,44,26,6.8,3,Clay,Lowland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+21,170,44,26,6.8,3,Clay,Upland,Not,No,98,Chili,Not Viable,Poor
+21,170,44,26,6.8,3,Clay,Upland,Organic,No,99,Kangkung,Not Viable,Poor
+21,170,44,26,6.8,3,Clay,Upland,NPK,No,99,Corn,Not Viable,Poor
+21,170,44,26,6.8,3,Clay,Upland,Ammonium Sulfate,No,93,Sweet Potato,Not Viable,Poor
+21,170,44,26,6.8,3,Clay,Slope,Not,No,87,Okra,Not Viable,Poor
+21,170,44,26,6.8,3,Clay,Slope,Organic,No,81,Okra,Not Viable,Poor
+21,170,44,26,6.8,3,Clay,Slope,NPK,No,83,Sweet Potato,Not Viable,Poor
+21,170,44,26,6.8,3,Clay,Slope,Ammonium Sulfate,No,84,Kangkung,Not Viable,Poor
+21,170,44,26,6.8,3,Loam,Lowland,Not,No,96,Okra,Not Viable,Poor
+21,170,44,26,6.8,3,Loam,Lowland,Organic,Yes,99,Sweet Potato,Viable,Excellent
+21,170,44,26,6.8,3,Loam,Lowland,NPK,No,97,Chili,Not Viable,Poor
+21,170,44,26,6.8,3,Loam,Lowland,Ammonium Sulfate,No,93,Kangkung,Not Viable,Poor
+21,170,44,26,6.8,3,Loam,Upland,Not,No,82,Kangkung,Not Viable,Poor
+21,170,44,26,6.8,3,Loam,Upland,Organic,Yes,81,Kangkung,Viable,Excellent
+21,170,44,26,6.8,3,Loam,Upland,NPK,No,89,Kangkung,Not Viable,Poor
+21,170,44,26,6.8,3,Loam,Upland,Ammonium Sulfate,No,82,Sweet Potato,Not Viable,Poor
+21,170,44,26,6.8,3,Loam,Slope,Not,No,80,Okra,Not Viable,Poor
+21,170,44,26,6.8,3,Loam,Slope,Organic,Yes,73,Corn,Viable,Excellent
+21,170,44,26,6.8,3,Loam,Slope,NPK,No,79,Okra,Not Viable,Poor
+21,170,44,26,6.8,3,Loam,Slope,Ammonium Sulfate,No,76,Kangkung,Not Viable,Poor
+22,120,35,19,8.2,1,Sandy,Lowland,Not,No,56,Kangkung,Not Viable,Poor
+22,120,35,19,8.2,1,Sandy,Lowland,Organic,No,56,Sweet Potato,Not Viable,Poor
+22,120,35,19,8.2,1,Sandy,Lowland,NPK,Yes,63,Kangkung,Viable,Good
+22,120,35,19,8.2,1,Sandy,Lowland,Ammonium Sulfate,No,61,Chili,Not Viable,Poor
+22,120,35,19,8.2,1,Sandy,Upland,Not,No,51,Kangkung,Not Viable,Poor
+22,120,35,19,8.2,1,Sandy,Upland,Organic,No,52,Sweet Potato,Not Viable,Poor
+22,120,35,19,8.2,1,Sandy,Upland,NPK,Yes,51,Corn,Viable,Fair
+22,120,35,19,8.2,1,Sandy,Upland,Ammonium Sulfate,No,49,Corn,Not Viable,Poor
+22,120,35,19,8.2,1,Sandy,Slope,Not,No,44,Corn,Not Viable,Poor
+22,120,35,19,8.2,1,Sandy,Slope,Organic,No,37,Okra,Not Viable,Poor
+22,120,35,19,8.2,1,Sandy,Slope,NPK,Yes,38,Sweet Potato,Viable,Poor
+22,120,35,19,8.2,1,Sandy,Slope,Ammonium Sulfate,No,44,Kangkung,Not Viable,Poor
+22,120,35,19,8.2,1,Clay,Lowland,Not,No,79,Sweet Potato,Not Viable,Poor
+22,120,35,19,8.2,1,Clay,Lowland,Organic,No,76,Chili,Not Viable,Poor
+22,120,35,19,8.2,1,Clay,Lowland,NPK,No,81,Sweet Potato,Not Viable,Poor
+22,120,35,19,8.2,1,Clay,Lowland,Ammonium Sulfate,No,79,Corn,Not Viable,Poor
+22,120,35,19,8.2,1,Clay,Upland,Not,No,68,Okra,Not Viable,Poor
+22,120,35,19,8.2,1,Clay,Upland,Organic,No,70,Sweet Potato,Not Viable,Poor
+22,120,35,19,8.2,1,Clay,Upland,NPK,No,74,Corn,Not Viable,Poor
+22,120,35,19,8.2,1,Clay,Upland,Ammonium Sulfate,No,73,Okra,Not Viable,Poor
+22,120,35,19,8.2,1,Clay,Slope,Not,No,58,Kangkung,Not Viable,Poor
+22,120,35,19,8.2,1,Clay,Slope,Organic,No,58,Chili,Not Viable,Poor
+22,120,35,19,8.2,1,Clay,Slope,NPK,No,61,Chili,Not Viable,Poor
+22,120,35,19,8.2,1,Clay,Slope,Ammonium Sulfate,No,58,Corn,Not Viable,Poor
+22,120,35,19,8.2,1,Loam,Lowland,Not,No,70,Kangkung,Not Viable,Poor
+22,120,35,19,8.2,1,Loam,Lowland,Organic,Yes,66,Okra,Viable,Good
+22,120,35,19,8.2,1,Loam,Lowland,NPK,No,74,Kangkung,Not Viable,Poor
+22,120,35,19,8.2,1,Loam,Lowland,Ammonium Sulfate,No,65,Chili,Not Viable,Poor
+22,120,35,19,8.2,1,Loam,Upland,Not,No,61,Chili,Not Viable,Poor
+22,120,35,19,8.2,1,Loam,Upland,Organic,Yes,60,Corn,Viable,Good
+22,120,35,19,8.2,1,Loam,Upland,NPK,No,59,Chili,Not Viable,Poor
+22,120,35,19,8.2,1,Loam,Upland,Ammonium Sulfate,No,60,Kangkung,Not Viable,Poor
+22,120,35,19,8.2,1,Loam,Slope,Not,No,48,Chili,Not Viable,Poor
+22,120,35,19,8.2,1,Loam,Slope,Organic,Yes,51,Sweet Potato,Viable,Fair
+22,120,35,19,8.2,1,Loam,Slope,NPK,No,51,Sweet Potato,Not Viable,Poor
+22,120,35,19,8.2,1,Loam,Slope,Ammonium Sulfate,No,51,Okra,Not Viable,Poor
+23,180,45,28,6.5,3,Sandy,Lowland,Not,No,85,Sweet Potato,Not Viable,Poor
+23,180,45,28,6.5,3,Sandy,Lowland,Organic,No,86,Corn,Not Viable,Poor
+23,180,45,28,6.5,3,Sandy,Lowland,NPK,Yes,88,Chili,Viable,Excellent
+23,180,45,28,6.5,3,Sandy,Lowland,Ammonium Sulfate,No,85,Corn,Not Viable,Poor
+23,180,45,28,6.5,3,Sandy,Upland,Not,No,84,Sweet Potato,Not Viable,Poor
+23,180,45,28,6.5,3,Sandy,Upland,Organic,No,82,Corn,Not Viable,Poor
+23,180,45,28,6.5,3,Sandy,Upland,NPK,Yes,84,Kangkung,Viable,Excellent
+23,180,45,28,6.5,3,Sandy,Upland,Ammonium Sulfate,No,79,Kangkung,Not Viable,Poor
+23,180,45,28,6.5,3,Sandy,Slope,Not,No,69,Sweet Potato,Not Viable,Poor
+23,180,45,28,6.5,3,Sandy,Slope,Organic,No,73,Corn,Not Viable,Poor
+23,180,45,28,6.5,3,Sandy,Slope,NPK,Yes,67,Kangkung,Viable,Good
+23,180,45,28,6.5,3,Sandy,Slope,Ammonium Sulfate,No,67,Sweet Potato,Not Viable,Poor
+23,180,45,28,6.5,3,Clay,Lowland,Not,No,100,Kangkung,Not Viable,Poor
+23,180,45,28,6.5,3,Clay,Lowland,Organic,No,100,Sweet Potato,Not Viable,Poor
+23,180,45,28,6.5,3,Clay,Lowland,NPK,No,100,Chili,Not Viable,Poor
+23,180,45,28,6.5,3,Clay,Lowland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+23,180,45,28,6.5,3,Clay,Upland,Not,No,100,Okra,Not Viable,Poor
+23,180,45,28,6.5,3,Clay,Upland,Organic,No,99,Kangkung,Not Viable,Poor
+23,180,45,28,6.5,3,Clay,Upland,NPK,No,96,Okra,Not Viable,Poor
+23,180,45,28,6.5,3,Clay,Upland,Ammonium Sulfate,No,96,Kangkung,Not Viable,Poor
+23,180,45,28,6.5,3,Clay,Slope,Not,No,89,Corn,Not Viable,Poor
+23,180,45,28,6.5,3,Clay,Slope,Organic,No,91,Corn,Not Viable,Poor
+23,180,45,28,6.5,3,Clay,Slope,NPK,No,94,Corn,Not Viable,Poor
+23,180,45,28,6.5,3,Clay,Slope,Ammonium Sulfate,No,86,Sweet Potato,Not Viable,Poor
+23,180,45,28,6.5,3,Loam,Lowland,Not,No,99,Sweet Potato,Not Viable,Poor
+23,180,45,28,6.5,3,Loam,Lowland,Organic,Yes,95,Okra,Viable,Excellent
+23,180,45,28,6.5,3,Loam,Lowland,NPK,No,100,Chili,Not Viable,Poor
+23,180,45,28,6.5,3,Loam,Lowland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+23,180,45,28,6.5,3,Loam,Upland,Not,No,88,Chili,Not Viable,Poor
+23,180,45,28,6.5,3,Loam,Upland,Organic,Yes,92,Corn,Viable,Excellent
+23,180,45,28,6.5,3,Loam,Upland,NPK,No,94,Chili,Not Viable,Poor
+23,180,45,28,6.5,3,Loam,Upland,Ammonium Sulfate,No,90,Corn,Not Viable,Poor
+23,180,45,28,6.5,3,Loam,Slope,Not,No,79,Chili,Not Viable,Poor
+23,180,45,28,6.5,3,Loam,Slope,Organic,Yes,83,Chili,Viable,Excellent
+23,180,45,28,6.5,3,Loam,Slope,NPK,No,82,Corn,Not Viable,Poor
+23,180,45,28,6.5,3,Loam,Slope,Ammonium Sulfate,No,77,Okra,Not Viable,Poor
+24,160,41,24,7.2,2,Sandy,Lowland,Not,No,76,Kangkung,Not Viable,Poor
+24,160,41,24,7.2,2,Sandy,Lowland,Organic,No,81,Kangkung,Not Viable,Poor
+24,160,41,24,7.2,2,Sandy,Lowland,NPK,Yes,84,Sweet Potato,Viable,Excellent
+24,160,41,24,7.2,2,Sandy,Lowland,Ammonium Sulfate,No,76,Sweet Potato,Not Viable,Poor
+24,160,41,24,7.2,2,Sandy,Upland,Not,No,71,Kangkung,Not Viable,Poor
+24,160,41,24,7.2,2,Sandy,Upland,Organic,No,74,Okra,Not Viable,Poor
+24,160,41,24,7.2,2,Sandy,Upland,NPK,Yes,69,Kangkung,Viable,Good
+24,160,41,24,7.2,2,Sandy,Upland,Ammonium Sulfate,No,69,Sweet Potato,Not Viable,Poor
+24,160,41,24,7.2,2,Sandy,Slope,Not,No,63,Kangkung,Not Viable,Poor
+24,160,41,24,7.2,2,Sandy,Slope,Organic,No,63,Okra,Not Viable,Poor
+24,160,41,24,7.2,2,Sandy,Slope,NPK,Yes,55,Okra,Viable,Good
+24,160,41,24,7.2,2,Sandy,Slope,Ammonium Sulfate,No,62,Okra,Not Viable,Poor
+24,160,41,24,7.2,2,Clay,Lowland,Not,No,98,Corn,Not Viable,Poor
+24,160,41,24,7.2,2,Clay,Lowland,Organic,No,98,Sweet Potato,Not Viable,Poor
+24,160,41,24,7.2,2,Clay,Lowland,NPK,No,100,Sweet Potato,Not Viable,Poor
+24,160,41,24,7.2,2,Clay,Lowland,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+24,160,41,24,7.2,2,Clay,Upland,Not,No,91,Chili,Not Viable,Poor
+24,160,41,24,7.2,2,Clay,Upland,Organic,No,93,Kangkung,Not Viable,Poor
+24,160,41,24,7.2,2,Clay,Upland,NPK,No,94,Corn,Not Viable,Poor
+24,160,41,24,7.2,2,Clay,Upland,Ammonium Sulfate,No,95,Sweet Potato,Not Viable,Poor
+24,160,41,24,7.2,2,Clay,Slope,Not,No,82,Kangkung,Not Viable,Poor
+24,160,41,24,7.2,2,Clay,Slope,Organic,No,76,Corn,Not Viable,Poor
+24,160,41,24,7.2,2,Clay,Slope,NPK,No,84,Okra,Not Viable,Poor
+24,160,41,24,7.2,2,Clay,Slope,Ammonium Sulfate,No,83,Chili,Not Viable,Poor
+24,160,41,24,7.2,2,Loam,Lowland,Not,No,95,Kangkung,Not Viable,Poor
+24,160,41,24,7.2,2,Loam,Lowland,Organic,Yes,92,Okra,Viable,Excellent
+24,160,41,24,7.2,2,Loam,Lowland,NPK,No,88,Okra,Not Viable,Poor
+24,160,41,24,7.2,2,Loam,Lowland,Ammonium Sulfate,No,90,Sweet Potato,Not Viable,Poor
+24,160,41,24,7.2,2,Loam,Upland,Not,No,85,Corn,Not Viable,Poor
+24,160,41,24,7.2,2,Loam,Upland,Organic,Yes,82,Kangkung,Viable,Excellent
+24,160,41,24,7.2,2,Loam,Upland,NPK,No,83,Sweet Potato,Not Viable,Poor
+24,160,41,24,7.2,2,Loam,Upland,Ammonium Sulfate,No,84,Corn,Not Viable,Poor
+24,160,41,24,7.2,2,Loam,Slope,Not,No,66,Okra,Not Viable,Poor
+24,160,41,24,7.2,2,Loam,Slope,Organic,Yes,67,Kangkung,Viable,Good
+24,160,41,24,7.2,2,Loam,Slope,NPK,No,73,Okra,Not Viable,Poor
+24,160,41,24,7.2,2,Loam,Slope,Ammonium Sulfate,No,74,Chili,Not Viable,Poor
+25,190,46,29,6,4,Sandy,Lowland,Not,No,99,Corn,Not Viable,Poor
+25,190,46,29,6,4,Sandy,Lowland,Organic,No,99,Kangkung,Not Viable,Poor
+25,190,46,29,6,4,Sandy,Lowland,NPK,Yes,95,Chili,Viable,Excellent
+25,190,46,29,6,4,Sandy,Lowland,Ammonium Sulfate,No,97,Okra,Not Viable,Poor
+25,190,46,29,6,4,Sandy,Upland,Not,No,87,Okra,Not Viable,Poor
+25,190,46,29,6,4,Sandy,Upland,Organic,No,84,Okra,Not Viable,Poor
+25,190,46,29,6,4,Sandy,Upland,NPK,Yes,88,Okra,Viable,Excellent
+25,190,46,29,6,4,Sandy,Upland,Ammonium Sulfate,No,90,Chili,Not Viable,Poor
+25,190,46,29,6,4,Sandy,Slope,Not,No,73,Chili,Not Viable,Poor
+25,190,46,29,6,4,Sandy,Slope,Organic,No,78,Okra,Not Viable,Poor
+25,190,46,29,6,4,Sandy,Slope,NPK,Yes,72,Kangkung,Viable,Excellent
+25,190,46,29,6,4,Sandy,Slope,Ammonium Sulfate,No,72,Corn,Not Viable,Poor
+25,190,46,29,6,4,Clay,Lowland,Not,No,100,Sweet Potato,Not Viable,Poor
+25,190,46,29,6,4,Clay,Lowland,Organic,No,100,Chili,Not Viable,Poor
+25,190,46,29,6,4,Clay,Lowland,NPK,No,100,Kangkung,Not Viable,Poor
+25,190,46,29,6,4,Clay,Lowland,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+25,190,46,29,6,4,Clay,Upland,Not,No,100,Sweet Potato,Not Viable,Poor
+25,190,46,29,6,4,Clay,Upland,Organic,No,100,Okra,Not Viable,Poor
+25,190,46,29,6,4,Clay,Upland,NPK,No,100,Chili,Not Viable,Poor
+25,190,46,29,6,4,Clay,Upland,Ammonium Sulfate,No,100,Okra,Not Viable,Poor
+25,190,46,29,6,4,Clay,Slope,Not,No,96,Chili,Not Viable,Poor
+25,190,46,29,6,4,Clay,Slope,Organic,No,97,Sweet Potato,Not Viable,Poor
+25,190,46,29,6,4,Clay,Slope,NPK,No,92,Okra,Not Viable,Poor
+25,190,46,29,6,4,Clay,Slope,Ammonium Sulfate,No,98,Chili,Not Viable,Poor
+25,190,46,29,6,4,Loam,Lowland,Not,No,100,Chili,Not Viable,Poor
+25,190,46,29,6,4,Loam,Lowland,Organic,Yes,100,Okra,Viable,Excellent
+25,190,46,29,6,4,Loam,Lowland,NPK,No,100,Corn,Not Viable,Poor
+25,190,46,29,6,4,Loam,Lowland,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+25,190,46,29,6,4,Loam,Upland,Not,No,98,Chili,Not Viable,Poor
+25,190,46,29,6,4,Loam,Upland,Organic,Yes,98,Sweet Potato,Viable,Excellent
+25,190,46,29,6,4,Loam,Upland,NPK,No,94,Chili,Not Viable,Poor
+25,190,46,29,6,4,Loam,Upland,Ammonium Sulfate,No,96,Okra,Not Viable,Poor
+25,190,46,29,6,4,Loam,Slope,Not,No,83,Kangkung,Not Viable,Poor
+25,190,46,29,6,4,Loam,Slope,Organic,Yes,87,Kangkung,Viable,Excellent
+25,190,46,29,6,4,Loam,Slope,NPK,No,86,Sweet Potato,Not Viable,Poor
+25,190,46,29,6,4,Loam,Slope,Ammonium Sulfate,No,88,Chili,Not Viable,Poor
+26,200,48,30,5.5,4,Sandy,Lowland,Not,No,100,Corn,Not Viable,Poor
+26,200,48,30,5.5,4,Sandy,Lowland,Organic,No,100,Okra,Not Viable,Poor
+26,200,48,30,5.5,4,Sandy,Lowland,NPK,Yes,96,Chili,Viable,Good
+26,200,48,30,5.5,4,Sandy,Lowland,Ammonium Sulfate,No,95,Corn,Not Viable,Poor
+26,200,48,30,5.5,4,Sandy,Upland,Not,No,91,Sweet Potato,Not Viable,Poor
+26,200,48,30,5.5,4,Sandy,Upland,Organic,No,91,Kangkung,Not Viable,Poor
+26,200,48,30,5.5,4,Sandy,Upland,NPK,Yes,85,Kangkung,Viable,Good
+26,200,48,30,5.5,4,Sandy,Upland,Ammonium Sulfate,No,88,Corn,Not Viable,Poor
+26,200,48,30,5.5,4,Sandy,Slope,Not,No,76,Corn,Not Viable,Poor
+26,200,48,30,5.5,4,Sandy,Slope,Organic,No,84,Kangkung,Not Viable,Poor
+26,200,48,30,5.5,4,Sandy,Slope,NPK,Yes,79,Kangkung,Viable,Good
+26,200,48,30,5.5,4,Sandy,Slope,Ammonium Sulfate,No,80,Corn,Not Viable,Poor
+26,200,48,30,5.5,4,Clay,Lowland,Not,No,100,Sweet Potato,Not Viable,Poor
+26,200,48,30,5.5,4,Clay,Lowland,Organic,No,100,Corn,Not Viable,Poor
+26,200,48,30,5.5,4,Clay,Lowland,NPK,No,100,Sweet Potato,Not Viable,Poor
+26,200,48,30,5.5,4,Clay,Lowland,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+26,200,48,30,5.5,4,Clay,Upland,Not,No,100,Kangkung,Not Viable,Poor
+26,200,48,30,5.5,4,Clay,Upland,Organic,No,100,Corn,Not Viable,Poor
+26,200,48,30,5.5,4,Clay,Upland,NPK,No,100,Okra,Not Viable,Poor
+26,200,48,30,5.5,4,Clay,Upland,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+26,200,48,30,5.5,4,Clay,Slope,Not,No,99,Chili,Not Viable,Poor
+26,200,48,30,5.5,4,Clay,Slope,Organic,No,97,Corn,Not Viable,Poor
+26,200,48,30,5.5,4,Clay,Slope,NPK,No,100,Sweet Potato,Not Viable,Poor
+26,200,48,30,5.5,4,Clay,Slope,Ammonium Sulfate,No,99,Kangkung,Not Viable,Poor
+26,200,48,30,5.5,4,Loam,Lowland,Not,No,100,Okra,Not Viable,Poor
+26,200,48,30,5.5,4,Loam,Lowland,Organic,Yes,100,Kangkung,Viable,Good
+26,200,48,30,5.5,4,Loam,Lowland,NPK,No,100,Chili,Not Viable,Poor
+26,200,48,30,5.5,4,Loam,Lowland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+26,200,48,30,5.5,4,Loam,Upland,Not,No,100,Chili,Not Viable,Poor
+26,200,48,30,5.5,4,Loam,Upland,Organic,Yes,100,Chili,Viable,Good
+26,200,48,30,5.5,4,Loam,Upland,NPK,No,100,Kangkung,Not Viable,Poor
+26,200,48,30,5.5,4,Loam,Upland,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+26,200,48,30,5.5,4,Loam,Slope,Not,No,85,Sweet Potato,Not Viable,Poor
+26,200,48,30,5.5,4,Loam,Slope,Organic,Yes,95,Okra,Viable,Good
+26,200,48,30,5.5,4,Loam,Slope,NPK,No,90,Chili,Not Viable,Poor
+26,200,48,30,5.5,4,Loam,Slope,Ammonium Sulfate,No,86,Okra,Not Viable,Poor
+27,150,39,22,7.4,2,Sandy,Lowland,Not,No,77,Corn,Not Viable,Poor
+27,150,39,22,7.4,2,Sandy,Lowland,Organic,No,71,Corn,Not Viable,Poor
+27,150,39,22,7.4,2,Sandy,Lowland,NPK,Yes,75,Okra,Viable,Excellent
+27,150,39,22,7.4,2,Sandy,Lowland,Ammonium Sulfate,No,71,Okra,Not Viable,Poor
+27,150,39,22,7.4,2,Sandy,Upland,Not,No,62,Okra,Not Viable,Poor
+27,150,39,22,7.4,2,Sandy,Upland,Organic,No,65,Kangkung,Not Viable,Poor
+27,150,39,22,7.4,2,Sandy,Upland,NPK,Yes,69,Corn,Viable,Good
+27,150,39,22,7.4,2,Sandy,Upland,Ammonium Sulfate,No,69,Chili,Not Viable,Poor
+27,150,39,22,7.4,2,Sandy,Slope,Not,No,52,Corn,Not Viable,Poor
+27,150,39,22,7.4,2,Sandy,Slope,Organic,No,51,Sweet Potato,Not Viable,Poor
+27,150,39,22,7.4,2,Sandy,Slope,NPK,Yes,51,Kangkung,Viable,Fair
+27,150,39,22,7.4,2,Sandy,Slope,Ammonium Sulfate,No,59,Okra,Not Viable,Poor
+27,150,39,22,7.4,2,Clay,Lowland,Not,No,91,Kangkung,Not Viable,Poor
+27,150,39,22,7.4,2,Clay,Lowland,Organic,No,91,Chili,Not Viable,Poor
+27,150,39,22,7.4,2,Clay,Lowland,NPK,No,96,Corn,Not Viable,Poor
+27,150,39,22,7.4,2,Clay,Lowland,Ammonium Sulfate,No,91,Sweet Potato,Not Viable,Poor
+27,150,39,22,7.4,2,Clay,Upland,Not,No,81,Chili,Not Viable,Poor
+27,150,39,22,7.4,2,Clay,Upland,Organic,No,81,Corn,Not Viable,Poor
+27,150,39,22,7.4,2,Clay,Upland,NPK,No,90,Okra,Not Viable,Poor
+27,150,39,22,7.4,2,Clay,Upland,Ammonium Sulfate,No,81,Chili,Not Viable,Poor
+27,150,39,22,7.4,2,Clay,Slope,Not,No,74,Sweet Potato,Not Viable,Poor
+27,150,39,22,7.4,2,Clay,Slope,Organic,No,75,Kangkung,Not Viable,Poor
+27,150,39,22,7.4,2,Clay,Slope,NPK,No,71,Chili,Not Viable,Poor
+27,150,39,22,7.4,2,Clay,Slope,Ammonium Sulfate,No,75,Corn,Not Viable,Poor
+27,150,39,22,7.4,2,Loam,Lowland,Not,No,80,Sweet Potato,Not Viable,Poor
+27,150,39,22,7.4,2,Loam,Lowland,Organic,Yes,83,Chili,Viable,Excellent
+27,150,39,22,7.4,2,Loam,Lowland,NPK,No,89,Sweet Potato,Not Viable,Poor
+27,150,39,22,7.4,2,Loam,Lowland,Ammonium Sulfate,No,83,Sweet Potato,Not Viable,Poor
+27,150,39,22,7.4,2,Loam,Upland,Not,No,80,Kangkung,Not Viable,Poor
+27,150,39,22,7.4,2,Loam,Upland,Organic,Yes,73,Sweet Potato,Viable,Excellent
+27,150,39,22,7.4,2,Loam,Upland,NPK,No,74,Sweet Potato,Not Viable,Poor
+27,150,39,22,7.4,2,Loam,Upland,Ammonium Sulfate,No,74,Kangkung,Not Viable,Poor
+27,150,39,22,7.4,2,Loam,Slope,Not,No,69,Sweet Potato,Not Viable,Poor
+27,150,39,22,7.4,2,Loam,Slope,Organic,Yes,67,Chili,Viable,Good
+27,150,39,22,7.4,2,Loam,Slope,NPK,No,61,Sweet Potato,Not Viable,Poor
+27,150,39,22,7.4,2,Loam,Slope,Ammonium Sulfate,No,64,Chili,Not Viable,Poor
+28,170,43,25,6.9,3,Sandy,Lowland,Not,No,84,Chili,Not Viable,Poor
+28,170,43,25,6.9,3,Sandy,Lowland,Organic,No,89,Kangkung,Not Viable,Poor
+28,170,43,25,6.9,3,Sandy,Lowland,NPK,Yes,84,Kangkung,Viable,Excellent
+28,170,43,25,6.9,3,Sandy,Lowland,Ammonium Sulfate,No,90,Corn,Not Viable,Poor
+28,170,43,25,6.9,3,Sandy,Upland,Not,No,74,Kangkung,Not Viable,Poor
+28,170,43,25,6.9,3,Sandy,Upland,Organic,No,77,Sweet Potato,Not Viable,Poor
+28,170,43,25,6.9,3,Sandy,Upland,NPK,Yes,75,Chili,Viable,Excellent
+28,170,43,25,6.9,3,Sandy,Upland,Ammonium Sulfate,No,72,Kangkung,Not Viable,Poor
+28,170,43,25,6.9,3,Sandy,Slope,Not,No,64,Chili,Not Viable,Poor
+28,170,43,25,6.9,3,Sandy,Slope,Organic,No,63,Corn,Not Viable,Poor
+28,170,43,25,6.9,3,Sandy,Slope,NPK,Yes,63,Sweet Potato,Viable,Good
+28,170,43,25,6.9,3,Sandy,Slope,Ammonium Sulfate,No,64,Corn,Not Viable,Poor
+28,170,43,25,6.9,3,Clay,Lowland,Not,No,100,Kangkung,Not Viable,Poor
+28,170,43,25,6.9,3,Clay,Lowland,Organic,No,100,Okra,Not Viable,Poor
+28,170,43,25,6.9,3,Clay,Lowland,NPK,No,100,Sweet Potato,Not Viable,Poor
+28,170,43,25,6.9,3,Clay,Lowland,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+28,170,43,25,6.9,3,Clay,Upland,Not,No,92,Kangkung,Not Viable,Poor
+28,170,43,25,6.9,3,Clay,Upland,Organic,No,94,Sweet Potato,Not Viable,Poor
+28,170,43,25,6.9,3,Clay,Upland,NPK,No,99,Sweet Potato,Not Viable,Poor
+28,170,43,25,6.9,3,Clay,Upland,Ammonium Sulfate,No,92,Okra,Not Viable,Poor
+28,170,43,25,6.9,3,Clay,Slope,Not,No,90,Sweet Potato,Not Viable,Poor
+28,170,43,25,6.9,3,Clay,Slope,Organic,No,80,Sweet Potato,Not Viable,Poor
+28,170,43,25,6.9,3,Clay,Slope,NPK,No,86,Kangkung,Not Viable,Poor
+28,170,43,25,6.9,3,Clay,Slope,Ammonium Sulfate,No,85,Chili,Not Viable,Poor
+28,170,43,25,6.9,3,Loam,Lowland,Not,No,95,Chili,Not Viable,Poor
+28,170,43,25,6.9,3,Loam,Lowland,Organic,Yes,90,Corn,Viable,Excellent
+28,170,43,25,6.9,3,Loam,Lowland,NPK,No,97,Corn,Not Viable,Poor
+28,170,43,25,6.9,3,Loam,Lowland,Ammonium Sulfate,No,91,Chili,Not Viable,Poor
+28,170,43,25,6.9,3,Loam,Upland,Not,No,86,Okra,Not Viable,Poor
+28,170,43,25,6.9,3,Loam,Upland,Organic,Yes,83,Chili,Viable,Excellent
+28,170,43,25,6.9,3,Loam,Upland,NPK,No,86,Kangkung,Not Viable,Poor
+28,170,43,25,6.9,3,Loam,Upland,Ammonium Sulfate,No,80,Corn,Not Viable,Poor
+28,170,43,25,6.9,3,Loam,Slope,Not,No,75,Chili,Not Viable,Poor
+28,170,43,25,6.9,3,Loam,Slope,Organic,Yes,75,Corn,Viable,Excellent
+28,170,43,25,6.9,3,Loam,Slope,NPK,No,72,Okra,Not Viable,Poor
+28,170,43,25,6.9,3,Loam,Slope,Ammonium Sulfate,No,72,Chili,Not Viable,Poor
+29,140,37,20,7.9,2,Sandy,Lowland,Not,No,66,Sweet Potato,Not Viable,Poor
+29,140,37,20,7.9,2,Sandy,Lowland,Organic,No,70,Sweet Potato,Not Viable,Poor
+29,140,37,20,7.9,2,Sandy,Lowland,NPK,Yes,71,Kangkung,Viable,Excellent
+29,140,37,20,7.9,2,Sandy,Lowland,Ammonium Sulfate,No,70,Chili,Not Viable,Poor
+29,140,37,20,7.9,2,Sandy,Upland,Not,No,56,Okra,Not Viable,Poor
+29,140,37,20,7.9,2,Sandy,Upland,Organic,No,57,Sweet Potato,Not Viable,Poor
+29,140,37,20,7.9,2,Sandy,Upland,NPK,Yes,56,Okra,Viable,Good
+29,140,37,20,7.9,2,Sandy,Upland,Ammonium Sulfate,No,59,Kangkung,Not Viable,Poor
+29,140,37,20,7.9,2,Sandy,Slope,Not,No,55,Chili,Not Viable,Poor
+29,140,37,20,7.9,2,Sandy,Slope,Organic,No,52,Sweet Potato,Not Viable,Poor
+29,140,37,20,7.9,2,Sandy,Slope,NPK,Yes,55,Kangkung,Viable,Good
+29,140,37,20,7.9,2,Sandy,Slope,Ammonium Sulfate,No,53,Chili,Not Viable,Poor
+29,140,37,20,7.9,2,Clay,Lowland,Not,No,87,Kangkung,Not Viable,Poor
+29,140,37,20,7.9,2,Clay,Lowland,Organic,No,93,Chili,Not Viable,Poor
+29,140,37,20,7.9,2,Clay,Lowland,NPK,No,94,Chili,Not Viable,Poor
+29,140,37,20,7.9,2,Clay,Lowland,Ammonium Sulfate,No,87,Kangkung,Not Viable,Poor
+29,140,37,20,7.9,2,Clay,Upland,Not,No,77,Okra,Not Viable,Poor
+29,140,37,20,7.9,2,Clay,Upland,Organic,No,81,Kangkung,Not Viable,Poor
+29,140,37,20,7.9,2,Clay,Upland,NPK,No,76,Kangkung,Not Viable,Poor
+29,140,37,20,7.9,2,Clay,Upland,Ammonium Sulfate,No,76,Corn,Not Viable,Poor
+29,140,37,20,7.9,2,Clay,Slope,Not,No,69,Corn,Not Viable,Poor
+29,140,37,20,7.9,2,Clay,Slope,Organic,No,65,Kangkung,Not Viable,Poor
+29,140,37,20,7.9,2,Clay,Slope,NPK,No,75,Okra,Not Viable,Poor
+29,140,37,20,7.9,2,Clay,Slope,Ammonium Sulfate,No,67,Corn,Not Viable,Poor
+29,140,37,20,7.9,2,Loam,Lowland,Not,No,84,Okra,Not Viable,Poor
+29,140,37,20,7.9,2,Loam,Lowland,Organic,Yes,78,Chili,Viable,Excellent
+29,140,37,20,7.9,2,Loam,Lowland,NPK,No,77,Corn,Not Viable,Poor
+29,140,37,20,7.9,2,Loam,Lowland,Ammonium Sulfate,No,85,Sweet Potato,Not Viable,Poor
+29,140,37,20,7.9,2,Loam,Upland,Not,No,70,Sweet Potato,Not Viable,Poor
+29,140,37,20,7.9,2,Loam,Upland,Organic,Yes,73,Chili,Viable,Excellent
+29,140,37,20,7.9,2,Loam,Upland,NPK,No,67,Okra,Not Viable,Poor
+29,140,37,20,7.9,2,Loam,Upland,Ammonium Sulfate,No,71,Chili,Not Viable,Poor
+29,140,37,20,7.9,2,Loam,Slope,Not,No,64,Okra,Not Viable,Poor
+29,140,37,20,7.9,2,Loam,Slope,Organic,Yes,63,Corn,Viable,Good
+29,140,37,20,7.9,2,Loam,Slope,NPK,No,61,Sweet Potato,Not Viable,Poor
+29,140,37,20,7.9,2,Loam,Slope,Ammonium Sulfate,No,56,Okra,Not Viable,Poor
+30,160,42,24,7.3,2,Sandy,Lowland,Not,No,77,Sweet Potato,Not Viable,Poor
+30,160,42,24,7.3,2,Sandy,Lowland,Organic,No,77,Sweet Potato,Not Viable,Poor
+30,160,42,24,7.3,2,Sandy,Lowland,NPK,Yes,81,Corn,Viable,Excellent
+30,160,42,24,7.3,2,Sandy,Lowland,Ammonium Sulfate,No,76,Sweet Potato,Not Viable,Poor
+30,160,42,24,7.3,2,Sandy,Upland,Not,No,68,Chili,Not Viable,Poor
+30,160,42,24,7.3,2,Sandy,Upland,Organic,No,65,Chili,Not Viable,Poor
+30,160,42,24,7.3,2,Sandy,Upland,NPK,Yes,67,Sweet Potato,Viable,Good
+30,160,42,24,7.3,2,Sandy,Upland,Ammonium Sulfate,No,73,Okra,Not Viable,Poor
+30,160,42,24,7.3,2,Sandy,Slope,Not,No,60,Sweet Potato,Not Viable,Poor
+30,160,42,24,7.3,2,Sandy,Slope,Organic,No,60,Sweet Potato,Not Viable,Poor
+30,160,42,24,7.3,2,Sandy,Slope,NPK,Yes,60,Sweet Potato,Viable,Good
+30,160,42,24,7.3,2,Sandy,Slope,Ammonium Sulfate,No,57,Chili,Not Viable,Poor
+30,160,42,24,7.3,2,Clay,Lowland,Not,No,100,Kangkung,Not Viable,Poor
+30,160,42,24,7.3,2,Clay,Lowland,Organic,No,98,Sweet Potato,Not Viable,Poor
+30,160,42,24,7.3,2,Clay,Lowland,NPK,No,99,Kangkung,Not Viable,Poor
+30,160,42,24,7.3,2,Clay,Lowland,Ammonium Sulfate,No,99,Kangkung,Not Viable,Poor
+30,160,42,24,7.3,2,Clay,Upland,Not,No,87,Corn,Not Viable,Poor
+30,160,42,24,7.3,2,Clay,Upland,Organic,No,91,Kangkung,Not Viable,Poor
+30,160,42,24,7.3,2,Clay,Upland,NPK,No,93,Corn,Not Viable,Poor
+30,160,42,24,7.3,2,Clay,Upland,Ammonium Sulfate,No,92,Corn,Not Viable,Poor
+30,160,42,24,7.3,2,Clay,Slope,Not,No,82,Chili,Not Viable,Poor
+30,160,42,24,7.3,2,Clay,Slope,Organic,No,80,Chili,Not Viable,Poor
+30,160,42,24,7.3,2,Clay,Slope,NPK,No,83,Chili,Not Viable,Poor
+30,160,42,24,7.3,2,Clay,Slope,Ammonium Sulfate,No,83,Okra,Not Viable,Poor
+30,160,42,24,7.3,2,Loam,Lowland,Not,No,94,Okra,Not Viable,Poor
+30,160,42,24,7.3,2,Loam,Lowland,Organic,Yes,94,Sweet Potato,Viable,Excellent
+30,160,42,24,7.3,2,Loam,Lowland,NPK,No,94,Corn,Not Viable,Poor
+30,160,42,24,7.3,2,Loam,Lowland,Ammonium Sulfate,No,85,Sweet Potato,Not Viable,Poor
+30,160,42,24,7.3,2,Loam,Upland,Not,No,77,Corn,Not Viable,Poor
+30,160,42,24,7.3,2,Loam,Upland,Organic,Yes,78,Kangkung,Viable,Excellent
+30,160,42,24,7.3,2,Loam,Upland,NPK,No,77,Sweet Potato,Not Viable,Poor
+30,160,42,24,7.3,2,Loam,Upland,Ammonium Sulfate,No,79,Chili,Not Viable,Poor
+30,160,42,24,7.3,2,Loam,Slope,Not,No,75,Sweet Potato,Not Viable,Poor
+30,160,42,24,7.3,2,Loam,Slope,Organic,Yes,73,Chili,Viable,Excellent
+30,160,42,24,7.3,2,Loam,Slope,NPK,No,70,Kangkung,Not Viable,Poor
+30,160,42,24,7.3,2,Loam,Slope,Ammonium Sulfate,No,72,Kangkung,Not Viable,Poor
+31,180,45,27,6.6,3,Sandy,Lowland,Not,No,94,Corn,Not Viable,Poor
+31,180,45,27,6.6,3,Sandy,Lowland,Organic,No,87,Chili,Not Viable,Poor
+31,180,45,27,6.6,3,Sandy,Lowland,NPK,Yes,85,Okra,Viable,Excellent
+31,180,45,27,6.6,3,Sandy,Lowland,Ammonium Sulfate,No,93,Chili,Not Viable,Poor
+31,180,45,27,6.6,3,Sandy,Upland,Not,No,78,Sweet Potato,Not Viable,Poor
+31,180,45,27,6.6,3,Sandy,Upland,Organic,No,80,Corn,Not Viable,Poor
+31,180,45,27,6.6,3,Sandy,Upland,NPK,Yes,82,Okra,Viable,Excellent
+31,180,45,27,6.6,3,Sandy,Upland,Ammonium Sulfate,No,76,Sweet Potato,Not Viable,Poor
+31,180,45,27,6.6,3,Sandy,Slope,Not,No,72,Okra,Not Viable,Poor
+31,180,45,27,6.6,3,Sandy,Slope,Organic,No,69,Okra,Not Viable,Poor
+31,180,45,27,6.6,3,Sandy,Slope,NPK,Yes,73,Kangkung,Viable,Excellent
+31,180,45,27,6.6,3,Sandy,Slope,Ammonium Sulfate,No,67,Corn,Not Viable,Poor
+31,180,45,27,6.6,3,Clay,Lowland,Not,No,100,Chili,Not Viable,Poor
+31,180,45,27,6.6,3,Clay,Lowland,Organic,No,100,Kangkung,Not Viable,Poor
+31,180,45,27,6.6,3,Clay,Lowland,NPK,No,100,Chili,Not Viable,Poor
+31,180,45,27,6.6,3,Clay,Lowland,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+31,180,45,27,6.6,3,Clay,Upland,Not,No,100,Sweet Potato,Not Viable,Poor
+31,180,45,27,6.6,3,Clay,Upland,Organic,No,100,Sweet Potato,Not Viable,Poor
+31,180,45,27,6.6,3,Clay,Upland,NPK,No,98,Corn,Not Viable,Poor
+31,180,45,27,6.6,3,Clay,Upland,Ammonium Sulfate,No,96,Okra,Not Viable,Poor
+31,180,45,27,6.6,3,Clay,Slope,Not,No,90,Corn,Not Viable,Poor
+31,180,45,27,6.6,3,Clay,Slope,Organic,No,86,Corn,Not Viable,Poor
+31,180,45,27,6.6,3,Clay,Slope,NPK,No,94,Corn,Not Viable,Poor
+31,180,45,27,6.6,3,Clay,Slope,Ammonium Sulfate,No,85,Sweet Potato,Not Viable,Poor
+31,180,45,27,6.6,3,Loam,Lowland,Not,No,100,Sweet Potato,Not Viable,Poor
+31,180,45,27,6.6,3,Loam,Lowland,Organic,Yes,97,Kangkung,Viable,Excellent
+31,180,45,27,6.6,3,Loam,Lowland,NPK,No,95,Sweet Potato,Not Viable,Poor
+31,180,45,27,6.6,3,Loam,Lowland,Ammonium Sulfate,No,96,Sweet Potato,Not Viable,Poor
+31,180,45,27,6.6,3,Loam,Upland,Not,No,90,Sweet Potato,Not Viable,Poor
+31,180,45,27,6.6,3,Loam,Upland,Organic,Yes,93,Okra,Viable,Excellent
+31,180,45,27,6.6,3,Loam,Upland,NPK,No,89,Chili,Not Viable,Poor
+31,180,45,27,6.6,3,Loam,Upland,Ammonium Sulfate,No,85,Sweet Potato,Not Viable,Poor
+31,180,45,27,6.6,3,Loam,Slope,Not,No,78,Chili,Not Viable,Poor
+31,180,45,27,6.6,3,Loam,Slope,Organic,Yes,77,Corn,Viable,Excellent
+31,180,45,27,6.6,3,Loam,Slope,NPK,No,76,Sweet Potato,Not Viable,Poor
+31,180,45,27,6.6,3,Loam,Slope,Ammonium Sulfate,No,82,Okra,Not Viable,Poor
+32,210,50,31,5.2,5,Sandy,Lowland,Not,No,100,Okra,Not Viable,Poor
+32,210,50,31,5.2,5,Sandy,Lowland,Organic,No,100,Corn,Not Viable,Poor
+32,210,50,31,5.2,5,Sandy,Lowland,NPK,Yes,100,Corn,Not Viable,Poor
+32,210,50,31,5.2,5,Sandy,Lowland,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+32,210,50,31,5.2,5,Sandy,Upland,Not,No,95,Chili,Not Viable,Poor
+32,210,50,31,5.2,5,Sandy,Upland,Organic,No,92,Kangkung,Not Viable,Poor
+32,210,50,31,5.2,5,Sandy,Upland,NPK,Yes,90,Chili,Not Viable,Poor
+32,210,50,31,5.2,5,Sandy,Upland,Ammonium Sulfate,No,91,Kangkung,Not Viable,Poor
+32,210,50,31,5.2,5,Sandy,Slope,Not,No,85,Chili,Not Viable,Poor
+32,210,50,31,5.2,5,Sandy,Slope,Organic,No,84,Corn,Not Viable,Poor
+32,210,50,31,5.2,5,Sandy,Slope,NPK,Yes,87,Kangkung,Not Viable,Poor
+32,210,50,31,5.2,5,Sandy,Slope,Ammonium Sulfate,No,84,Corn,Not Viable,Poor
+32,210,50,31,5.2,5,Clay,Lowland,Not,No,100,Sweet Potato,Not Viable,Poor
+32,210,50,31,5.2,5,Clay,Lowland,Organic,No,100,Kangkung,Not Viable,Poor
+32,210,50,31,5.2,5,Clay,Lowland,NPK,No,100,Kangkung,Not Viable,Poor
+32,210,50,31,5.2,5,Clay,Lowland,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+32,210,50,31,5.2,5,Clay,Upland,Not,No,100,Okra,Not Viable,Poor
+32,210,50,31,5.2,5,Clay,Upland,Organic,No,100,Kangkung,Not Viable,Poor
+32,210,50,31,5.2,5,Clay,Upland,NPK,No,100,Kangkung,Not Viable,Poor
+32,210,50,31,5.2,5,Clay,Upland,Ammonium Sulfate,No,100,Okra,Not Viable,Poor
+32,210,50,31,5.2,5,Clay,Slope,Not,No,100,Sweet Potato,Not Viable,Poor
+32,210,50,31,5.2,5,Clay,Slope,Organic,No,100,Okra,Not Viable,Poor
+32,210,50,31,5.2,5,Clay,Slope,NPK,No,100,Kangkung,Not Viable,Poor
+32,210,50,31,5.2,5,Clay,Slope,Ammonium Sulfate,No,100,Okra,Not Viable,Poor
+32,210,50,31,5.2,5,Loam,Lowland,Not,No,100,Kangkung,Not Viable,Poor
+32,210,50,31,5.2,5,Loam,Lowland,Organic,Yes,100,Sweet Potato,Not Viable,Poor
+32,210,50,31,5.2,5,Loam,Lowland,NPK,No,100,Kangkung,Not Viable,Poor
+32,210,50,31,5.2,5,Loam,Lowland,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+32,210,50,31,5.2,5,Loam,Upland,Not,No,100,Corn,Not Viable,Poor
+32,210,50,31,5.2,5,Loam,Upland,Organic,Yes,100,Okra,Not Viable,Poor
+32,210,50,31,5.2,5,Loam,Upland,NPK,No,100,Chili,Not Viable,Poor
+32,210,50,31,5.2,5,Loam,Upland,Ammonium Sulfate,No,100,Okra,Not Viable,Poor
+32,210,50,31,5.2,5,Loam,Slope,Not,No,95,Sweet Potato,Not Viable,Poor
+32,210,50,31,5.2,5,Loam,Slope,Organic,Yes,99,Okra,Not Viable,Poor
+32,210,50,31,5.2,5,Loam,Slope,NPK,No,96,Sweet Potato,Not Viable,Poor
+32,210,50,31,5.2,5,Loam,Slope,Ammonium Sulfate,No,95,Corn,Not Viable,Poor
+33,190,47,28,5.9,4,Sandy,Lowland,Not,No,98,Chili,Not Viable,Poor
+33,190,47,28,5.9,4,Sandy,Lowland,Organic,No,93,Okra,Not Viable,Poor
+33,190,47,28,5.9,4,Sandy,Lowland,NPK,Yes,97,Okra,Viable,Good
+33,190,47,28,5.9,4,Sandy,Lowland,Ammonium Sulfate,No,92,Sweet Potato,Not Viable,Poor
+33,190,47,28,5.9,4,Sandy,Upland,Not,No,87,Sweet Potato,Not Viable,Poor
+33,190,47,28,5.9,4,Sandy,Upland,Organic,No,83,Okra,Not Viable,Poor
+33,190,47,28,5.9,4,Sandy,Upland,NPK,Yes,84,Chili,Viable,Good
+33,190,47,28,5.9,4,Sandy,Upland,Ammonium Sulfate,No,83,Okra,Not Viable,Poor
+33,190,47,28,5.9,4,Sandy,Slope,Not,No,74,Corn,Not Viable,Poor
+33,190,47,28,5.9,4,Sandy,Slope,Organic,No,71,Chili,Not Viable,Poor
+33,190,47,28,5.9,4,Sandy,Slope,NPK,Yes,75,Sweet Potato,Viable,Good
+33,190,47,28,5.9,4,Sandy,Slope,Ammonium Sulfate,No,79,Sweet Potato,Not Viable,Poor
+33,190,47,28,5.9,4,Clay,Lowland,Not,No,100,Sweet Potato,Not Viable,Poor
+33,190,47,28,5.9,4,Clay,Lowland,Organic,No,100,Corn,Not Viable,Poor
+33,190,47,28,5.9,4,Clay,Lowland,NPK,No,100,Okra,Not Viable,Poor
+33,190,47,28,5.9,4,Clay,Lowland,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+33,190,47,28,5.9,4,Clay,Upland,Not,No,100,Corn,Not Viable,Poor
+33,190,47,28,5.9,4,Clay,Upland,Organic,No,100,Corn,Not Viable,Poor
+33,190,47,28,5.9,4,Clay,Upland,NPK,No,100,Corn,Not Viable,Poor
+33,190,47,28,5.9,4,Clay,Upland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+33,190,47,28,5.9,4,Clay,Slope,Not,No,99,Kangkung,Not Viable,Poor
+33,190,47,28,5.9,4,Clay,Slope,Organic,No,93,Sweet Potato,Not Viable,Poor
+33,190,47,28,5.9,4,Clay,Slope,NPK,No,97,Sweet Potato,Not Viable,Poor
+33,190,47,28,5.9,4,Clay,Slope,Ammonium Sulfate,No,97,Okra,Not Viable,Poor
+33,190,47,28,5.9,4,Loam,Lowland,Not,No,100,Chili,Not Viable,Poor
+33,190,47,28,5.9,4,Loam,Lowland,Organic,Yes,100,Kangkung,Viable,Good
+33,190,47,28,5.9,4,Loam,Lowland,NPK,No,100,Kangkung,Not Viable,Poor
+33,190,47,28,5.9,4,Loam,Lowland,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+33,190,47,28,5.9,4,Loam,Upland,Not,No,94,Chili,Not Viable,Poor
+33,190,47,28,5.9,4,Loam,Upland,Organic,Yes,92,Corn,Viable,Good
+33,190,47,28,5.9,4,Loam,Upland,NPK,No,96,Kangkung,Not Viable,Poor
+33,190,47,28,5.9,4,Loam,Upland,Ammonium Sulfate,No,90,Sweet Potato,Not Viable,Poor
+33,190,47,28,5.9,4,Loam,Slope,Not,No,84,Chili,Not Viable,Poor
+33,190,47,28,5.9,4,Loam,Slope,Organic,Yes,80,Sweet Potato,Viable,Good
+33,190,47,28,5.9,4,Loam,Slope,NPK,No,81,Okra,Not Viable,Poor
+33,190,47,28,5.9,4,Loam,Slope,Ammonium Sulfate,No,81,Corn,Not Viable,Poor
+34,170,41,23,7,2,Sandy,Lowland,Not,No,85,Chili,Not Viable,Poor
+34,170,41,23,7,2,Sandy,Lowland,Organic,No,84,Chili,Not Viable,Poor
+34,170,41,23,7,2,Sandy,Lowland,NPK,Yes,84,Sweet Potato,Viable,Excellent
+34,170,41,23,7,2,Sandy,Lowland,Ammonium Sulfate,No,84,Chili,Not Viable,Poor
+34,170,41,23,7,2,Sandy,Upland,Not,No,79,Corn,Not Viable,Poor
+34,170,41,23,7,2,Sandy,Upland,Organic,No,74,Chili,Not Viable,Poor
+34,170,41,23,7,2,Sandy,Upland,NPK,Yes,70,Chili,Viable,Excellent
+34,170,41,23,7,2,Sandy,Upland,Ammonium Sulfate,No,74,Kangkung,Not Viable,Poor
+34,170,41,23,7,2,Sandy,Slope,Not,No,64,Corn,Not Viable,Poor
+34,170,41,23,7,2,Sandy,Slope,Organic,No,66,Sweet Potato,Not Viable,Poor
+34,170,41,23,7,2,Sandy,Slope,NPK,Yes,63,Chili,Viable,Good
+34,170,41,23,7,2,Sandy,Slope,Ammonium Sulfate,No,61,Corn,Not Viable,Poor
+34,170,41,23,7,2,Clay,Lowland,Not,No,100,Corn,Not Viable,Poor
+34,170,41,23,7,2,Clay,Lowland,Organic,No,100,Corn,Not Viable,Poor
+34,170,41,23,7,2,Clay,Lowland,NPK,No,100,Chili,Not Viable,Poor
+34,170,41,23,7,2,Clay,Lowland,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+34,170,41,23,7,2,Clay,Upland,Not,No,100,Sweet Potato,Not Viable,Poor
+34,170,41,23,7,2,Clay,Upland,Organic,No,100,Kangkung,Not Viable,Poor
+34,170,41,23,7,2,Clay,Upland,NPK,No,91,Kangkung,Not Viable,Poor
+34,170,41,23,7,2,Clay,Upland,Ammonium Sulfate,No,94,Kangkung,Not Viable,Poor
+34,170,41,23,7,2,Clay,Slope,Not,No,87,Chili,Not Viable,Poor
+34,170,41,23,7,2,Clay,Slope,Organic,No,85,Chili,Not Viable,Poor
+34,170,41,23,7,2,Clay,Slope,NPK,No,83,Corn,Not Viable,Poor
+34,170,41,23,7,2,Clay,Slope,Ammonium Sulfate,No,80,Chili,Not Viable,Poor
+34,170,41,23,7,2,Loam,Lowland,Not,No,91,Sweet Potato,Not Viable,Poor
+34,170,41,23,7,2,Loam,Lowland,Organic,Yes,96,Corn,Viable,Excellent
+34,170,41,23,7,2,Loam,Lowland,NPK,No,95,Chili,Not Viable,Poor
+34,170,41,23,7,2,Loam,Lowland,Ammonium Sulfate,No,93,Corn,Not Viable,Poor
+34,170,41,23,7,2,Loam,Upland,Not,No,84,Sweet Potato,Not Viable,Poor
+34,170,41,23,7,2,Loam,Upland,Organic,Yes,81,Kangkung,Viable,Excellent
+34,170,41,23,7,2,Loam,Upland,NPK,No,90,Kangkung,Not Viable,Poor
+34,170,41,23,7,2,Loam,Upland,Ammonium Sulfate,No,82,Kangkung,Not Viable,Poor
+34,170,41,23,7,2,Loam,Slope,Not,No,71,Kangkung,Not Viable,Poor
+34,170,41,23,7,2,Loam,Slope,Organic,Yes,71,Okra,Viable,Excellent
+34,170,41,23,7,2,Loam,Slope,NPK,No,71,Chili,Not Viable,Poor
+34,170,41,23,7,2,Loam,Slope,Ammonium Sulfate,No,70,Sweet Potato,Not Viable,Poor
+35,160,40,22,7.2,2,Sandy,Lowland,Not,No,78,Kangkung,Not Viable,Poor
+35,160,40,22,7.2,2,Sandy,Lowland,Organic,No,76,Corn,Not Viable,Poor
+35,160,40,22,7.2,2,Sandy,Lowland,NPK,Yes,84,Corn,Viable,Excellent
+35,160,40,22,7.2,2,Sandy,Lowland,Ammonium Sulfate,No,81,Kangkung,Not Viable,Poor
+35,160,40,22,7.2,2,Sandy,Upland,Not,No,71,Chili,Not Viable,Poor
+35,160,40,22,7.2,2,Sandy,Upland,Organic,No,68,Kangkung,Not Viable,Poor
+35,160,40,22,7.2,2,Sandy,Upland,NPK,Yes,69,Chili,Viable,Good
+35,160,40,22,7.2,2,Sandy,Upland,Ammonium Sulfate,No,67,Okra,Not Viable,Poor
+35,160,40,22,7.2,2,Sandy,Slope,Not,No,62,Sweet Potato,Not Viable,Poor
+35,160,40,22,7.2,2,Sandy,Slope,Organic,No,64,Corn,Not Viable,Poor
+35,160,40,22,7.2,2,Sandy,Slope,NPK,Yes,64,Okra,Viable,Good
+35,160,40,22,7.2,2,Sandy,Slope,Ammonium Sulfate,No,58,Corn,Not Viable,Poor
+35,160,40,22,7.2,2,Clay,Lowland,Not,No,100,Chili,Not Viable,Poor
+35,160,40,22,7.2,2,Clay,Lowland,Organic,No,100,Kangkung,Not Viable,Poor
+35,160,40,22,7.2,2,Clay,Lowland,NPK,No,99,Chili,Not Viable,Poor
+35,160,40,22,7.2,2,Clay,Lowland,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+35,160,40,22,7.2,2,Clay,Upland,Not,No,90,Sweet Potato,Not Viable,Poor
+35,160,40,22,7.2,2,Clay,Upland,Organic,No,92,Kangkung,Not Viable,Poor
+35,160,40,22,7.2,2,Clay,Upland,NPK,No,93,Sweet Potato,Not Viable,Poor
+35,160,40,22,7.2,2,Clay,Upland,Ammonium Sulfate,No,89,Kangkung,Not Viable,Poor
+35,160,40,22,7.2,2,Clay,Slope,Not,No,84,Chili,Not Viable,Poor
+35,160,40,22,7.2,2,Clay,Slope,Organic,No,75,Corn,Not Viable,Poor
+35,160,40,22,7.2,2,Clay,Slope,NPK,No,81,Sweet Potato,Not Viable,Poor
+35,160,40,22,7.2,2,Clay,Slope,Ammonium Sulfate,No,79,Kangkung,Not Viable,Poor
+35,160,40,22,7.2,2,Loam,Lowland,Not,No,95,Corn,Not Viable,Poor
+35,160,40,22,7.2,2,Loam,Lowland,Organic,Yes,89,Corn,Viable,Excellent
+35,160,40,22,7.2,2,Loam,Lowland,NPK,No,93,Chili,Not Viable,Poor
+35,160,40,22,7.2,2,Loam,Lowland,Ammonium Sulfate,No,89,Okra,Not Viable,Poor
+35,160,40,22,7.2,2,Loam,Upland,Not,No,77,Corn,Not Viable,Poor
+35,160,40,22,7.2,2,Loam,Upland,Organic,Yes,76,Okra,Viable,Excellent
+35,160,40,22,7.2,2,Loam,Upland,NPK,No,78,Kangkung,Not Viable,Poor
+35,160,40,22,7.2,2,Loam,Upland,Ammonium Sulfate,No,76,Chili,Not Viable,Poor
+35,160,40,22,7.2,2,Loam,Slope,Not,No,69,Okra,Not Viable,Poor
+35,160,40,22,7.2,2,Loam,Slope,Organic,Yes,65,Corn,Viable,Good
+35,160,40,22,7.2,2,Loam,Slope,NPK,No,71,Okra,Not Viable,Poor
+35,160,40,22,7.2,2,Loam,Slope,Ammonium Sulfate,No,72,Corn,Not Viable,Poor
+36,180,43,25,6.7,3,Sandy,Lowland,Not,No,92,Sweet Potato,Not Viable,Poor
+36,180,43,25,6.7,3,Sandy,Lowland,Organic,No,95,Sweet Potato,Not Viable,Poor
+36,180,43,25,6.7,3,Sandy,Lowland,NPK,Yes,90,Corn,Viable,Excellent
+36,180,43,25,6.7,3,Sandy,Lowland,Ammonium Sulfate,No,94,Kangkung,Not Viable,Poor
+36,180,43,25,6.7,3,Sandy,Upland,Not,No,77,Kangkung,Not Viable,Poor
+36,180,43,25,6.7,3,Sandy,Upland,Organic,No,84,Sweet Potato,Not Viable,Poor
+36,180,43,25,6.7,3,Sandy,Upland,NPK,Yes,85,Okra,Viable,Excellent
+36,180,43,25,6.7,3,Sandy,Upland,Ammonium Sulfate,No,76,Sweet Potato,Not Viable,Poor
+36,180,43,25,6.7,3,Sandy,Slope,Not,No,71,Kangkung,Not Viable,Poor
+36,180,43,25,6.7,3,Sandy,Slope,Organic,No,70,Okra,Not Viable,Poor
+36,180,43,25,6.7,3,Sandy,Slope,NPK,Yes,67,Okra,Viable,Good
+36,180,43,25,6.7,3,Sandy,Slope,Ammonium Sulfate,No,68,Okra,Not Viable,Poor
+36,180,43,25,6.7,3,Clay,Lowland,Not,No,100,Chili,Not Viable,Poor
+36,180,43,25,6.7,3,Clay,Lowland,Organic,No,100,Chili,Not Viable,Poor
+36,180,43,25,6.7,3,Clay,Lowland,NPK,No,100,Chili,Not Viable,Poor
+36,180,43,25,6.7,3,Clay,Lowland,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+36,180,43,25,6.7,3,Clay,Upland,Not,No,99,Okra,Not Viable,Poor
+36,180,43,25,6.7,3,Clay,Upland,Organic,No,100,Okra,Not Viable,Poor
+36,180,43,25,6.7,3,Clay,Upland,NPK,No,95,Okra,Not Viable,Poor
+36,180,43,25,6.7,3,Clay,Upland,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+36,180,43,25,6.7,3,Clay,Slope,Not,No,89,Okra,Not Viable,Poor
+36,180,43,25,6.7,3,Clay,Slope,Organic,No,90,Corn,Not Viable,Poor
+36,180,43,25,6.7,3,Clay,Slope,NPK,No,86,Corn,Not Viable,Poor
+36,180,43,25,6.7,3,Clay,Slope,Ammonium Sulfate,No,94,Sweet Potato,Not Viable,Poor
+36,180,43,25,6.7,3,Loam,Lowland,Not,No,100,Chili,Not Viable,Poor
+36,180,43,25,6.7,3,Loam,Lowland,Organic,Yes,99,Kangkung,Viable,Excellent
+36,180,43,25,6.7,3,Loam,Lowland,NPK,No,95,Okra,Not Viable,Poor
+36,180,43,25,6.7,3,Loam,Lowland,Ammonium Sulfate,No,97,Corn,Not Viable,Poor
+36,180,43,25,6.7,3,Loam,Upland,Not,No,90,Sweet Potato,Not Viable,Poor
+36,180,43,25,6.7,3,Loam,Upland,Organic,Yes,86,Sweet Potato,Viable,Excellent
+36,180,43,25,6.7,3,Loam,Upland,NPK,No,92,Chili,Not Viable,Poor
+36,180,43,25,6.7,3,Loam,Upland,Ammonium Sulfate,No,87,Corn,Not Viable,Poor
+36,180,43,25,6.7,3,Loam,Slope,Not,No,81,Corn,Not Viable,Poor
+36,180,43,25,6.7,3,Loam,Slope,Organic,Yes,77,Chili,Viable,Excellent
+36,180,43,25,6.7,3,Loam,Slope,NPK,No,85,Chili,Not Viable,Poor
+36,180,43,25,6.7,3,Loam,Slope,Ammonium Sulfate,No,78,Corn,Not Viable,Poor
+37,200,46,28,5.8,4,Sandy,Lowland,Not,No,95,Chili,Not Viable,Poor
+37,200,46,28,5.8,4,Sandy,Lowland,Organic,No,96,Chili,Not Viable,Poor
+37,200,46,28,5.8,4,Sandy,Lowland,NPK,Yes,100,Kangkung,Viable,Good
+37,200,46,28,5.8,4,Sandy,Lowland,Ammonium Sulfate,No,96,Chili,Not Viable,Poor
+37,200,46,28,5.8,4,Sandy,Upland,Not,No,93,Corn,Not Viable,Poor
+37,200,46,28,5.8,4,Sandy,Upland,Organic,No,86,Chili,Not Viable,Poor
+37,200,46,28,5.8,4,Sandy,Upland,NPK,Yes,90,Kangkung,Viable,Good
+37,200,46,28,5.8,4,Sandy,Upland,Ammonium Sulfate,No,91,Kangkung,Not Viable,Poor
+37,200,46,28,5.8,4,Sandy,Slope,Not,No,81,Okra,Not Viable,Poor
+37,200,46,28,5.8,4,Sandy,Slope,Organic,No,76,Chili,Not Viable,Poor
+37,200,46,28,5.8,4,Sandy,Slope,NPK,Yes,82,Corn,Viable,Good
+37,200,46,28,5.8,4,Sandy,Slope,Ammonium Sulfate,No,77,Chili,Not Viable,Poor
+37,200,46,28,5.8,4,Clay,Lowland,Not,No,100,Chili,Not Viable,Poor
+37,200,46,28,5.8,4,Clay,Lowland,Organic,No,100,Okra,Not Viable,Poor
+37,200,46,28,5.8,4,Clay,Lowland,NPK,No,100,Okra,Not Viable,Poor
+37,200,46,28,5.8,4,Clay,Lowland,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+37,200,46,28,5.8,4,Clay,Upland,Not,No,100,Sweet Potato,Not Viable,Poor
+37,200,46,28,5.8,4,Clay,Upland,Organic,No,100,Kangkung,Not Viable,Poor
+37,200,46,28,5.8,4,Clay,Upland,NPK,No,100,Sweet Potato,Not Viable,Poor
+37,200,46,28,5.8,4,Clay,Upland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+37,200,46,28,5.8,4,Clay,Slope,Not,No,99,Corn,Not Viable,Poor
+37,200,46,28,5.8,4,Clay,Slope,Organic,No,100,Sweet Potato,Not Viable,Poor
+37,200,46,28,5.8,4,Clay,Slope,NPK,No,100,Chili,Not Viable,Poor
+37,200,46,28,5.8,4,Clay,Slope,Ammonium Sulfate,No,100,Okra,Not Viable,Poor
+37,200,46,28,5.8,4,Loam,Lowland,Not,No,100,Kangkung,Not Viable,Poor
+37,200,46,28,5.8,4,Loam,Lowland,Organic,Yes,100,Chili,Viable,Good
+37,200,46,28,5.8,4,Loam,Lowland,NPK,No,100,Chili,Not Viable,Poor
+37,200,46,28,5.8,4,Loam,Lowland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+37,200,46,28,5.8,4,Loam,Upland,Not,No,100,Sweet Potato,Not Viable,Poor
+37,200,46,28,5.8,4,Loam,Upland,Organic,Yes,97,Sweet Potato,Viable,Good
+37,200,46,28,5.8,4,Loam,Upland,NPK,No,96,Kangkung,Not Viable,Poor
+37,200,46,28,5.8,4,Loam,Upland,Ammonium Sulfate,No,95,Kangkung,Not Viable,Poor
+37,200,46,28,5.8,4,Loam,Slope,Not,No,89,Corn,Not Viable,Poor
+37,200,46,28,5.8,4,Loam,Slope,Organic,Yes,92,Chili,Viable,Good
+37,200,46,28,5.8,4,Loam,Slope,NPK,No,93,Kangkung,Not Viable,Poor
+37,200,46,28,5.8,4,Loam,Slope,Ammonium Sulfate,No,86,Corn,Not Viable,Poor
+38,220,52,32,4.9,5,Sandy,Lowland,Not,No,100,Chili,Not Viable,Poor
+38,220,52,32,4.9,5,Sandy,Lowland,Organic,No,100,Chili,Not Viable,Poor
+38,220,52,32,4.9,5,Sandy,Lowland,NPK,Yes,100,Kangkung,Not Viable,Poor
+38,220,52,32,4.9,5,Sandy,Lowland,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+38,220,52,32,4.9,5,Sandy,Upland,Not,No,100,Chili,Not Viable,Poor
+38,220,52,32,4.9,5,Sandy,Upland,Organic,No,100,Sweet Potato,Not Viable,Poor
+38,220,52,32,4.9,5,Sandy,Upland,NPK,Yes,95,Chili,Not Viable,Poor
+38,220,52,32,4.9,5,Sandy,Upland,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+38,220,52,32,4.9,5,Sandy,Slope,Not,No,92,Sweet Potato,Not Viable,Poor
+38,220,52,32,4.9,5,Sandy,Slope,Organic,No,90,Corn,Not Viable,Poor
+38,220,52,32,4.9,5,Sandy,Slope,NPK,Yes,94,Sweet Potato,Not Viable,Poor
+38,220,52,32,4.9,5,Sandy,Slope,Ammonium Sulfate,No,89,Kangkung,Not Viable,Poor
+38,220,52,32,4.9,5,Clay,Lowland,Not,No,100,Sweet Potato,Not Viable,Poor
+38,220,52,32,4.9,5,Clay,Lowland,Organic,No,100,Okra,Not Viable,Poor
+38,220,52,32,4.9,5,Clay,Lowland,NPK,No,100,Sweet Potato,Not Viable,Poor
+38,220,52,32,4.9,5,Clay,Lowland,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+38,220,52,32,4.9,5,Clay,Upland,Not,No,100,Corn,Not Viable,Poor
+38,220,52,32,4.9,5,Clay,Upland,Organic,No,100,Corn,Not Viable,Poor
+38,220,52,32,4.9,5,Clay,Upland,NPK,No,100,Okra,Not Viable,Poor
+38,220,52,32,4.9,5,Clay,Upland,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+38,220,52,32,4.9,5,Clay,Slope,Not,No,100,Kangkung,Not Viable,Poor
+38,220,52,32,4.9,5,Clay,Slope,Organic,No,100,Sweet Potato,Not Viable,Poor
+38,220,52,32,4.9,5,Clay,Slope,NPK,No,100,Corn,Not Viable,Poor
+38,220,52,32,4.9,5,Clay,Slope,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+38,220,52,32,4.9,5,Loam,Lowland,Not,No,100,Chili,Not Viable,Poor
+38,220,52,32,4.9,5,Loam,Lowland,Organic,Yes,100,Sweet Potato,Not Viable,Poor
+38,220,52,32,4.9,5,Loam,Lowland,NPK,No,100,Corn,Not Viable,Poor
+38,220,52,32,4.9,5,Loam,Lowland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+38,220,52,32,4.9,5,Loam,Upland,Not,No,100,Sweet Potato,Not Viable,Poor
+38,220,52,32,4.9,5,Loam,Upland,Organic,Yes,100,Kangkung,Not Viable,Poor
+38,220,52,32,4.9,5,Loam,Upland,NPK,No,100,Kangkung,Not Viable,Poor
+38,220,52,32,4.9,5,Loam,Upland,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+38,220,52,32,4.9,5,Loam,Slope,Not,No,100,Corn,Not Viable,Poor
+38,220,52,32,4.9,5,Loam,Slope,Organic,Yes,95,Kangkung,Not Viable,Poor
+38,220,52,32,4.9,5,Loam,Slope,NPK,No,100,Kangkung,Not Viable,Poor
+38,220,52,32,4.9,5,Loam,Slope,Ammonium Sulfate,No,96,Chili,Not Viable,Poor
+39,190,48,29,5.6,4,Sandy,Lowland,Not,No,98,Okra,Not Viable,Poor
+39,190,48,29,5.6,4,Sandy,Lowland,Organic,No,94,Okra,Not Viable,Poor
+39,190,48,29,5.6,4,Sandy,Lowland,NPK,Yes,98,Chili,Viable,Good
+39,190,48,29,5.6,4,Sandy,Lowland,Ammonium Sulfate,No,99,Okra,Not Viable,Poor
+39,190,48,29,5.6,4,Sandy,Upland,Not,No,88,Chili,Not Viable,Poor
+39,190,48,29,5.6,4,Sandy,Upland,Organic,No,87,Corn,Not Viable,Poor
+39,190,48,29,5.6,4,Sandy,Upland,NPK,Yes,80,Kangkung,Viable,Good
+39,190,48,29,5.6,4,Sandy,Upland,Ammonium Sulfate,No,81,Corn,Not Viable,Poor
+39,190,48,29,5.6,4,Sandy,Slope,Not,No,78,Corn,Not Viable,Poor
+39,190,48,29,5.6,4,Sandy,Slope,Organic,No,74,Kangkung,Not Viable,Poor
+39,190,48,29,5.6,4,Sandy,Slope,NPK,Yes,79,Corn,Viable,Good
+39,190,48,29,5.6,4,Sandy,Slope,Ammonium Sulfate,No,71,Chili,Not Viable,Poor
+39,190,48,29,5.6,4,Clay,Lowland,Not,No,100,Kangkung,Not Viable,Poor
+39,190,48,29,5.6,4,Clay,Lowland,Organic,No,100,Chili,Not Viable,Poor
+39,190,48,29,5.6,4,Clay,Lowland,NPK,No,100,Okra,Not Viable,Poor
+39,190,48,29,5.6,4,Clay,Lowland,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+39,190,48,29,5.6,4,Clay,Upland,Not,No,100,Okra,Not Viable,Poor
+39,190,48,29,5.6,4,Clay,Upland,Organic,No,100,Corn,Not Viable,Poor
+39,190,48,29,5.6,4,Clay,Upland,NPK,No,100,Corn,Not Viable,Poor
+39,190,48,29,5.6,4,Clay,Upland,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+39,190,48,29,5.6,4,Clay,Slope,Not,No,99,Chili,Not Viable,Poor
+39,190,48,29,5.6,4,Clay,Slope,Organic,No,91,Chili,Not Viable,Poor
+39,190,48,29,5.6,4,Clay,Slope,NPK,No,91,Sweet Potato,Not Viable,Poor
+39,190,48,29,5.6,4,Clay,Slope,Ammonium Sulfate,No,97,Chili,Not Viable,Poor
+39,190,48,29,5.6,4,Loam,Lowland,Not,No,100,Okra,Not Viable,Poor
+39,190,48,29,5.6,4,Loam,Lowland,Organic,Yes,100,Corn,Viable,Good
+39,190,48,29,5.6,4,Loam,Lowland,NPK,No,100,Okra,Not Viable,Poor
+39,190,48,29,5.6,4,Loam,Lowland,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+39,190,48,29,5.6,4,Loam,Upland,Not,No,94,Okra,Not Viable,Poor
+39,190,48,29,5.6,4,Loam,Upland,Organic,Yes,95,Corn,Viable,Good
+39,190,48,29,5.6,4,Loam,Upland,NPK,No,98,Sweet Potato,Not Viable,Poor
+39,190,48,29,5.6,4,Loam,Upland,Ammonium Sulfate,No,96,Corn,Not Viable,Poor
+39,190,48,29,5.6,4,Loam,Slope,Not,No,80,Kangkung,Not Viable,Poor
+39,190,48,29,5.6,4,Loam,Slope,Organic,Yes,86,Okra,Viable,Good
+39,190,48,29,5.6,4,Loam,Slope,NPK,No,83,Chili,Not Viable,Poor
+39,190,48,29,5.6,4,Loam,Slope,Ammonium Sulfate,No,90,Corn,Not Viable,Poor
+40,100,30,16,8.8,1,Sandy,Lowland,Not,No,50,Chili,Not Viable,Poor
+40,100,30,16,8.8,1,Sandy,Lowland,Organic,No,48,Corn,Not Viable,Poor
+40,100,30,16,8.8,1,Sandy,Lowland,NPK,Yes,50,Corn,Viable,Fair
+40,100,30,16,8.8,1,Sandy,Lowland,Ammonium Sulfate,No,55,Okra,Not Viable,Poor
+40,100,30,16,8.8,1,Sandy,Upland,Not,No,40,Corn,Not Viable,Poor
+40,100,30,16,8.8,1,Sandy,Upland,Organic,No,36,Okra,Not Viable,Poor
+40,100,30,16,8.8,1,Sandy,Upland,NPK,Yes,43,Sweet Potato,Viable,Poor
+40,100,30,16,8.8,1,Sandy,Upland,Ammonium Sulfate,No,38,Corn,Not Viable,Poor
+40,100,30,16,8.8,1,Sandy,Slope,Not,No,30,Chili,Not Viable,Poor
+40,100,30,16,8.8,1,Sandy,Slope,Organic,No,31,Sweet Potato,Not Viable,Poor
+40,100,30,16,8.8,1,Sandy,Slope,NPK,Yes,28,Chili,Not Viable,Poor
+40,100,30,16,8.8,1,Sandy,Slope,Ammonium Sulfate,No,26,Corn,Not Viable,Poor
+40,100,30,16,8.8,1,Clay,Lowland,Not,No,71,Sweet Potato,Not Viable,Poor
+40,100,30,16,8.8,1,Clay,Lowland,Organic,No,73,Kangkung,Not Viable,Poor
+40,100,30,16,8.8,1,Clay,Lowland,NPK,No,70,Corn,Not Viable,Poor
+40,100,30,16,8.8,1,Clay,Lowland,Ammonium Sulfate,No,66,Sweet Potato,Not Viable,Poor
+40,100,30,16,8.8,1,Clay,Upland,Not,No,57,Corn,Not Viable,Poor
+40,100,30,16,8.8,1,Clay,Upland,Organic,No,64,Kangkung,Not Viable,Poor
+40,100,30,16,8.8,1,Clay,Upland,NPK,No,62,Okra,Not Viable,Poor
+40,100,30,16,8.8,1,Clay,Upland,Ammonium Sulfate,No,63,Sweet Potato,Not Viable,Poor
+40,100,30,16,8.8,1,Clay,Slope,Not,No,53,Kangkung,Not Viable,Poor
+40,100,30,16,8.8,1,Clay,Slope,Organic,No,55,Corn,Not Viable,Poor
+40,100,30,16,8.8,1,Clay,Slope,NPK,No,45,Chili,Not Viable,Poor
+40,100,30,16,8.8,1,Clay,Slope,Ammonium Sulfate,No,47,Chili,Not Viable,Poor
+40,100,30,16,8.8,1,Loam,Lowland,Not,No,60,Okra,Not Viable,Poor
+40,100,30,16,8.8,1,Loam,Lowland,Organic,Yes,59,Okra,Viable,Good
+40,100,30,16,8.8,1,Loam,Lowland,NPK,No,60,Corn,Not Viable,Poor
+40,100,30,16,8.8,1,Loam,Lowland,Ammonium Sulfate,No,65,Okra,Not Viable,Poor
+40,100,30,16,8.8,1,Loam,Upland,Not,No,46,Chili,Not Viable,Poor
+40,100,30,16,8.8,1,Loam,Upland,Organic,Yes,47,Okra,Viable,Fair
+40,100,30,16,8.8,1,Loam,Upland,NPK,No,50,Corn,Not Viable,Poor
+40,100,30,16,8.8,1,Loam,Upland,Ammonium Sulfate,No,47,Chili,Not Viable,Poor
+40,100,30,16,8.8,1,Loam,Slope,Not,No,40,Chili,Not Viable,Poor
+40,100,30,16,8.8,1,Loam,Slope,Organic,Yes,45,Kangkung,Viable,Fair
+40,100,30,16,8.8,1,Loam,Slope,NPK,No,38,Corn,Not Viable,Poor
+40,100,30,16,8.8,1,Loam,Slope,Ammonium Sulfate,No,37,Okra,Not Viable,Poor
+41,110,32,17,8.5,1,Sandy,Lowland,Not,No,60,Corn,Not Viable,Poor
+41,110,32,17,8.5,1,Sandy,Lowland,Organic,No,56,Corn,Not Viable,Poor
+41,110,32,17,8.5,1,Sandy,Lowland,NPK,Yes,56,Corn,Viable,Good
+41,110,32,17,8.5,1,Sandy,Lowland,Ammonium Sulfate,No,60,Sweet Potato,Not Viable,Poor
+41,110,32,17,8.5,1,Sandy,Upland,Not,No,43,Chili,Not Viable,Poor
+41,110,32,17,8.5,1,Sandy,Upland,Organic,No,40,Chili,Not Viable,Poor
+41,110,32,17,8.5,1,Sandy,Upland,NPK,Yes,43,Chili,Viable,Poor
+41,110,32,17,8.5,1,Sandy,Upland,Ammonium Sulfate,No,43,Chili,Not Viable,Poor
+41,110,32,17,8.5,1,Sandy,Slope,Not,No,36,Corn,Not Viable,Poor
+41,110,32,17,8.5,1,Sandy,Slope,Organic,No,33,Okra,Not Viable,Poor
+41,110,32,17,8.5,1,Sandy,Slope,NPK,Yes,36,Chili,Viable,Poor
+41,110,32,17,8.5,1,Sandy,Slope,Ammonium Sulfate,No,38,Okra,Not Viable,Poor
+41,110,32,17,8.5,1,Clay,Lowland,Not,No,72,Okra,Not Viable,Poor
+41,110,32,17,8.5,1,Clay,Lowland,Organic,No,77,Kangkung,Not Viable,Poor
+41,110,32,17,8.5,1,Clay,Lowland,NPK,No,77,Okra,Not Viable,Poor
+41,110,32,17,8.5,1,Clay,Lowland,Ammonium Sulfate,No,74,Sweet Potato,Not Viable,Poor
+41,110,32,17,8.5,1,Clay,Upland,Not,No,63,Kangkung,Not Viable,Poor
+41,110,32,17,8.5,1,Clay,Upland,Organic,No,69,Sweet Potato,Not Viable,Poor
+41,110,32,17,8.5,1,Clay,Upland,NPK,No,64,Okra,Not Viable,Poor
+41,110,32,17,8.5,1,Clay,Upland,Ammonium Sulfate,No,62,Sweet Potato,Not Viable,Poor
+41,110,32,17,8.5,1,Clay,Slope,Not,No,53,Kangkung,Not Viable,Poor
+41,110,32,17,8.5,1,Clay,Slope,Organic,No,51,Kangkung,Not Viable,Poor
+41,110,32,17,8.5,1,Clay,Slope,NPK,No,52,Kangkung,Not Viable,Poor
+41,110,32,17,8.5,1,Clay,Slope,Ammonium Sulfate,No,51,Sweet Potato,Not Viable,Poor
+41,110,32,17,8.5,1,Loam,Lowland,Not,No,67,Chili,Not Viable,Poor
+41,110,32,17,8.5,1,Loam,Lowland,Organic,Yes,65,Kangkung,Viable,Good
+41,110,32,17,8.5,1,Loam,Lowland,NPK,No,67,Corn,Not Viable,Poor
+41,110,32,17,8.5,1,Loam,Lowland,Ammonium Sulfate,No,61,Chili,Not Viable,Poor
+41,110,32,17,8.5,1,Loam,Upland,Not,No,52,Chili,Not Viable,Poor
+41,110,32,17,8.5,1,Loam,Upland,Organic,Yes,52,Kangkung,Viable,Fair
+41,110,32,17,8.5,1,Loam,Upland,NPK,No,59,Corn,Not Viable,Poor
+41,110,32,17,8.5,1,Loam,Upland,Ammonium Sulfate,No,60,Corn,Not Viable,Poor
+41,110,32,17,8.5,1,Loam,Slope,Not,No,48,Corn,Not Viable,Poor
+41,110,32,17,8.5,1,Loam,Slope,Organic,Yes,44,Corn,Viable,Poor
+41,110,32,17,8.5,1,Loam,Slope,NPK,No,42,Chili,Not Viable,Poor
+41,110,32,17,8.5,1,Loam,Slope,Ammonium Sulfate,No,42,Kangkung,Not Viable,Poor
+42,130,35,19,8,2,Sandy,Lowland,Not,No,67,Sweet Potato,Not Viable,Poor
+42,130,35,19,8,2,Sandy,Lowland,Organic,No,60,Kangkung,Not Viable,Poor
+42,130,35,19,8,2,Sandy,Lowland,NPK,Yes,68,Corn,Viable,Good
+42,130,35,19,8,2,Sandy,Lowland,Ammonium Sulfate,No,60,Corn,Not Viable,Poor
+42,130,35,19,8,2,Sandy,Upland,Not,No,58,Okra,Not Viable,Poor
+42,130,35,19,8,2,Sandy,Upland,Organic,No,58,Okra,Not Viable,Poor
+42,130,35,19,8,2,Sandy,Upland,NPK,Yes,52,Corn,Viable,Fair
+42,130,35,19,8,2,Sandy,Upland,Ammonium Sulfate,No,55,Corn,Not Viable,Poor
+42,130,35,19,8,2,Sandy,Slope,Not,No,48,Kangkung,Not Viable,Poor
+42,130,35,19,8,2,Sandy,Slope,Organic,No,45,Okra,Not Viable,Poor
+42,130,35,19,8,2,Sandy,Slope,NPK,Yes,45,Corn,Viable,Fair
+42,130,35,19,8,2,Sandy,Slope,Ammonium Sulfate,No,45,Sweet Potato,Not Viable,Poor
+42,130,35,19,8,2,Clay,Lowland,Not,No,86,Kangkung,Not Viable,Poor
+42,130,35,19,8,2,Clay,Lowland,Organic,No,85,Kangkung,Not Viable,Poor
+42,130,35,19,8,2,Clay,Lowland,NPK,No,86,Corn,Not Viable,Poor
+42,130,35,19,8,2,Clay,Lowland,Ammonium Sulfate,No,84,Chili,Not Viable,Poor
+42,130,35,19,8,2,Clay,Upland,Not,No,73,Corn,Not Viable,Poor
+42,130,35,19,8,2,Clay,Upland,Organic,No,79,Sweet Potato,Not Viable,Poor
+42,130,35,19,8,2,Clay,Upland,NPK,No,72,Chili,Not Viable,Poor
+42,130,35,19,8,2,Clay,Upland,Ammonium Sulfate,No,72,Okra,Not Viable,Poor
+42,130,35,19,8,2,Clay,Slope,Not,No,62,Sweet Potato,Not Viable,Poor
+42,130,35,19,8,2,Clay,Slope,Organic,No,61,Sweet Potato,Not Viable,Poor
+42,130,35,19,8,2,Clay,Slope,NPK,No,66,Chili,Not Viable,Poor
+42,130,35,19,8,2,Clay,Slope,Ammonium Sulfate,No,62,Sweet Potato,Not Viable,Poor
+42,130,35,19,8,2,Loam,Lowland,Not,No,79,Sweet Potato,Not Viable,Poor
+42,130,35,19,8,2,Loam,Lowland,Organic,Yes,72,Kangkung,Viable,Excellent
+42,130,35,19,8,2,Loam,Lowland,NPK,No,77,Corn,Not Viable,Poor
+42,130,35,19,8,2,Loam,Lowland,Ammonium Sulfate,No,71,Kangkung,Not Viable,Poor
+42,130,35,19,8,2,Loam,Upland,Not,No,62,Corn,Not Viable,Poor
+42,130,35,19,8,2,Loam,Upland,Organic,Yes,67,Corn,Viable,Good
+42,130,35,19,8,2,Loam,Upland,NPK,No,61,Kangkung,Not Viable,Poor
+42,130,35,19,8,2,Loam,Upland,Ammonium Sulfate,No,66,Okra,Not Viable,Poor
+42,130,35,19,8,2,Loam,Slope,Not,No,52,Chili,Not Viable,Poor
+42,130,35,19,8,2,Loam,Slope,Organic,Yes,58,Okra,Viable,Good
+42,130,35,19,8,2,Loam,Slope,NPK,No,59,Kangkung,Not Viable,Poor
+42,130,35,19,8,2,Loam,Slope,Ammonium Sulfate,No,54,Chili,Not Viable,Poor
+43,90,28,15,9,1,Sandy,Lowland,Not,No,49,Corn,Not Viable,Poor
+43,90,28,15,9,1,Sandy,Lowland,Organic,No,43,Sweet Potato,Not Viable,Poor
+43,90,28,15,9,1,Sandy,Lowland,NPK,Yes,42,Corn,Viable,Poor
+43,90,28,15,9,1,Sandy,Lowland,Ammonium Sulfate,No,41,Chili,Not Viable,Poor
+43,90,28,15,9,1,Sandy,Upland,Not,No,38,Corn,Not Viable,Poor
+43,90,28,15,9,1,Sandy,Upland,Organic,No,32,Corn,Not Viable,Poor
+43,90,28,15,9,1,Sandy,Upland,NPK,Yes,38,Kangkung,Viable,Poor
+43,90,28,15,9,1,Sandy,Upland,Ammonium Sulfate,No,36,Corn,Not Viable,Poor
+43,90,28,15,9,1,Sandy,Slope,Not,No,29,Chili,Not Viable,Poor
+43,90,28,15,9,1,Sandy,Slope,Organic,No,29,Corn,Not Viable,Poor
+43,90,28,15,9,1,Sandy,Slope,NPK,Yes,26,Sweet Potato,Not Viable,Poor
+43,90,28,15,9,1,Sandy,Slope,Ammonium Sulfate,No,24,Sweet Potato,Not Viable,Poor
+43,90,28,15,9,1,Clay,Lowland,Not,No,65,Sweet Potato,Not Viable,Poor
+43,90,28,15,9,1,Clay,Lowland,Organic,No,63,Okra,Not Viable,Poor
+43,90,28,15,9,1,Clay,Lowland,NPK,No,65,Kangkung,Not Viable,Poor
+43,90,28,15,9,1,Clay,Lowland,Ammonium Sulfate,No,66,Corn,Not Viable,Poor
+43,90,28,15,9,1,Clay,Upland,Not,No,50,Sweet Potato,Not Viable,Poor
+43,90,28,15,9,1,Clay,Upland,Organic,No,54,Chili,Not Viable,Poor
+43,90,28,15,9,1,Clay,Upland,NPK,No,58,Sweet Potato,Not Viable,Poor
+43,90,28,15,9,1,Clay,Upland,Ammonium Sulfate,No,51,Sweet Potato,Not Viable,Poor
+43,90,28,15,9,1,Clay,Slope,Not,No,43,Okra,Not Viable,Poor
+43,90,28,15,9,1,Clay,Slope,Organic,No,49,Sweet Potato,Not Viable,Poor
+43,90,28,15,9,1,Clay,Slope,NPK,No,48,Corn,Not Viable,Poor
+43,90,28,15,9,1,Clay,Slope,Ammonium Sulfate,No,40,Kangkung,Not Viable,Poor
+43,90,28,15,9,1,Loam,Lowland,Not,No,52,Sweet Potato,Not Viable,Poor
+43,90,28,15,9,1,Loam,Lowland,Organic,Yes,51,Okra,Viable,Fair
+43,90,28,15,9,1,Loam,Lowland,NPK,No,53,Chili,Not Viable,Poor
+43,90,28,15,9,1,Loam,Lowland,Ammonium Sulfate,No,55,Chili,Not Viable,Poor
+43,90,28,15,9,1,Loam,Upland,Not,No,49,Okra,Not Viable,Poor
+43,90,28,15,9,1,Loam,Upland,Organic,Yes,49,Chili,Viable,Fair
+43,90,28,15,9,1,Loam,Upland,NPK,No,46,Kangkung,Not Viable,Poor
+43,90,28,15,9,1,Loam,Upland,Ammonium Sulfate,No,50,Corn,Not Viable,Poor
+43,90,28,15,9,1,Loam,Slope,Not,No,39,Corn,Not Viable,Poor
+43,90,28,15,9,1,Loam,Slope,Organic,Yes,38,Okra,Viable,Poor
+43,90,28,15,9,1,Loam,Slope,NPK,No,32,Sweet Potato,Not Viable,Poor
+43,90,28,15,9,1,Loam,Slope,Ammonium Sulfate,No,40,Corn,Not Viable,Poor
+44,120,34,18,8.2,2,Sandy,Lowland,Not,No,62,Sweet Potato,Not Viable,Poor
+44,120,34,18,8.2,2,Sandy,Lowland,Organic,No,61,Corn,Not Viable,Poor
+44,120,34,18,8.2,2,Sandy,Lowland,NPK,Yes,62,Kangkung,Viable,Good
+44,120,34,18,8.2,2,Sandy,Lowland,Ammonium Sulfate,No,63,Sweet Potato,Not Viable,Poor
+44,120,34,18,8.2,2,Sandy,Upland,Not,No,47,Sweet Potato,Not Viable,Poor
+44,120,34,18,8.2,2,Sandy,Upland,Organic,No,50,Kangkung,Not Viable,Poor
+44,120,34,18,8.2,2,Sandy,Upland,NPK,Yes,49,Kangkung,Viable,Fair
+44,120,34,18,8.2,2,Sandy,Upland,Ammonium Sulfate,No,47,Corn,Not Viable,Poor
+44,120,34,18,8.2,2,Sandy,Slope,Not,No,39,Sweet Potato,Not Viable,Poor
+44,120,34,18,8.2,2,Sandy,Slope,Organic,No,37,Chili,Not Viable,Poor
+44,120,34,18,8.2,2,Sandy,Slope,NPK,Yes,44,Chili,Viable,Poor
+44,120,34,18,8.2,2,Sandy,Slope,Ammonium Sulfate,No,43,Chili,Not Viable,Poor
+44,120,34,18,8.2,2,Clay,Lowland,Not,No,82,Kangkung,Not Viable,Poor
+44,120,34,18,8.2,2,Clay,Lowland,Organic,No,75,Corn,Not Viable,Poor
+44,120,34,18,8.2,2,Clay,Lowland,NPK,No,77,Corn,Not Viable,Poor
+44,120,34,18,8.2,2,Clay,Lowland,Ammonium Sulfate,No,80,Corn,Not Viable,Poor
+44,120,34,18,8.2,2,Clay,Upland,Not,No,67,Sweet Potato,Not Viable,Poor
+44,120,34,18,8.2,2,Clay,Upland,Organic,No,68,Kangkung,Not Viable,Poor
+44,120,34,18,8.2,2,Clay,Upland,NPK,No,68,Kangkung,Not Viable,Poor
+44,120,34,18,8.2,2,Clay,Upland,Ammonium Sulfate,No,65,Kangkung,Not Viable,Poor
+44,120,34,18,8.2,2,Clay,Slope,Not,No,56,Corn,Not Viable,Poor
+44,120,34,18,8.2,2,Clay,Slope,Organic,No,56,Sweet Potato,Not Viable,Poor
+44,120,34,18,8.2,2,Clay,Slope,NPK,No,60,Sweet Potato,Not Viable,Poor
+44,120,34,18,8.2,2,Clay,Slope,Ammonium Sulfate,No,62,Chili,Not Viable,Poor
+44,120,34,18,8.2,2,Loam,Lowland,Not,No,71,Corn,Not Viable,Poor
+44,120,34,18,8.2,2,Loam,Lowland,Organic,Yes,66,Corn,Viable,Good
+44,120,34,18,8.2,2,Loam,Lowland,NPK,No,68,Chili,Not Viable,Poor
+44,120,34,18,8.2,2,Loam,Lowland,Ammonium Sulfate,No,71,Kangkung,Not Viable,Poor
+44,120,34,18,8.2,2,Loam,Upland,Not,No,57,Chili,Not Viable,Poor
+44,120,34,18,8.2,2,Loam,Upland,Organic,Yes,58,Sweet Potato,Viable,Good
+44,120,34,18,8.2,2,Loam,Upland,NPK,No,59,Sweet Potato,Not Viable,Poor
+44,120,34,18,8.2,2,Loam,Upland,Ammonium Sulfate,No,58,Kangkung,Not Viable,Poor
+44,120,34,18,8.2,2,Loam,Slope,Not,No,45,Chili,Not Viable,Poor
+44,120,34,18,8.2,2,Loam,Slope,Organic,Yes,53,Okra,Viable,Fair
+44,120,34,18,8.2,2,Loam,Slope,NPK,No,50,Okra,Not Viable,Poor
+44,120,34,18,8.2,2,Loam,Slope,Ammonium Sulfate,No,47,Corn,Not Viable,Poor
+45,220,51,30,5,4,Sandy,Lowland,Not,No,100,Chili,Not Viable,Poor
+45,220,51,30,5,4,Sandy,Lowland,Organic,No,100,Okra,Not Viable,Poor
+45,220,51,30,5,4,Sandy,Lowland,NPK,Yes,100,Sweet Potato,Viable,Good
+45,220,51,30,5,4,Sandy,Lowland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+45,220,51,30,5,4,Sandy,Upland,Not,No,99,Okra,Not Viable,Poor
+45,220,51,30,5,4,Sandy,Upland,Organic,No,100,Kangkung,Not Viable,Poor
+45,220,51,30,5,4,Sandy,Upland,NPK,Yes,98,Corn,Viable,Good
+45,220,51,30,5,4,Sandy,Upland,Ammonium Sulfate,No,99,Okra,Not Viable,Poor
+45,220,51,30,5,4,Sandy,Slope,Not,No,91,Kangkung,Not Viable,Poor
+45,220,51,30,5,4,Sandy,Slope,Organic,No,89,Sweet Potato,Not Viable,Poor
+45,220,51,30,5,4,Sandy,Slope,NPK,Yes,91,Okra,Viable,Good
+45,220,51,30,5,4,Sandy,Slope,Ammonium Sulfate,No,86,Chili,Not Viable,Poor
+45,220,51,30,5,4,Clay,Lowland,Not,No,100,Kangkung,Not Viable,Poor
+45,220,51,30,5,4,Clay,Lowland,Organic,No,100,Okra,Not Viable,Poor
+45,220,51,30,5,4,Clay,Lowland,NPK,No,100,Corn,Not Viable,Poor
+45,220,51,30,5,4,Clay,Lowland,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+45,220,51,30,5,4,Clay,Upland,Not,No,100,Sweet Potato,Not Viable,Poor
+45,220,51,30,5,4,Clay,Upland,Organic,No,100,Kangkung,Not Viable,Poor
+45,220,51,30,5,4,Clay,Upland,NPK,No,100,Kangkung,Not Viable,Poor
+45,220,51,30,5,4,Clay,Upland,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+45,220,51,30,5,4,Clay,Slope,Not,No,100,Kangkung,Not Viable,Poor
+45,220,51,30,5,4,Clay,Slope,Organic,No,100,Corn,Not Viable,Poor
+45,220,51,30,5,4,Clay,Slope,NPK,No,100,Okra,Not Viable,Poor
+45,220,51,30,5,4,Clay,Slope,Ammonium Sulfate,No,100,Okra,Not Viable,Poor
+45,220,51,30,5,4,Loam,Lowland,Not,No,100,Chili,Not Viable,Poor
+45,220,51,30,5,4,Loam,Lowland,Organic,Yes,100,Okra,Viable,Good
+45,220,51,30,5,4,Loam,Lowland,NPK,No,100,Okra,Not Viable,Poor
+45,220,51,30,5,4,Loam,Lowland,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+45,220,51,30,5,4,Loam,Upland,Not,No,100,Kangkung,Not Viable,Poor
+45,220,51,30,5,4,Loam,Upland,Organic,Yes,100,Chili,Viable,Good
+45,220,51,30,5,4,Loam,Upland,NPK,No,100,Sweet Potato,Not Viable,Poor
+45,220,51,30,5,4,Loam,Upland,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+45,220,51,30,5,4,Loam,Slope,Not,No,99,Sweet Potato,Not Viable,Poor
+45,220,51,30,5,4,Loam,Slope,Organic,Yes,97,Sweet Potato,Viable,Good
+45,220,51,30,5,4,Loam,Slope,NPK,No,100,Sweet Potato,Not Viable,Poor
+45,220,51,30,5,4,Loam,Slope,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+46,240,54,33,4.6,5,Sandy,Lowland,Not,No,100,Kangkung,Not Viable,Poor
+46,240,54,33,4.6,5,Sandy,Lowland,Organic,No,100,Chili,Not Viable,Poor
+46,240,54,33,4.6,5,Sandy,Lowland,NPK,Yes,100,Okra,Not Viable,Poor
+46,240,54,33,4.6,5,Sandy,Lowland,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+46,240,54,33,4.6,5,Sandy,Upland,Not,No,100,Corn,Not Viable,Poor
+46,240,54,33,4.6,5,Sandy,Upland,Organic,No,100,Corn,Not Viable,Poor
+46,240,54,33,4.6,5,Sandy,Upland,NPK,Yes,100,Sweet Potato,Not Viable,Poor
+46,240,54,33,4.6,5,Sandy,Upland,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+46,240,54,33,4.6,5,Sandy,Slope,Not,No,100,Corn,Not Viable,Poor
+46,240,54,33,4.6,5,Sandy,Slope,Organic,No,100,Okra,Not Viable,Poor
+46,240,54,33,4.6,5,Sandy,Slope,NPK,Yes,100,Corn,Not Viable,Poor
+46,240,54,33,4.6,5,Sandy,Slope,Ammonium Sulfate,No,97,Sweet Potato,Not Viable,Poor
+46,240,54,33,4.6,5,Clay,Lowland,Not,No,100,Chili,Not Viable,Poor
+46,240,54,33,4.6,5,Clay,Lowland,Organic,No,100,Kangkung,Not Viable,Poor
+46,240,54,33,4.6,5,Clay,Lowland,NPK,No,100,Sweet Potato,Not Viable,Poor
+46,240,54,33,4.6,5,Clay,Lowland,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+46,240,54,33,4.6,5,Clay,Upland,Not,No,100,Okra,Not Viable,Poor
+46,240,54,33,4.6,5,Clay,Upland,Organic,No,100,Okra,Not Viable,Poor
+46,240,54,33,4.6,5,Clay,Upland,NPK,No,100,Corn,Not Viable,Poor
+46,240,54,33,4.6,5,Clay,Upland,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+46,240,54,33,4.6,5,Clay,Slope,Not,No,100,Okra,Not Viable,Poor
+46,240,54,33,4.6,5,Clay,Slope,Organic,No,100,Kangkung,Not Viable,Poor
+46,240,54,33,4.6,5,Clay,Slope,NPK,No,100,Kangkung,Not Viable,Poor
+46,240,54,33,4.6,5,Clay,Slope,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+46,240,54,33,4.6,5,Loam,Lowland,Not,No,100,Kangkung,Not Viable,Poor
+46,240,54,33,4.6,5,Loam,Lowland,Organic,Yes,100,Kangkung,Not Viable,Poor
+46,240,54,33,4.6,5,Loam,Lowland,NPK,No,100,Chili,Not Viable,Poor
+46,240,54,33,4.6,5,Loam,Lowland,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+46,240,54,33,4.6,5,Loam,Upland,Not,No,100,Kangkung,Not Viable,Poor
+46,240,54,33,4.6,5,Loam,Upland,Organic,Yes,100,Sweet Potato,Not Viable,Poor
+46,240,54,33,4.6,5,Loam,Upland,NPK,No,100,Kangkung,Not Viable,Poor
+46,240,54,33,4.6,5,Loam,Upland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+46,240,54,33,4.6,5,Loam,Slope,Not,No,100,Corn,Not Viable,Poor
+46,240,54,33,4.6,5,Loam,Slope,Organic,Yes,100,Chili,Not Viable,Poor
+46,240,54,33,4.6,5,Loam,Slope,NPK,No,100,Corn,Not Viable,Poor
+46,240,54,33,4.6,5,Loam,Slope,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+47,210,50,28,5.3,4,Sandy,Lowland,Not,No,100,Sweet Potato,Not Viable,Poor
+47,210,50,28,5.3,4,Sandy,Lowland,Organic,No,100,Chili,Not Viable,Poor
+47,210,50,28,5.3,4,Sandy,Lowland,NPK,Yes,100,Okra,Viable,Good
+47,210,50,28,5.3,4,Sandy,Lowland,Ammonium Sulfate,No,100,Okra,Not Viable,Poor
+47,210,50,28,5.3,4,Sandy,Upland,Not,No,95,Sweet Potato,Not Viable,Poor
+47,210,50,28,5.3,4,Sandy,Upland,Organic,No,90,Sweet Potato,Not Viable,Poor
+47,210,50,28,5.3,4,Sandy,Upland,NPK,Yes,99,Corn,Viable,Good
+47,210,50,28,5.3,4,Sandy,Upland,Ammonium Sulfate,No,95,Kangkung,Not Viable,Poor
+47,210,50,28,5.3,4,Sandy,Slope,Not,No,89,Corn,Not Viable,Poor
+47,210,50,28,5.3,4,Sandy,Slope,Organic,No,84,Chili,Not Viable,Poor
+47,210,50,28,5.3,4,Sandy,Slope,NPK,Yes,85,Kangkung,Viable,Good
+47,210,50,28,5.3,4,Sandy,Slope,Ammonium Sulfate,No,83,Sweet Potato,Not Viable,Poor
+47,210,50,28,5.3,4,Clay,Lowland,Not,No,100,Kangkung,Not Viable,Poor
+47,210,50,28,5.3,4,Clay,Lowland,Organic,No,100,Kangkung,Not Viable,Poor
+47,210,50,28,5.3,4,Clay,Lowland,NPK,No,100,Sweet Potato,Not Viable,Poor
+47,210,50,28,5.3,4,Clay,Lowland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+47,210,50,28,5.3,4,Clay,Upland,Not,No,100,Kangkung,Not Viable,Poor
+47,210,50,28,5.3,4,Clay,Upland,Organic,No,100,Sweet Potato,Not Viable,Poor
+47,210,50,28,5.3,4,Clay,Upland,NPK,No,100,Kangkung,Not Viable,Poor
+47,210,50,28,5.3,4,Clay,Upland,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+47,210,50,28,5.3,4,Clay,Slope,Not,No,100,Kangkung,Not Viable,Poor
+47,210,50,28,5.3,4,Clay,Slope,Organic,No,100,Chili,Not Viable,Poor
+47,210,50,28,5.3,4,Clay,Slope,NPK,No,100,Corn,Not Viable,Poor
+47,210,50,28,5.3,4,Clay,Slope,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+47,210,50,28,5.3,4,Loam,Lowland,Not,No,100,Kangkung,Not Viable,Poor
+47,210,50,28,5.3,4,Loam,Lowland,Organic,Yes,100,Sweet Potato,Viable,Good
+47,210,50,28,5.3,4,Loam,Lowland,NPK,No,100,Okra,Not Viable,Poor
+47,210,50,28,5.3,4,Loam,Lowland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+47,210,50,28,5.3,4,Loam,Upland,Not,No,100,Corn,Not Viable,Poor
+47,210,50,28,5.3,4,Loam,Upland,Organic,Yes,100,Chili,Viable,Good
+47,210,50,28,5.3,4,Loam,Upland,NPK,No,100,Okra,Not Viable,Poor
+47,210,50,28,5.3,4,Loam,Upland,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+47,210,50,28,5.3,4,Loam,Slope,Not,No,91,Sweet Potato,Not Viable,Poor
+47,210,50,28,5.3,4,Loam,Slope,Organic,Yes,97,Kangkung,Viable,Good
+47,210,50,28,5.3,4,Loam,Slope,NPK,No,98,Sweet Potato,Not Viable,Poor
+47,210,50,28,5.3,4,Loam,Slope,Ammonium Sulfate,No,97,Corn,Not Viable,Poor
+48,200,48,27,5.6,3,Sandy,Lowland,Not,No,96,Corn,Not Viable,Poor
+48,200,48,27,5.6,3,Sandy,Lowland,Organic,No,100,Corn,Not Viable,Poor
+48,200,48,27,5.6,3,Sandy,Lowland,NPK,Yes,97,Corn,Viable,Good
+48,200,48,27,5.6,3,Sandy,Lowland,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+48,200,48,27,5.6,3,Sandy,Upland,Not,No,85,Chili,Not Viable,Poor
+48,200,48,27,5.6,3,Sandy,Upland,Organic,No,89,Chili,Not Viable,Poor
+48,200,48,27,5.6,3,Sandy,Upland,NPK,Yes,86,Sweet Potato,Viable,Good
+48,200,48,27,5.6,3,Sandy,Upland,Ammonium Sulfate,No,90,Okra,Not Viable,Poor
+48,200,48,27,5.6,3,Sandy,Slope,Not,No,76,Corn,Not Viable,Poor
+48,200,48,27,5.6,3,Sandy,Slope,Organic,No,80,Chili,Not Viable,Poor
+48,200,48,27,5.6,3,Sandy,Slope,NPK,Yes,75,Corn,Viable,Good
+48,200,48,27,5.6,3,Sandy,Slope,Ammonium Sulfate,No,82,Sweet Potato,Not Viable,Poor
+48,200,48,27,5.6,3,Clay,Lowland,Not,No,100,Corn,Not Viable,Poor
+48,200,48,27,5.6,3,Clay,Lowland,Organic,No,100,Chili,Not Viable,Poor
+48,200,48,27,5.6,3,Clay,Lowland,NPK,No,100,Corn,Not Viable,Poor
+48,200,48,27,5.6,3,Clay,Lowland,Ammonium Sulfate,No,100,Okra,Not Viable,Poor
+48,200,48,27,5.6,3,Clay,Upland,Not,No,100,Okra,Not Viable,Poor
+48,200,48,27,5.6,3,Clay,Upland,Organic,No,100,Chili,Not Viable,Poor
+48,200,48,27,5.6,3,Clay,Upland,NPK,No,100,Corn,Not Viable,Poor
+48,200,48,27,5.6,3,Clay,Upland,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+48,200,48,27,5.6,3,Clay,Slope,Not,No,99,Corn,Not Viable,Poor
+48,200,48,27,5.6,3,Clay,Slope,Organic,No,100,Chili,Not Viable,Poor
+48,200,48,27,5.6,3,Clay,Slope,NPK,No,98,Chili,Not Viable,Poor
+48,200,48,27,5.6,3,Clay,Slope,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+48,200,48,27,5.6,3,Loam,Lowland,Not,No,100,Sweet Potato,Not Viable,Poor
+48,200,48,27,5.6,3,Loam,Lowland,Organic,Yes,100,Sweet Potato,Viable,Good
+48,200,48,27,5.6,3,Loam,Lowland,NPK,No,100,Chili,Not Viable,Poor
+48,200,48,27,5.6,3,Loam,Lowland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+48,200,48,27,5.6,3,Loam,Upland,Not,No,100,Chili,Not Viable,Poor
+48,200,48,27,5.6,3,Loam,Upland,Organic,Yes,100,Kangkung,Viable,Good
+48,200,48,27,5.6,3,Loam,Upland,NPK,No,100,Okra,Not Viable,Poor
+48,200,48,27,5.6,3,Loam,Upland,Ammonium Sulfate,No,95,Chili,Not Viable,Poor
+48,200,48,27,5.6,3,Loam,Slope,Not,No,92,Sweet Potato,Not Viable,Poor
+48,200,48,27,5.6,3,Loam,Slope,Organic,Yes,88,Chili,Viable,Good
+48,200,48,27,5.6,3,Loam,Slope,NPK,No,93,Corn,Not Viable,Poor
+48,200,48,27,5.6,3,Loam,Slope,Ammonium Sulfate,No,86,Okra,Not Viable,Poor
+49,250,58,36,4,6,Sandy,Lowland,Not,No,100,Okra,Not Viable,Poor
+49,250,58,36,4,6,Sandy,Lowland,Organic,No,100,Corn,Not Viable,Poor
+49,250,58,36,4,6,Sandy,Lowland,NPK,Yes,100,Chili,Not Viable,Poor
+49,250,58,36,4,6,Sandy,Lowland,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+49,250,58,36,4,6,Sandy,Upland,Not,No,100,Chili,Not Viable,Poor
+49,250,58,36,4,6,Sandy,Upland,Organic,No,100,Kangkung,Not Viable,Poor
+49,250,58,36,4,6,Sandy,Upland,NPK,Yes,100,Sweet Potato,Not Viable,Poor
+49,250,58,36,4,6,Sandy,Upland,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+49,250,58,36,4,6,Sandy,Slope,Not,No,100,Okra,Not Viable,Poor
+49,250,58,36,4,6,Sandy,Slope,Organic,No,100,Sweet Potato,Not Viable,Poor
+49,250,58,36,4,6,Sandy,Slope,NPK,Yes,100,Corn,Not Viable,Poor
+49,250,58,36,4,6,Sandy,Slope,Ammonium Sulfate,No,100,Okra,Not Viable,Poor
+49,250,58,36,4,6,Clay,Lowland,Not,No,100,Corn,Not Viable,Poor
+49,250,58,36,4,6,Clay,Lowland,Organic,No,100,Okra,Not Viable,Poor
+49,250,58,36,4,6,Clay,Lowland,NPK,No,100,Okra,Not Viable,Poor
+49,250,58,36,4,6,Clay,Lowland,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+49,250,58,36,4,6,Clay,Upland,Not,No,100,Sweet Potato,Not Viable,Poor
+49,250,58,36,4,6,Clay,Upland,Organic,No,100,Corn,Not Viable,Poor
+49,250,58,36,4,6,Clay,Upland,NPK,No,100,Corn,Not Viable,Poor
+49,250,58,36,4,6,Clay,Upland,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+49,250,58,36,4,6,Clay,Slope,Not,No,100,Chili,Not Viable,Poor
+49,250,58,36,4,6,Clay,Slope,Organic,No,100,Okra,Not Viable,Poor
+49,250,58,36,4,6,Clay,Slope,NPK,No,100,Sweet Potato,Not Viable,Poor
+49,250,58,36,4,6,Clay,Slope,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+49,250,58,36,4,6,Loam,Lowland,Not,No,100,Kangkung,Not Viable,Poor
+49,250,58,36,4,6,Loam,Lowland,Organic,Yes,100,Okra,Not Viable,Poor
+49,250,58,36,4,6,Loam,Lowland,NPK,No,100,Okra,Not Viable,Poor
+49,250,58,36,4,6,Loam,Lowland,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+49,250,58,36,4,6,Loam,Upland,Not,No,100,Kangkung,Not Viable,Poor
+49,250,58,36,4,6,Loam,Upland,Organic,Yes,100,Kangkung,Not Viable,Poor
+49,250,58,36,4,6,Loam,Upland,NPK,No,100,Kangkung,Not Viable,Poor
+49,250,58,36,4,6,Loam,Upland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+49,250,58,36,4,6,Loam,Slope,Not,No,100,Okra,Not Viable,Poor
+49,250,58,36,4,6,Loam,Slope,Organic,Yes,100,Chili,Not Viable,Poor
+49,250,58,36,4,6,Loam,Slope,NPK,No,100,Corn,Not Viable,Poor
+49,250,58,36,4,6,Loam,Slope,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+50,230,53,32,4.8,5,Sandy,Lowland,Not,No,100,Chili,Not Viable,Poor
+50,230,53,32,4.8,5,Sandy,Lowland,Organic,No,100,Okra,Not Viable,Poor
+50,230,53,32,4.8,5,Sandy,Lowland,NPK,Yes,100,Okra,Not Viable,Poor
+50,230,53,32,4.8,5,Sandy,Lowland,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+50,230,53,32,4.8,5,Sandy,Upland,Not,No,100,Kangkung,Not Viable,Poor
+50,230,53,32,4.8,5,Sandy,Upland,Organic,No,100,Sweet Potato,Not Viable,Poor
+50,230,53,32,4.8,5,Sandy,Upland,NPK,Yes,100,Sweet Potato,Not Viable,Poor
+50,230,53,32,4.8,5,Sandy,Upland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+50,230,53,32,4.8,5,Sandy,Slope,Not,No,96,Chili,Not Viable,Poor
+50,230,53,32,4.8,5,Sandy,Slope,Organic,No,92,Okra,Not Viable,Poor
+50,230,53,32,4.8,5,Sandy,Slope,NPK,Yes,93,Chili,Not Viable,Poor
+50,230,53,32,4.8,5,Sandy,Slope,Ammonium Sulfate,No,91,Chili,Not Viable,Poor
+50,230,53,32,4.8,5,Clay,Lowland,Not,No,100,Sweet Potato,Not Viable,Poor
+50,230,53,32,4.8,5,Clay,Lowland,Organic,No,100,Okra,Not Viable,Poor
+50,230,53,32,4.8,5,Clay,Lowland,NPK,No,100,Kangkung,Not Viable,Poor
+50,230,53,32,4.8,5,Clay,Lowland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+50,230,53,32,4.8,5,Clay,Upland,Not,No,100,Kangkung,Not Viable,Poor
+50,230,53,32,4.8,5,Clay,Upland,Organic,No,100,Chili,Not Viable,Poor
+50,230,53,32,4.8,5,Clay,Upland,NPK,No,100,Sweet Potato,Not Viable,Poor
+50,230,53,32,4.8,5,Clay,Upland,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+50,230,53,32,4.8,5,Clay,Slope,Not,No,100,Corn,Not Viable,Poor
+50,230,53,32,4.8,5,Clay,Slope,Organic,No,100,Sweet Potato,Not Viable,Poor
+50,230,53,32,4.8,5,Clay,Slope,NPK,No,100,Sweet Potato,Not Viable,Poor
+50,230,53,32,4.8,5,Clay,Slope,Ammonium Sulfate,No,100,Okra,Not Viable,Poor
+50,230,53,32,4.8,5,Loam,Lowland,Not,No,100,Chili,Not Viable,Poor
+50,230,53,32,4.8,5,Loam,Lowland,Organic,Yes,100,Corn,Not Viable,Poor
+50,230,53,32,4.8,5,Loam,Lowland,NPK,No,100,Chili,Not Viable,Poor
+50,230,53,32,4.8,5,Loam,Lowland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+50,230,53,32,4.8,5,Loam,Upland,Not,No,100,Okra,Not Viable,Poor
+50,230,53,32,4.8,5,Loam,Upland,Organic,Yes,100,Sweet Potato,Not Viable,Poor
+50,230,53,32,4.8,5,Loam,Upland,NPK,No,100,Okra,Not Viable,Poor
+50,230,53,32,4.8,5,Loam,Upland,Ammonium Sulfate,No,100,Okra,Not Viable,Poor
+50,230,53,32,4.8,5,Loam,Slope,Not,No,100,Kangkung,Not Viable,Poor
+50,230,53,32,4.8,5,Loam,Slope,Organic,Yes,100,Chili,Not Viable,Poor
+50,230,53,32,4.8,5,Loam,Slope,NPK,No,100,Corn,Not Viable,Poor
+50,230,53,32,4.8,5,Loam,Slope,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+51,260,60,38,4,7,Sandy,Lowland,Not,No,100,Sweet Potato,Not Viable,Poor
+51,260,60,38,4,7,Sandy,Lowland,Organic,No,100,Okra,Not Viable,Poor
+51,260,60,38,4,7,Sandy,Lowland,NPK,Yes,100,Kangkung,Not Viable,Poor
+51,260,60,38,4,7,Sandy,Lowland,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+51,260,60,38,4,7,Sandy,Upland,Not,No,100,Sweet Potato,Not Viable,Poor
+51,260,60,38,4,7,Sandy,Upland,Organic,No,100,Kangkung,Not Viable,Poor
+51,260,60,38,4,7,Sandy,Upland,NPK,Yes,100,Corn,Not Viable,Poor
+51,260,60,38,4,7,Sandy,Upland,Ammonium Sulfate,No,100,Okra,Not Viable,Poor
+51,260,60,38,4,7,Sandy,Slope,Not,No,100,Kangkung,Not Viable,Poor
+51,260,60,38,4,7,Sandy,Slope,Organic,No,100,Kangkung,Not Viable,Poor
+51,260,60,38,4,7,Sandy,Slope,NPK,Yes,100,Kangkung,Not Viable,Poor
+51,260,60,38,4,7,Sandy,Slope,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+51,260,60,38,4,7,Clay,Lowland,Not,No,100,Chili,Not Viable,Poor
+51,260,60,38,4,7,Clay,Lowland,Organic,No,100,Kangkung,Not Viable,Poor
+51,260,60,38,4,7,Clay,Lowland,NPK,No,100,Chili,Not Viable,Poor
+51,260,60,38,4,7,Clay,Lowland,Ammonium Sulfate,No,100,Okra,Not Viable,Poor
+51,260,60,38,4,7,Clay,Upland,Not,No,100,Okra,Not Viable,Poor
+51,260,60,38,4,7,Clay,Upland,Organic,No,100,Sweet Potato,Not Viable,Poor
+51,260,60,38,4,7,Clay,Upland,NPK,No,100,Chili,Not Viable,Poor
+51,260,60,38,4,7,Clay,Upland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+51,260,60,38,4,7,Clay,Slope,Not,No,100,Sweet Potato,Not Viable,Poor
+51,260,60,38,4,7,Clay,Slope,Organic,No,100,Okra,Not Viable,Poor
+51,260,60,38,4,7,Clay,Slope,NPK,No,100,Okra,Not Viable,Poor
+51,260,60,38,4,7,Clay,Slope,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+51,260,60,38,4,7,Loam,Lowland,Not,No,100,Okra,Not Viable,Poor
+51,260,60,38,4,7,Loam,Lowland,Organic,Yes,100,Kangkung,Not Viable,Poor
+51,260,60,38,4,7,Loam,Lowland,NPK,No,100,Chili,Not Viable,Poor
+51,260,60,38,4,7,Loam,Lowland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+51,260,60,38,4,7,Loam,Upland,Not,No,100,Chili,Not Viable,Poor
+51,260,60,38,4,7,Loam,Upland,Organic,Yes,100,Okra,Not Viable,Poor
+51,260,60,38,4,7,Loam,Upland,NPK,No,100,Kangkung,Not Viable,Poor
+51,260,60,38,4,7,Loam,Upland,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+51,260,60,38,4,7,Loam,Slope,Not,No,100,Sweet Potato,Not Viable,Poor
+51,260,60,38,4,7,Loam,Slope,Organic,Yes,100,Sweet Potato,Not Viable,Poor
+51,260,60,38,4,7,Loam,Slope,NPK,No,100,Chili,Not Viable,Poor
+51,260,60,38,4,7,Loam,Slope,Ammonium Sulfate,No,100,Corn,Not Viable,Poor
+52,200,47,29,5.5,4,Sandy,Lowland,Not,No,100,Corn,Not Viable,Poor
+52,200,47,29,5.5,4,Sandy,Lowland,Organic,No,98,Okra,Not Viable,Poor
+52,200,47,29,5.5,4,Sandy,Lowland,NPK,Yes,99,Corn,Viable,Good
+52,200,47,29,5.5,4,Sandy,Lowland,Ammonium Sulfate,No,96,Sweet Potato,Not Viable,Poor
+52,200,47,29,5.5,4,Sandy,Upland,Not,No,92,Chili,Not Viable,Poor
+52,200,47,29,5.5,4,Sandy,Upland,Organic,No,89,Kangkung,Not Viable,Poor
+52,200,47,29,5.5,4,Sandy,Upland,NPK,Yes,94,Kangkung,Viable,Good
+52,200,47,29,5.5,4,Sandy,Upland,Ammonium Sulfate,No,90,Corn,Not Viable,Poor
+52,200,47,29,5.5,4,Sandy,Slope,Not,No,75,Kangkung,Not Viable,Poor
+52,200,47,29,5.5,4,Sandy,Slope,Organic,No,79,Sweet Potato,Not Viable,Poor
+52,200,47,29,5.5,4,Sandy,Slope,NPK,Yes,79,Chili,Viable,Good
+52,200,47,29,5.5,4,Sandy,Slope,Ammonium Sulfate,No,84,Kangkung,Not Viable,Poor
+52,200,47,29,5.5,4,Clay,Lowland,Not,No,100,Kangkung,Not Viable,Poor
+52,200,47,29,5.5,4,Clay,Lowland,Organic,No,100,Sweet Potato,Not Viable,Poor
+52,200,47,29,5.5,4,Clay,Lowland,NPK,No,100,Okra,Not Viable,Poor
+52,200,47,29,5.5,4,Clay,Lowland,Ammonium Sulfate,No,100,Chili,Not Viable,Poor
+52,200,47,29,5.5,4,Clay,Upland,Not,No,100,Okra,Not Viable,Poor
+52,200,47,29,5.5,4,Clay,Upland,Organic,No,100,Corn,Not Viable,Poor
+52,200,47,29,5.5,4,Clay,Upland,NPK,No,100,Okra,Not Viable,Poor
+52,200,47,29,5.5,4,Clay,Upland,Ammonium Sulfate,No,100,Kangkung,Not Viable,Poor
+52,200,47,29,5.5,4,Clay,Slope,Not,No,100,Chili,Not Viable,Poor
+52,200,47,29,5.5,4,Clay,Slope,Organic,No,100,Chili,Not Viable,Poor
+52,200,47,29,5.5,4,Clay,Slope,NPK,No,98,Chili,Not Viable,Poor
+52,200,47,29,5.5,4,Clay,Slope,Ammonium Sulfate,No,100,Okra,Not Viable,Poor
+52,200,47,29,5.5,4,Loam,Lowland,Not,No,100,Okra,Not Viable,Poor
+52,200,47,29,5.5,4,Loam,Lowland,Organic,Yes,100,Okra,Viable,Good
+52,200,47,29,5.5,4,Loam,Lowland,NPK,No,100,Corn,Not Viable,Poor
+52,200,47,29,5.5,4,Loam,Lowland,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+52,200,47,29,5.5,4,Loam,Upland,Not,No,98,Sweet Potato,Not Viable,Poor
+52,200,47,29,5.5,4,Loam,Upland,Organic,Yes,100,Sweet Potato,Viable,Good
+52,200,47,29,5.5,4,Loam,Upland,NPK,No,100,Okra,Not Viable,Poor
+52,200,47,29,5.5,4,Loam,Upland,Ammonium Sulfate,No,100,Sweet Potato,Not Viable,Poor
+52,200,47,29,5.5,4,Loam,Slope,Not,No,89,Okra,Not Viable,Poor
+52,200,47,29,5.5,4,Loam,Slope,Organic,Yes,92,Sweet Potato,Viable,Good
+52,200,47,29,5.5,4,Loam,Slope,NPK,No,94,Sweet Potato,Not Viable,Poor
+52,200,47,29,5.5,4,Loam,Slope,Ammonium Sulfate,No,92,Chili,Not Viable,Poor

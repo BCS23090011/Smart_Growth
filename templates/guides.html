@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Smart Grow: Detailed planting guides for beginners">
+    <meta name="keywords" content="planting guides, kangkung, okra, sweet potato, beginner farming">
+    <meta name="author" content="Smart Grow">
+    <title>Planting Guides - Smart Grow</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='design.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="{{ url_for('static', filename='main.js') }}" defer></script>
+    <style>
+        .guides-hero {
+            background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+        
+        .guides-hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        
+        .guides-hero p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .guides-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        
+        .guide-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .guide-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+        
+        .guide-header {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .guide-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .guide-icon img {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+        }
+        
+        .guide-title {
+            flex: 1;
+        }
+        
+        .guide-title h2 {
+            font-size: 2rem;
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+        
+        .guide-title p {
+            color: #6c757d;
+            font-size: 1.1rem;
+            margin: 0;
+        }
+        
+        .guide-content {
+            padding: 30px;
+        }
+        
+        .guide-section {
+            margin-bottom: 30px;
+        }
+        
+        .guide-section h3 {
+            color: #4CAF50;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .guide-section-icon {
+            font-size: 1.5rem;
+        }
+        
+        .guide-steps {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px 0;
+        }
+        
+        .step {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .step:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        
+        .step-number {
+            background: #4CAF50;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        
+        .step-content {
+            flex: 1;
+        }
+        
+        .step-content h4 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+            font-size: 1.1rem;
+        }
+        
+        .step-content p {
+            color: #6c757d;
+            margin: 0;
+            line-height: 1.6;
+        }
+        
+        .tips-box {
+            background: linear-gradient(135deg, #e8f5e8 0%, #f0f8f0 100%);
+            border-left: 4px solid #4CAF50;
+            padding: 20px;
+            border-radius: 0 10px 10px 0;
+            margin: 20px 0;
+        }
+        
+        .tips-box h4 {
+            color: #2e7d32;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .tips-box ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        
+        .tips-box li {
+            color: #2c3e50;
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+        
+        .back-button {
+            background: #4CAF50;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s ease;
+            margin-bottom: 30px;
+        }
+        
+        .back-button:hover {
+            background: #45a049;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(76, 175, 80, 0.3);
+        }
+        
+        .difficulty-badge {
+            background: #e8f5e8;
+            color: #2e7d32;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            .guides-hero h1 {
+                font-size: 2rem;
+            }
+            
+            .guide-header {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .guide-title h2 {
+                font-size: 1.5rem;
+            }
+            
+            .guides-container {
+                padding: 40px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <div class="logo">
+                <span class="plant-icon" aria-hidden="true">🌱</span>
+                <span class="logo-text" data-en="Smart Grow" data-my="Smart Grow">Smart Grow</span>
+            </div>
+            <div class="nav-links">
+                <a href="/" class="nav-link" data-en="Home" data-my="Utama">Home</a>
+                <a href="/#prediction-tool" class="nav-link" data-en="Prediction Tool" data-my="Alatan Ramalan">Prediction Tool</a>
+                <a href="/#ai-chat" class="nav-link" data-en="AI Chat" data-my="AI Sembang">AI Chat</a>
+                <a href="/#resources" class="nav-link" data-en="Resources" data-my="Sumber">Resources</a>
+                <div class="language-toggle" role="group" aria-label="Language selection">
+                    <button class="lang-btn active" data-lang="en" aria-label="Switch to English">EN</button>
+                    <button class="lang-btn" data-lang="my" aria-label="Switch to Bahasa Malaysia">MY</button>
+                </div>
+            </div>
+            <button class="hamburger-menu" aria-label="Toggle menu" aria-expanded="false">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="guides-hero">
+        <div class="container">
+            <h1 data-en="Beginner-Friendly Planting Guides" data-my="Panduan Penanaman Mesra Pemula">Beginner-Friendly Planting Guides</h1>
+            <p data-en="Step-by-step instructions for growing healthy crops, even if you've never planted before" 
+               data-my="Arahan langkah demi langkah untuk menanam tanaman yang sihat, walaupun anda tidak pernah menanam sebelum ini">
+                Step-by-step instructions for growing healthy crops, even if you've never planted before
+            </p>
+        </div>
+    </section>
+
+    <!-- Guides Content -->
+    <div class="guides-container">
+        <a href="/" class="back-button">
+            <span>←</span>
+            <span data-en="Back to Home" data-my="Kembali ke Utama">Back to Home</span>
+        </a>
+
+        <!-- Kangkung Guide -->
+        <div class="guide-card">
+            <div class="guide-header">
+                <div class="guide-icon">
+                    <img src="{{ url_for('static', filename='kangkung.png') }}" alt="Kangkung">
+                </div>
+                <div class="guide-title">
+                    <h2 data-en="Water Spinach (Kangkung)" data-my="Kangkung">Water Spinach (Kangkung)</h2>
+                    <p data-en="Fast-growing leafy vegetable perfect for beginners" 
+                       data-my="Sayuran berdaun yang tumbuh cepat, sesuai untuk pemula">
+                        Fast-growing leafy vegetable perfect for beginners
+                    </p>
+                    <span class="difficulty-badge" data-en="Difficulty: Very Easy" data-my="Kesukaran: Sangat Mudah">Difficulty: Very Easy</span>
+                </div>
+            </div>
+            <div class="guide-content">
+                <div class="guide-section">
+                    <h3>
+                        <span class="guide-section-icon">🌱</span>
+                        <span data-en="Getting Started" data-my="Memulakan">Getting Started</span>
+                    </h3>
+                    <div class="guide-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4 data-en="Choose Your Seeds" data-my="Pilih Benih Anda">Choose Your Seeds</h4>
+                                <p data-en="Buy kangkung seeds from any garden store. Look for fresh, plump seeds. You can also use kangkung cuttings from the market - just make sure they have roots!" 
+                                   data-my="Beli benih kangkung dari mana-mana kedai taman. Cari benih yang segar dan berisi. Anda juga boleh menggunakan keratan kangkung dari pasar - pastikan ia mempunyai akar!">
+                                    Buy kangkung seeds from any garden store. Look for fresh, plump seeds. You can also use kangkung cuttings from the market - just make sure they have roots!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4 data-en="Prepare Your Container" data-my="Sediakan Bekas Anda">Prepare Your Container</h4>
+                                <p data-en="Use a pot at least 6 inches deep with drainage holes. You can even use old plastic containers - just poke holes in the bottom for water to drain out." 
+                                   data-my="Gunakan pasu sekurang-kurangnya 6 inci dalam dengan lubang saliran. Anda juga boleh menggunakan bekas plastik lama - hanya cucuk lubang di bahagian bawah untuk air mengalir keluar.">
+                                    Use a pot at least 6 inches deep with drainage holes. You can even use old plastic containers - just poke holes in the bottom for water to drain out.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4 data-en="Add Soil" data-my="Tambah Tanah">Add Soil</h4>
+                                <p data-en="Fill your container with regular potting soil. Don't worry about special soil - kangkung grows in almost anything! Mix in some compost if you have it." 
+                                   data-my="Isi bekas anda dengan tanah pasu biasa. Jangan risau tentang tanah khas - kangkung tumbuh dalam hampir apa sahaja! Campurkan sedikit kompos jika anda ada.">
+                                    Fill your container with regular potting soil. Don't worry about special soil - kangkung grows in almost anything! Mix in some compost if you have it.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="guide-section">
+                    <h3>
+                        <span class="guide-section-icon">💧</span>
+                        <span data-en="Planting & Watering" data-my="Menanam & Menyiram">Planting & Watering</span>
+                    </h3>
+                    <div class="guide-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4 data-en="Plant Your Seeds" data-my="Tanam Benih Anda">Plant Your Seeds</h4>
+                                <p data-en="Make small holes about 1/2 inch deep. Drop 2-3 seeds in each hole and cover lightly with soil. Space holes about 2 inches apart." 
+                                   data-my="Buat lubang kecil kira-kira 1/2 inci dalam. Masukkan 2-3 benih dalam setiap lubang dan tutup ringan dengan tanah. Jarakkan lubang kira-kira 2 inci.">
+                                    Make small holes about 1/2 inch deep. Drop 2-3 seeds in each hole and cover lightly with soil. Space holes about 2 inches apart.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4 data-en="Water Gently" data-my="Siram Perlahan">Water Gently</h4>
+                                <p data-en="Water the soil until it's moist but not soaking wet. Kangkung loves water, so keep the soil consistently damp. Water every day or when the top feels dry." 
+                                   data-my="Siram tanah sehingga lembap tetapi tidak basah kuyup. Kangkung suka air, jadi pastikan tanah sentiasa lembap. Siram setiap hari atau apabila bahagian atas terasa kering.">
+                                    Water the soil until it's moist but not soaking wet. Kangkung loves water, so keep the soil consistently damp. Water every day or when the top feels dry.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="guide-section">
+                    <h3>
+                        <span class="guide-section-icon">🌞</span>
+                        <span data-en="Care & Harvesting" data-my="Penjagaan & Menuai">Care & Harvesting</span>
+                    </h3>
+                    <div class="guide-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4 data-en="Provide Light" data-my="Berikan Cahaya">Provide Light</h4>
+                                <p data-en="Place your pot where it gets morning sunlight. 4-6 hours of sun is perfect. Too much hot afternoon sun can make the leaves bitter." 
+                                   data-my="Letakkan pasu anda di tempat yang mendapat cahaya matahari pagi. 4-6 jam matahari adalah sempurna. Terlalu banyak matahari petang yang panas boleh membuat daun pahit.">
+                                    Place your pot where it gets morning sunlight. 4-6 hours of sun is perfect. Too much hot afternoon sun can make the leaves bitter.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4 data-en="Harvest Time!" data-my="Masa Menuai!">Harvest Time!</h4>
+                                <p data-en="In just 3-4 weeks, your kangkung will be ready! Cut the stems about 2 inches from the soil. The plant will grow back for more harvests!" 
+                                   data-my="Dalam masa 3-4 minggu sahaja, kangkung anda akan siap! Potong batang kira-kira 2 inci dari tanah. Tumbuhan akan tumbuh semula untuk lebih banyak tuaian!">
+                                    In just 3-4 weeks, your kangkung will be ready! Cut the stems about 2 inches from the soil. The plant will grow back for more harvests!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tips-box">
+                    <h4>
+                        <span>💡</span>
+                        <span data-en="Beginner Tips" data-my="Tips Pemula">Beginner Tips</span>
+                    </h4>
+                    <ul>
+                        <li data-en="Kangkung grows super fast - you'll see sprouts in just 3-5 days!" 
+                            data-my="Kangkung tumbuh sangat cepat - anda akan melihat tunas dalam 3-5 hari sahaja!">
+                            Kangkung grows super fast - you'll see sprouts in just 3-5 days!
+                        </li>
+                        <li data-en="If leaves turn yellow, you're probably overwatering. Let the soil dry out a bit." 
+                            data-my="Jika daun menjadi kuning, anda mungkin terlalu banyak menyiram. Biarkan tanah kering sedikit.">
+                            If leaves turn yellow, you're probably overwatering. Let the soil dry out a bit.
+                        </li>
+                        <li data-en="You can grow kangkung in water too! Just put cuttings in a glass of water and change it every few days." 
+                            data-my="Anda juga boleh menanam kangkung dalam air! Hanya letakkan keratan dalam segelas air dan tukar setiap beberapa hari.">
+                            You can grow kangkung in water too! Just put cuttings in a glass of water and change it every few days.
+                        </li>
+                        <li data-en="Harvest in the morning when leaves are crisp and fresh." 
+                            data-my="Tuai pada waktu pagi apabila daun rangup dan segar.">
+                            Harvest in the morning when leaves are crisp and fresh.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Okra Guide -->
+        <div class="guide-card">
+            <div class="guide-header">
+                <div class="guide-icon">
+                    <img src="{{ url_for('static', filename='okra.png') }}" alt="Okra">
+                </div>
+                <div class="guide-title">
+                    <h2 data-en="Okra (Lady's Finger)" data-my="Okra (Bendi)">Okra (Lady's Finger)</h2>
+                    <p data-en="Heat-loving vegetable that produces pods throughout the season" 
+                       data-my="Sayuran yang suka panas yang menghasilkan buah sepanjang musim">
+                        Heat-loving vegetable that produces pods throughout the season
+                    </p>
+                    <span class="difficulty-badge" data-en="Difficulty: Easy" data-my="Kesukaran: Mudah">Difficulty: Easy</span>
+                </div>
+            </div>
+            <div class="guide-content">
+                <div class="guide-section">
+                    <h3>
+                        <span class="guide-section-icon">🌱</span>
+                        <span data-en="Getting Started" data-my="Memulakan">Getting Started</span>
+                    </h3>
+                    <div class="guide-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4 data-en="Prepare Seeds" data-my="Sediakan Benih">Prepare Seeds</h4>
+                                <p data-en="Soak okra seeds in warm water overnight. This helps them sprout faster. Choose a sunny spot - okra loves heat and sunshine!" 
+                                   data-my="Rendam benih okra dalam air suam semalaman. Ini membantu mereka bercambah lebih cepat. Pilih tempat yang cerah - okra suka panas dan cahaya matahari!">
+                                    Soak okra seeds in warm water overnight. This helps them sprout faster. Choose a sunny spot - okra loves heat and sunshine!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4 data-en="Choose Container" data-my="Pilih Bekas">Choose Container</h4>
+                                <p data-en="Use a large pot (at least 12 inches deep) or plant directly in the ground. Okra plants can grow quite tall, so give them space!" 
+                                   data-my="Gunakan pasu besar (sekurang-kurangnya 12 inci dalam) atau tanam terus di tanah. Pokok okra boleh tumbuh agak tinggi, jadi beri mereka ruang!">
+                                    Use a large pot (at least 12 inches deep) or plant directly in the ground. Okra plants can grow quite tall, so give them space!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4 data-en="Prepare Soil" data-my="Sediakan Tanah">Prepare Soil</h4>
+                                <p data-en="Mix regular garden soil with some compost. Okra isn't picky about soil, but it should drain well. Avoid soil that stays soggy." 
+                                   data-my="Campurkan tanah taman biasa dengan sedikit kompos. Okra tidak memilih tanah, tetapi ia harus mengalir dengan baik. Elakkan tanah yang kekal becek.">
+                                    Mix regular garden soil with some compost. Okra isn't picky about soil, but it should drain well. Avoid soil that stays soggy.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="guide-section">
+                    <h3>
+                        <span class="guide-section-icon">🌿</span>
+                        <span data-en="Planting & Growing" data-my="Menanam & Membesar">Planting & Growing</span>
+                    </h3>
+                    <div class="guide-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4 data-en="Plant Seeds" data-my="Tanam Benih">Plant Seeds</h4>
+                                <p data-en="Plant seeds 1 inch deep and 6 inches apart. If using pots, plant 1-2 seeds per large pot. Water gently after planting." 
+                                   data-my="Tanam benih 1 inci dalam dan 6 inci terpisah. Jika menggunakan pasu, tanam 1-2 benih setiap pasu besar. Siram perlahan selepas menanam.">
+                                    Plant seeds 1 inch deep and 6 inches apart. If using pots, plant 1-2 seeds per large pot. Water gently after planting.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4 data-en="Wait for Sprouting" data-my="Tunggu Bercambah">Wait for Sprouting</h4>
+                                <p data-en="Seeds will sprout in 7-14 days. Keep soil moist but not waterlogged. Once plants are 4 inches tall, water deeply but less frequently." 
+                                   data-my="Benih akan bercambah dalam 7-14 hari. Pastikan tanah lembap tetapi tidak tergenang air. Setelah tumbuhan 4 inci tinggi, siram dalam tetapi kurang kerap.">
+                                    Seeds will sprout in 7-14 days. Keep soil moist but not waterlogged. Once plants are 4 inches tall, water deeply but less frequently.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4 data-en="Support Growing Plants" data-my="Sokong Tumbuhan yang Membesar">Support Growing Plants</h4>
+                                <p data-en="As plants grow taller (they can reach 4-6 feet!), you might need to stake them. Use a bamboo stick or wooden stake for support." 
+                                   data-my="Apabila tumbuhan tumbuh lebih tinggi (mereka boleh mencapai 4-6 kaki!), anda mungkin perlu menyokongnya. Gunakan kayu buluh atau pancang kayu untuk sokongan.">
+                                    As plants grow taller (they can reach 4-6 feet!), you might need to stake them. Use a bamboo stick or wooden stake for support.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="guide-section">
+                    <h3>
+                        <span class="guide-section-icon">🥒</span>
+                        <span data-en="Harvesting" data-my="Menuai">Harvesting</span>
+                    </h3>
+                    <div class="guide-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4 data-en="Watch for Pods" data-my="Perhatikan Buah">Watch for Pods</h4>
+                                <p data-en="After 8-10 weeks, you'll see beautiful yellow flowers, followed by green pods. Harvest pods when they're 3-4 inches long and still tender." 
+                                   data-my="Selepas 8-10 minggu, anda akan melihat bunga kuning yang cantik, diikuti dengan buah hijau. Tuai buah apabila panjangnya 3-4 inci dan masih lembut.">
+                                    After 8-10 weeks, you'll see beautiful yellow flowers, followed by green pods. Harvest pods when they're 3-4 inches long and still tender.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4 data-en="Harvest Regularly" data-my="Tuai Secara Berkala">Harvest Regularly</h4>
+                                <p data-en="Pick pods every 2-3 days. The more you harvest, the more the plant will produce! Use scissors or a sharp knife to cut the stem." 
+                                   data-my="Petik buah setiap 2-3 hari. Semakin banyak anda tuai, semakin banyak tumbuhan akan menghasilkan! Gunakan gunting atau pisau tajam untuk memotong batang.">
+                                    Pick pods every 2-3 days. The more you harvest, the more the plant will produce! Use scissors or a sharp knife to cut the stem.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tips-box">
+                    <h4>
+                        <span>💡</span>
+                        <span data-en="Beginner Tips" data-my="Tips Pemula">Beginner Tips</span>
+                    </h4>
+                    <ul>
+                        <li data-en="Okra loves hot weather - plant after the last frost in your area." 
+                            data-my="Okra suka cuaca panas - tanam selepas fros terakhir di kawasan anda.">
+                            Okra loves hot weather - plant after the last frost in your area.
+                        </li>
+                        <li data-en="Don't harvest pods when they're wet - wait for them to dry to avoid spreading diseases." 
+                            data-my="Jangan tuai buah apabila basah - tunggu sehingga kering untuk mengelakkan penyebaran penyakit.">
+                            Don't harvest pods when they're wet - wait for them to dry to avoid spreading diseases.
+                        </li>
+                        <li data-en="If pods get too big and tough, leave them on the plant to save seeds for next season!" 
+                            data-my="Jika buah terlalu besar dan keras, biarkan di tumbuhan untuk simpan benih untuk musim depan!">
+                            If pods get too big and tough, leave them on the plant to save seeds for next season!
+                        </li>
+                        <li data-en="Wear gloves when harvesting - some people find okra plants a bit itchy." 
+                            data-my="Pakai sarung tangan semasa menuai - sesetengah orang mendapati pokok okra agak gatal.">
+                            Wear gloves when harvesting - some people find okra plants a bit itchy.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sweet Potato Guide -->
+        <div class="guide-card">
+            <div class="guide-header">
+                <div class="guide-icon">
+                    <img src="{{ url_for('static', filename='sweet_potato.png') }}" alt="Sweet Potato">
+                </div>
+                <div class="guide-title">
+                    <h2 data-en="Sweet Potato (Ubi Keledek)" data-my="Ubi Keledek">Sweet Potato (Ubi Keledek)</h2>
+                    <p data-en="Nutritious root vegetable that's surprisingly easy to grow" 
+                       data-my="Sayuran akar berkhasiat yang mengejutkan mudah ditanam">
+                        Nutritious root vegetable that's surprisingly easy to grow
+                    </p>
+                    <span class="difficulty-badge" data-en="Difficulty: Easy" data-my="Kesukaran: Mudah">Difficulty: Easy</span>
+                </div>
+            </div>
+            <div class="guide-content">
+                <div class="guide-section">
+                    <h3>
+                        <span class="guide-section-icon">🍠</span>
+                        <span data-en="Getting Started" data-my="Memulakan">Getting Started</span>
+                    </h3>
+                    <div class="guide-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4 data-en="Get Sweet Potato Slips" data-my="Dapatkan Anak Pokok Ubi Keledek">Get Sweet Potato Slips</h4>
+                                <p data-en="Buy sweet potato slips (baby plants) from a garden center, or grow your own by placing a sweet potato in water until it sprouts shoots." 
+                                   data-my="Beli anak pokok ubi keledek dari pusat taman, atau tanam sendiri dengan meletakkan ubi keledek dalam air sehingga ia bercambah.">
+                                    Buy sweet potato slips (baby plants) from a garden center, or grow your own by placing a sweet potato in water until it sprouts shoots.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4 data-en="Choose Your Space" data-my="Pilih Ruang Anda">Choose Your Space</h4>
+                                <p data-en="Sweet potatoes need room to spread! Use a large container (at least 20 gallons) or plant in the ground with 3 feet between plants." 
+                                   data-my="Ubi keledek memerlukan ruang untuk merebak! Gunakan bekas besar (sekurang-kurangnya 20 gelen) atau tanam di tanah dengan jarak 3 kaki antara tumbuhan.">
+                                    Sweet potatoes need room to spread! Use a large container (at least 20 gallons) or plant in the ground with 3 feet between plants.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4 data-en="Prepare Loose Soil" data-my="Sediakan Tanah Gembur">Prepare Loose Soil</h4>
+                                <p data-en="Sweet potatoes grow best in loose, well-draining soil. Mix garden soil with compost and sand to make it fluffy - this helps the roots grow big!" 
+                                   data-my="Ubi keledek tumbuh terbaik dalam tanah gembur yang mengalir dengan baik. Campurkan tanah taman dengan kompos dan pasir untuk membuatnya gebu - ini membantu akar tumbuh besar!">
+                                    Sweet potatoes grow best in loose, well-draining soil. Mix garden soil with compost and sand to make it fluffy - this helps the roots grow big!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="guide-section">
+                    <h3>
+                        <span class="guide-section-icon">🌿</span>
+                        <span data-en="Planting & Care" data-my="Menanam & Penjagaan">Planting & Care</span>
+                    </h3>
+                    <div class="guide-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4 data-en="Plant the Slips" data-my="Tanam Anak Pokok">Plant the Slips</h4>
+                                <p data-en="Plant slips deep, burying 2/3 of the stem. Only the top leaves should show above soil. Water well after planting and keep soil moist for the first week." 
+                                   data-my="Tanam anak pokok dalam, tanam 2/3 batang. Hanya daun atas sahaja yang patut kelihatan di atas tanah. Siram dengan baik selepas menanam dan pastikan tanah lembap untuk minggu pertama.">
+                                    Plant slips deep, burying 2/3 of the stem. Only the top leaves should show above soil. Water well after planting and keep soil moist for the first week.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4 data-en="Let Them Spread" data-my="Biarkan Mereka Merebak">Let Them Spread</h4>
+                                <p data-en="Sweet potato vines will spread and cover the ground - this is normal! The vines will root at nodes, creating more sweet potatoes underground." 
+                                   data-my="Pokok ubi keledek akan merebak dan menutupi tanah - ini normal! Pokok akan berakar di nod, mencipta lebih banyak ubi keledek di bawah tanah.">
+                                    Sweet potato vines will spread and cover the ground - this is normal! The vines will root at nodes, creating more sweet potatoes underground.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4 data-en="Water Wisely" data-my="Siram dengan Bijak">Water Wisely</h4>
+                                <p data-en="After the first week, water only when the top inch of soil feels dry. Too much water can cause the roots to rot instead of growing sweet potatoes!" 
+                                   data-my="Selepas minggu pertama, siram hanya apabila inci atas tanah terasa kering. Terlalu banyak air boleh menyebabkan akar reput bukannya tumbuh ubi keledek!">
+                                    After the first week, water only when the top inch of soil feels dry. Too much water can cause the roots to rot instead of growing sweet potatoes!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="guide-section">
+                    <h3>
+                        <span class="guide-section-icon">🥔</span>
+                        <span data-en="Harvesting" data-my="Menuai">Harvesting</span>
+                    </h3>
+                    <div class="guide-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4 data-en="Wait Patiently" data-my="Tunggu dengan Sabar">Wait Patiently</h4>
+                                <p data-en="Sweet potatoes take 3-4 months to mature. You'll know they're ready when the vines start to yellow, or just before the first frost." 
+                                   data-my="Ubi keledek mengambil masa 3-4 bulan untuk matang. Anda akan tahu ia siap apabila pokok mula menguning, atau sebelum fros pertama.">
+                                    Sweet potatoes take 3-4 months to mature. You'll know they're ready when the vines start to yellow, or just before the first frost.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4 data-en="Dig Carefully" data-my="Gali dengan Berhati-hati">Dig Carefully</h4>
+                                <p data-en="Use your hands or a small shovel to gently dig around the main plant. Sweet potatoes can be anywhere within 2 feet of the original plant!" 
+                                   data-my="Gunakan tangan atau penyodok kecil untuk menggali perlahan di sekitar tumbuhan utama. Ubi keledek boleh berada di mana-mana dalam jarak 2 kaki dari tumbuhan asal!">
+                                    Use your hands or a small shovel to gently dig around the main plant. Sweet potatoes can be anywhere within 2 feet of the original plant!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4 data-en="Cure Before Eating" data-my="Awet Sebelum Makan">Cure Before Eating</h4>
+                                <p data-en="Let freshly dug sweet potatoes sit in a warm, humid place for a week. This makes them sweeter and helps them store longer!" 
+                                   data-my="Biarkan ubi keledek yang baru digali duduk di tempat yang hangat dan lembap selama seminggu. Ini membuatnya lebih manis dan membantu ia tahan lebih lama!">
+                                    Let freshly dug sweet potatoes sit in a warm, humid place for a week. This makes them sweeter and helps them store longer!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tips-box">
+                    <h4>
+                        <span>💡</span>
+                        <span data-en="Beginner Tips" data-my="Tips Pemula">Beginner Tips</span>
+                    </h4>
+                    <ul>
+                        <li data-en="Don't worry if your sweet potatoes are oddly shaped - they'll still taste great!" 
+                            data-my="Jangan risau jika ubi keledek anda berbentuk pelik - ia masih akan rasa sedap!">
+                            Don't worry if your sweet potatoes are oddly shaped - they'll still taste great!
+                        </li>
+                        <li data-en="You can eat the leaves too! Young sweet potato leaves are delicious in stir-fries." 
+                            data-my="Anda juga boleh makan daunnya! Daun ubi keledek muda sedap dalam tumisan.">
+                            You can eat the leaves too! Young sweet potato leaves are delicious in stir-fries.
+                        </li>
+                        <li data-en="Save some small sweet potatoes to grow slips for next year's crop." 
+                            data-my="Simpan beberapa ubi keledek kecil untuk menanam anak pokok untuk tanaman tahun depan.">
+                            Save some small sweet potatoes to grow slips for next year's crop.
+                        </li>
+                        <li data-en="Sweet potatoes can store for months in a cool, dark place - perfect for winter meals!" 
+                            data-my="Ubi keledek boleh disimpan berbulan-bulan di tempat sejuk dan gelap - sempurna untuk makanan musim sejuk!">
+                            Sweet potatoes can store for months in a cool, dark place - perfect for winter meals!
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="plant-icon" aria-hidden="true">🌱</span>
+                    <span class="logo-text" data-en="Smart Grow" data-my="Smart Grow">Smart Grow</span>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4 data-en="Navigation" data-my="Navigasi">Navigation</h4>
+                        <a href="/" data-en="Home" data-my="Utama">Home</a>
+                        <a href="/#prediction-tool" data-en="Prediction Tool" data-my="Alatan Ramalan">Prediction Tool</a>
+                        <a href="/#ai-chat" data-en="AI Chat" data-my="AI Sembang">AI Chat</a>
+                        <a href="/#resources" data-en="Resources" data-my="Sumber">Resources</a>
+                    </div>
+                    <div class="link-group">
+                        <h4 data-en="Support" data-my="Sokongan">Support</h4>
+                        <a href="#" data-en="Contact Us" data-my="Hubungi Kami">Contact Us</a>
+                        <a href="#" data-en="FAQs" data-my="Soalan Lazim">FAQs</a>
+                        <a href="#" data-en="Feedback" data-my="Maklum Balas">Feedback</a>
+                    </div>
+                    <div class="link-group">
+                        <h4 data-en="Legal" data-my="Undang-undang">Legal</h4>
+                        <a href="#" data-en="Privacy Policy" data-my="Dasar Privasi">Privacy Policy</a>
+                        <a href="#" data-en="Terms of Use" data-my="Terma Penggunaan">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-en="© 2025 Smart Grow. All rights reserved." data-my="© 2025 Smart Grow. Hak cipta terpelihara.">© 2025 Smart Grow. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">📘</a>
+                    <a href="#" aria-label="Twitter">🐦</a>
+                    <a href="#" aria-label="Instagram">📷</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Language switching functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const langButtons = document.querySelectorAll('.lang-btn');
+            const elementsWithLang = document.querySelectorAll('[data-en], [data-my]');
+            
+            langButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const selectedLang = this.getAttribute('data-lang');
+                    
+                    // Update active button
+                    langButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Update text content
+                    elementsWithLang.forEach(element => {
+                        const text = element.getAttribute(`data-${selectedLang}`);
+                        if (text) {
+                            element.textContent = text;
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,357 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sarawak Crop Recommendation Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    #map {
+      height: 60vh;
+      width: 100%;
+    }
+    .info-panel {
+      padding: 1rem;
+    }
+    .info-box {
+      background: #f8f9fa;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-bottom: 1rem;
+    }
+    .soil-image {
+      width: 100%;
+      max-width: 300px;
+      margin-top: 0.5rem;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <h2 style="text-align:center; padding:1rem;">Sarawak Crop Recommendation System
+    <div style="text-align:center; font-size:16px; margin-top:-1rem; color:#444;margin-top: 20px;">
+      📅 Date: <span id="current-date">{{ default_data.date }}</span> | 📆 Week: <span id="current-week">{{ default_data.week }}</span>
+    </div>
+  </h2>
+  <div id="map"></div>
+   <div class="info-panel">
+    <div class="info-box" id="weather-info">
+      <h3>Weekly Weather Data</h3>
+      <div id="weather-details">Click a location to view details.</div>
+    </div>
+    <div class="info-box" id="soil-info">
+      <h3>Soil Information</h3>
+      <div id="soil-details">Soil type and terrain will be shown here.</div>
+      <img id="soil-image" class="soil-image" src="" alt="Soil type image" style="display:none;" />
+      <div id="soil-recommendation" style="margin-top:0.5rem;color:#555;"></div>
+      <!-- Add this button at the top of data.html -->
+      <div style="text-align: center; margin: 20px 0;">
+      <a href="/" id="useLocationBtn" class="btn primary" style="padding: 10px 20px; text-decoration: none; display: none;">
+      Use This Location in Prediction Tool
+      </a>
+</div>
+    </div>
+    <div class="info-box" id="recommendation-info">
+      <h3>Recommended Crops</h3>
+      <div id="crop-recommendations">Select a location to get recommendations.</div>
+    </div>
+    <div class="info-box" id="chart-box">
+      <h3>Crop Growth Grade Chart</h3>
+      <canvas id="growthChart" height="100"></canvas>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+      const defaultData = {
+      date: "{{ default_data.date }}",
+      week: "{{ default_data.week }}",
+      rainfall: "{{ default_data.rainfall }}",
+      sunlight: "{{ default_data.sunlight }}",
+      wind: "{{ default_data.wind }}",
+      extreme: "{{ default_data.extreme }}"
+      };
+
+    const map = L.map('map').setView([1.55, 110.35], 7); // Centered at Sarawak
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    const sampleLocations = [
+    { name: 'Kuching', lat: 1.55, lng: 110.35, soil: 'Loam', terrain: 'Lowland' },
+    { name: 'Sibu', lat: 2.29, lng: 111.83, soil: 'Clay', terrain: 'Slope' },
+    { name: 'Miri', lat: 4.39, lng: 113.99, soil: 'Sandy', terrain: 'Lowland' },
+    { name: 'Kota Kinabalu', lat: 5.98, lng: 116.07, soil: 'Loam', terrain: 'Lowland' },
+    { name: 'Labuan', lat: 5.28, lng: 115.25, soil: 'Sandy', terrain: 'Coastal' },
+    { name: 'Johor Bahru', lat: 1.49, lng: 103.74, soil: 'Loam', terrain: 'Urban' },
+    { name: 'George Town', lat: 5.41, lng: 100.34, soil: 'Clay', terrain: 'Coastal' },
+    { name: 'Ipoh', lat: 4.6, lng: 101.07, soil: 'Loam', terrain: 'Valley' },
+    { name: 'Kuala Lumpur', lat: 3.14, lng: 101.69, soil: 'Loam', terrain: 'Urban' },
+    { name: 'Putrajaya', lat: 2.93, lng: 101.69, soil: 'Clay', terrain: 'Urban' },
+    { name: 'Melaka', lat: 2.2, lng: 102.25, soil: 'Sandy', terrain: 'Coastal' },
+    { name: 'Kuantan', lat: 3.81, lng: 103.33, soil: 'Loam', terrain: 'Flatland' },
+    { name: 'Kota Bharu', lat: 6.13, lng: 102.24, soil: 'Clay', terrain: 'Delta' },
+    { name: 'Alor Setar', lat: 6.12, lng: 100.37, soil: 'Clay', terrain: 'Paddy Field' },
+    { name: 'Seremban', lat: 2.73, lng: 101.94, soil: 'Loam', terrain: 'Valley' }
+  ];
+
+
+    const soilImages = {
+  'Loam': '/static/loam.png',
+  'Clay': '/static/clay.png',
+  'Sandy': '/static/sandy.png'
+};
+
+    const soilRecommendations = {
+      'Clay': "Clay soil has poor drainage. Mix it with organic matter like compost or sand to improve aeration and drainage. Raised beds are also helpful."
+    };
+
+    const cropRecommendations = {
+  'Kuching': ['Kangkung', 'Chili', 'Sweet Potato', 'Okra', 'Corn'],
+  'Sibu': ['Kangkung', 'Chili', 'Sweet Potato', 'Okra', 'Corn'],
+  'Miri': ['Kangkung', 'Corn', 'Okra', 'Chili', 'Sweet Potato'],
+  'Kuala Lumpur': ['Kangkung', 'Chili', 'Sweet Potato', 'Okra', 'Corn'],
+  'Johor Bahru': ['Kangkung', 'Chili', 'Sweet Potato', 'Okra', 'Corn'],
+  'Ipoh': ['Kangkung', 'Chili', 'Sweet Potato', 'Okra', 'Corn'],
+  'George Town': ['Kangkung', 'Chili', 'Sweet Potato', 'Okra', 'Corn'],
+  'Melaka': ['Kangkung', 'Chili', 'Sweet Potato', 'Okra', 'Corn'],
+  'Putrajaya': ['Kangkung', 'Chili', 'Sweet Potato', 'Okra', 'Corn'],
+  'Kota Kinabalu': ['Kangkung', 'Chili', 'Sweet Potato', 'Okra', 'Corn'],
+  'Labuan': ['Kangkung', 'Chili', 'Sweet Potato', 'Okra', 'Corn'],
+  'Kuantan': ['Kangkung', 'Chili', 'Sweet Potato', 'Okra', 'Corn'],
+  'Kota Bharu': ['Kangkung', 'Chili', 'Sweet Potato', 'Okra', 'Corn'],
+  'Alor Setar': ['Kangkung', 'Chili', 'Sweet Potato', 'Okra', 'Corn'],
+  'Seremban': ['Kangkung', 'Chili', 'Sweet Potato', 'Okra', 'Corn']
+};
+
+  const cropGrades = {
+  'Kuching': {
+    'Kangkung': 5,
+    'Chili': 4,
+    'Sweet Potato': 4,
+    'Okra': 3,
+    'Corn': 3
+  },
+  'Miri': {
+    'Kangkung': 5,
+    'Corn': 4,
+    'Okra': 4,
+    'Chili': 3,
+    'Sweet Potato': 3
+  },
+  'Sibu': {
+    'Kangkung': 1,
+    'Chili': 1,
+    'Sweet Potato': 1,
+    'Okra': 1,
+    'Corn': 1
+  },
+  'Kuala Lumpur': {
+    'Kangkung': 1,
+    'Chili': 1,
+    'Sweet Potato': 1,
+    'Okra': 1,
+    'Corn': 1
+  },
+  'Johor Bahru': {
+    'Kangkung': 1,
+    'Chili': 1,
+    'Sweet Potato': 1,
+    'Okra': 1,
+    'Corn': 1
+  },
+  'Ipoh': {
+    'Kangkung': 1,
+    'Chili': 1,
+    'Sweet Potato': 1,
+    'Okra': 1,
+    'Corn': 1
+  },
+  'George Town': {
+    'Kangkung': 1,
+    'Chili': 1,
+    'Sweet Potato': 1,
+    'Okra': 1,
+    'Corn': 1
+  },
+  'Melaka': {
+    'Kangkung': 1,
+    'Chili': 1,
+    'Sweet Potato': 1,
+    'Okra': 1,
+    'Corn': 1
+  },
+  'Putrajaya': {
+    'Kangkung': 1,
+    'Chili': 1,
+    'Sweet Potato': 1,
+    'Okra': 1,
+    'Corn': 1
+  },
+  'Kota Kinabalu': {
+    'Kangkung': 1,
+    'Chili': 1,
+    'Sweet Potato': 1,
+    'Okra': 1,
+    'Corn': 1
+  },
+  'Labuan': {
+    'Kangkung': 1,
+    'Chili': 1,
+    'Sweet Potato': 1,
+    'Okra': 1,
+    'Corn': 1
+  },
+  'Kuantan': {
+    'Kangkung': 1,
+    'Chili': 1,
+    'Sweet Potato': 1,
+    'Okra': 1,
+    'Corn': 1
+  },
+  'Kota Bharu': {
+    'Kangkung': 1,
+    'Chili': 1,
+    'Sweet Potato': 1,
+    'Okra': 1,
+    'Corn': 1
+  },
+  'Alor Setar': {
+    'Kangkung': 1,
+    'Chili': 1,
+    'Sweet Potato': 1,
+    'Okra': 1,
+    'Corn': 1
+  },
+  'Seremban': {
+    'Kangkung': 1,
+    'Chili': 1,
+    'Sweet Potato': 1,
+    'Okra': 1,
+    'Corn': 1
+  }
+};
+
+
+    let growthChart;
+
+    sampleLocations.forEach(loc => {
+      const marker = L.marker([loc.lat, loc.lng]).addTo(map);
+      marker.on('click', () => {
+        showWeatherData(loc.name);
+        showSoilInfo(loc);
+        showCropRecommendations(loc.name);
+        showGrowthChart(loc.name);
+      });
+      marker.bindPopup(`<b>${loc.name}</b>`);
+    });
+
+    function showWeatherData(location) {
+    document.getElementById('weather-details').innerHTML =
+    `<p><b>Location:</b> ${location}</p>
+    <p><b>Week:</b> ${defaultData.week}</p>
+    <p><b>Rainfall:</b> ${defaultData.rainfall} mm/week</p>
+    <p><b>Sunlight:</b> ${defaultData.sunlight} hrs/day</p>
+    <p><b>Wind Speed:</b> ${defaultData.wind} km/h</p>
+    <p><b>Extreme Weather Days:</b> ${defaultData.extreme}</p>`;
+
+    // 存储选中的位置数据
+    const selectedLocation = sampleLocations.find(loc => loc.name === location);
+    if (selectedLocation) {
+    localStorage.setItem('selectedLocation', JSON.stringify({
+      name: selectedLocation.name,
+      soil: selectedLocation.soil,
+      terrain: selectedLocation.terrain,
+      weather: {
+        rainfall: defaultData.rainfall,
+        sunlight: defaultData.sunlight,
+        wind: defaultData.wind,
+        extreme: defaultData.extreme
+      }
+    }));
+    
+    // 显示使用位置按钮
+    document.getElementById('useLocationBtn').style.display = 'inline-block';
+  }
+}
+
+    function showSoilInfo(location) {
+      const { soil, terrain } = location;
+      document.getElementById('soil-details').innerHTML =
+        `<p><b>Soil Type:</b> ${soil}</p>
+         <p><b>Terrain Type:</b> ${terrain}</p>`;
+
+      const img = document.getElementById('soil-image');
+      const note = document.getElementById('soil-recommendation');
+
+      if (soilImages[soil]) {
+        img.src = soilImages[soil];
+        img.style.display = 'block';
+      } else {
+        img.style.display = 'none';
+      }
+
+      note.innerHTML = soilRecommendations[soil] || '';
+    }
+
+    function showCropRecommendations(location) {
+      const crops = cropRecommendations[location];
+      const container = document.getElementById('crop-recommendations');
+      if (crops.length === 0) {
+        container.innerHTML = '<p>No suitable crops found for current soil and terrain.</p>';
+      } else {
+        container.innerHTML = '<ul>' + crops.map(crop => `<li><b>${crop}</b></li>`).join('') + '</ul>';
+      }
+    }
+
+    function showGrowthChart(location) {
+      const data = cropGrades[location];
+      const ctx = document.getElementById('growthChart').getContext('2d');
+
+      if (growthChart) {
+        growthChart.destroy();
+      }
+
+      const labels = Object.keys(data);
+      const values = Object.values(data);
+
+      growthChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: labels,
+          datasets: [{
+            label: 'Growth Grade (1=Poor, 5=Excellent)',
+            data: values,
+            backgroundColor: 'rgba(75, 192, 192, 0.6)',
+            borderColor: 'rgba(75, 192, 192, 1)',
+            borderWidth: 1
+          }]
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true,
+              max: 5
+            }
+          }
+        }
+      });
+    }
+
+    
+
+
+  </script>
+
+</body>
+</html>

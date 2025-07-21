@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Smart Grow: AI-driven plant survival prediction tool with personalized planting advice based on location, soil, and weather.">
+    <meta name="keywords" content="planting, agriculture, AI, crop prediction, soil types, weather data">
+    <meta name="author" content="Smart Grow">
+    <title>Smart Grow - AI-Driven Plant Survival Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='design.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="{{ url_for('static', filename='main.js') }}" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <div class="logo">
+                <span class="plant-icon" aria-hidden="true">🌱</span>
+                <span class="logo-text" data-en="Smart Grow" data-my="Smart Grow">Smart Grow</span>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="nav-link active" data-en="Home" data-my="Utama">Home</a>
+                <a href="#prediction-tool" class="nav-link" data-en="Prediction Tool" data-my="Alatan Ramalan">Prediction Tool</a>
+                <a href="#ai-chat" class="nav-link" data-en="AI Chat" data-my="AI Sembang">AI Chat</a>
+                <a href="#resources" class="nav-link" data-en="Resources" data-my="Sumber">Resources</a>
+                <div class="language-toggle" role="group" aria-label="Language selection">
+                    <button class="lang-btn active" data-lang="en" aria-label="Switch to English">EN</button>
+                    <button class="lang-btn" data-lang="my" aria-label="Switch to Bahasa Malaysia">MY</button>
+                </div>
+            </div>
+            <button class="hamburger-menu" aria-label="Toggle menu" aria-expanded="false">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" role="banner">
+        <div class="container">
+            <h1 data-en="AI-Driven Plant Survival Prediction" data-my="Ramalan Kelangsungan Hidup Tumbuhan Berasaskan AI">AI-Driven Plant Survival Prediction</h1>
+            <p data-en="Get personalized planting advice based on your location, soil type, and weather conditions" 
+               data-my="Dapatkan nasihat penanaman peribadi berdasarkan lokasi, jenis tanah dan keadaan cuaca anda">
+                Get personalized planting advice based on your location, soil type, and weather conditions
+            </p>
+            <div class="cta-buttons">
+                <a href="#prediction-tool" class="btn primary" data-en="Get Started" data-my="Mula Sekarang">Get Started</a>
+                <a href="#how-it-works" class="btn secondary" data-en="Learn More" data-my="Ketahui Lebih Lanjut">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works" role="region" aria-label="How It Works">
+        <div class="container">
+            <h2 data-en="How It Works" data-my="Bagaimana Ia Berfungsi">How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3 data-en="Choose Crop" data-my="Pilih Tanaman">Choose Crop</h3>
+                    <p data-en="Select what you want to plant from our database" 
+                       data-my="Pilih apa yang anda ingin tanam dari pangkalan data kami">
+                        Select what you want to plant from our database
+                    </p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3 data-en="Input Data" data-my="Masukkan Data">Input Data</h3>
+                    <p data-en="Provide details about your location, soil, and terrain" 
+                       data-my="Berikan butiran tentang lokasi, tanah dan bentuk muka bumi anda">
+                        Provide details about your location, soil, and terrain
+                    </p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3 data-en="Get Advice" data-my="Dapatkan Nasihat">Get Advice</h3>
+                    <p data-en="Receive personalized planting recommendations" 
+                       data-my="Terima cadangan penanaman peribadi">
+                        Receive personalized planting recommendations
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" role="region" aria-label="Features">
+        <div class="container">
+            <h2 data-en="Key Features" data-my="Ciri Utama">Key Features</h2>
+            <div class="feature-cards">
+                <div class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">🤖</div>
+                    <h3 data-en="AI Assistant" data-my="Pembantu AI">AI Assistant</h3>
+                    <p data-en="Get answers to your planting questions instantly" 
+                       data-my="Dapatkan jawapan kepada soalan penanaman anda serta-merta">
+                        Get answers to your planting questions instantly
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">📊</div>
+                    <h3 data-en="Data Analysis" data-my="Analisis Data">Data Analysis</h3>
+                    <p data-en="Detailed analysis of weather and soil conditions" 
+                       data-my="Analisis terperinci keadaan cuaca dan tanah">
+                        Detailed analysis of weather and soil conditions
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">🌍</div>
+                    <h3 data-en="Multi-language" data-my="Pelbagai Bahasa">Multi-language</h3>
+                    <p data-en="Available in English and Bahasa Malaysia" 
+                       data-my="Tersedia dalam Bahasa Inggeris dan Bahasa Malaysia">
+                        Available in English and Bahasa Malaysia
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Weather Visualization Section -->
+    <section class="weather-visualization" role="region" aria-label="Weather Data Insights">
+        <div class="container">
+            <h2 data-en="Weather Data Insights" data-my="Maklumat Data Cuaca">Weather Data Insights</h2>
+            <div class="chart-container">
+                <canvas id="weatherChart" aria-label="Weekly rainfall trends"></canvas>
+            </div>
+            <p class="chart-description" data-en="Weekly rainfall trends in your area for optimal planting timing" 
+               data-my="Tren hujan mingguan di kawasan anda untuk masa penanaman yang optimum">
+                Weekly rainfall trends in your area for optimal planting timing
+            </p>
+        </div>
+    </section>
+
+    <!-- Prediction Tool Section -->
+<form id="predictionForm" method="POST">
+    <section id="prediction-tool" class="prediction-tool" role="region" aria-label="Plant Prediction Tool">
+        <div class="container">
+            <h2 data-en="Plant Prediction Tool" data-my="Alatan Ramalan Tanaman">Plant Prediction Tool</h2>
+            <div class="tool-container">
+                <div class="progress-bar" role="progressbar" aria-label="Prediction tool progress">
+                    <div class="progress-step active" data-step="1" aria-current="step">1</div>
+                    <div class="progress-step" data-step="2">2</div>
+                    <div class="progress-step" data-step="3">3</div>
+                    <div class="progress-step" data-step="4">4</div>
+                    <div class="progress-step" data-step="5">5</div>
+                </div>
+                
+                <!-- Step 1: Crop Selection -->
+                <div class="tool-step active" data-step="1">
+                    <h3 data-en="What do you want to plant?" data-my="Apa yang anda ingin tanam?">What do you want to plant?</h3>
+                    <div class="crop-selection" role="radiogroup" aria-label="Crop selection">
+                        <div class="crop-card" data-crop="Chili" role="radio" aria-checked="false" tabindex="0">
+                            <div class="crop-icon" aria-hidden="true">🌶️</div>
+                            <span data-en="Chili" data-my="Cili">Chili</span>
+                        </div>
+                        <div class="crop-card" data-crop="Corn" role="radio" aria-checked="false" tabindex="0">
+                            <div class="crop-icon" aria-hidden="true">🌽</div>
+                            <span data-en="Corn" data-my="Jagung">Corn</span>
+                        </div>
+                        <div class="crop-card" data-crop="Kangkung" role="radio" aria-checked="false" tabindex="0">
+                            <div class="crop-icon" aria-hidden="true"><img style="width: 50px;height: 50px; object-fit: contain;"src="{{ url_for('static', filename='kangkung.png') }}" alt="Okra"></div>
+                            <span data-en="Water Spinach" data-my="Kangkung">Kangkung</span>
+                        </div>
+                        <div class="crop-card" data-crop="Okra" role="radio" aria-checked="false" tabindex="0">
+                            <div class="crop-icon" aria-hidden="true"><img style="width: 50px;height: 50px; object-fit: contain;"src="{{ url_for('static', filename='okra.png') }}" alt="Okra"></div>
+                            <span data-en="Okra" data-my="Okra">Okra</span>
+                        </div>
+                        <div class="crop-card" data-crop="Sweet Potato" role="radio" aria-checked="false" tabindex="0">
+                            <div class="crop-icon" aria-hidden="true"><img style="width: 50px;height: 50px; object-fit: contain;"src="{{ url_for('static', filename='sweet_potato.png') }}" alt="Okra"></div>
+                            <span data-en="Sweet Potato" data-my="Ubi Keledek">Sweet Potato</span>
+                        </div>
+                    </div>
+                    <input type="hidden" name="CropType" id="cropTypeInput">
+                    <div class="step-buttons">
+                        <button class="btn next-step" data-en="Next" data-my="Seterusnya" aria-label="Proceed to next step">Next</button>
+                    </div>
+                </div>
+                
+                <!-- Step 2: Weather Conditions -->
+                <div class="tool-step" data-step="2">
+                    <h3 data-en="Weather Conditions" data-my="Keadaan Cuaca">Weather Conditions</h3>
+                    <div class="form-group">
+                        <label for="Rainfall(mm/week)" data-en="Rainfall (mm)" data-my="Hujan (mm)">Rainfall (mm):</label>
+                        <input type="number" name="Rainfall(mm/week)" id="Rainfall(mm/week)" required value="{{ default_data.rainfall }}">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="CloudMovementSpeed(km/h)" data-en="Cloud Movement Speed (km/h)" data-my="Kelajuan Pergerakan Awan (km/j)">Cloud Movement Speed (km/h):</label>
+                        <input type="number" name="CloudMovementSpeed(km/h)" id="CloudMovementSpeed(km/h)" required value="10">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="WindSpeed(km/h)" data-en="Wind Speed (km/h)" data-my="Kelajuan Angin (km/j)">Wind Speed (km/h):</label>
+                        <input type="number" name="WindSpeed(km/h)" id="WindSpeed(km/h)" required value="{{ default_data.wind }}">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="SunlightDuration(hrs/day)" data-en="Sunlight Duration (hours/day)" data-my="Tempoh Cahaya Matahari (jam/sehari)">Sunlight (hours):</label>
+                        <input type="number" name="SunlightDuration(hrs/day)" id="SunlightDuration(hrs/day)" required value="{{ default_data.sunlight }}">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="ExtremeWeatherDays" data-en="Extreme Weather Days" data-my="Hari Cuaca Melampau">Extreme Weather Days:</label>
+                        <input type="number" name="ExtremeWeatherDays" id="ExtremeWeatherDays" required value="{{ default_data.extreme }}">
+                    </div>
+                    
+                    <div class="step-buttons">
+                        <button class="btn prev-step" data-en="Back" data-my="Kembali" aria-label="Return to previous step">Back</button>
+                        <button type="button" class="btn next-step" data-en="Next" data-my="Seterusnya" aria-label="Proceed to next step">Next</button>
+                    </div>
+                </div>
+                
+                <!-- Step 3: Soil Type -->
+                <div class="tool-step" data-step="3">
+                    <h3 data-en="What's your soil type?" data-my="Apakah jenis tanah anda?">What's your soil type?</h3>
+                    <div class="soil-selection" role="radiogroup" aria-label="Soil type selection">
+                        <div class="soil-card" data-soil="Sandy" role="radio" aria-checked="false" tabindex="0">
+                            <div class="soil-icon" aria-hidden="true"><img style="width: 50px;height: 50px; object-fit: contain;"src="{{ url_for('static', filename='sandy.png') }}" ></div>
+                            <h4 data-en="Sandy" data-my="Bersabun">Sandy</h4>
+                            <p data-en="Drains fast" data-my="Mengalir cepat">Drains fast</p>
+                        </div>
+                        <div class="soil-card" data-soil="Clay" role="radio" aria-checked="false" tabindex="0">
+                            <div class="soil-icon" aria-hidden="true"><img style="width: 50px;height: 50px; object-fit: contain;"src="{{ url_for('static', filename='clay.png') }}" ></div>
+                            <h4 data-en="Clay" data-my="Liat">Clay</h4>
+                            <p data-en="Retains water" data-my="Mengekalkan air">Retains water</p>
+                        </div>
+                        <div class="soil-card" data-soil="Loam" role="radio" aria-checked="false" tabindex="0">
+                            <div class="soil-icon" aria-hidden="true"><img style="width: 50px;height: 50px; object-fit: contain;"src="{{ url_for('static', filename='loam.png') }}" ></div>
+                            <h4 data-en="Loam" data-my="Loam">Loam</h4>
+                            <p data-en="Balanced" data-my="Seimbang">Balanced</p>
+                        </div>
+                    </div>
+                    <input type="hidden" name="SoilType" id="soilTypeInput">
+                    
+                    <div class="form-group">
+                        <label for="SoilMoisture(%)" data-en="Soil Moisture (%)" data-my="Kelembapan Tanah (%)">Soil Moisture (%):</label>
+                        <input type="number" name="SoilMoisture(%)" id="SoilMoisture(%)" required value="{{ default_data.moisture }}">
+                    </div>
+                    
+                    <div class="step-buttons">
+                        <button class="btn prev-step" data-en="Back" data-my="Kembali" aria-label="Return to previous step">Back</button>
+                        <button class="btn next-step" data-en="Next" data-my="Seterusnya" aria-label="Proceed to next step">Next</button>
+                    </div>
+                </div>
+                
+                <!-- Step 4: Terrain Type -->
+                <div class="tool-step" data-step="4">
+                    <h3 data-en="What's your terrain like?" data-my="Bagaimana bentuk muka bumi anda?">What's your terrain like?</h3>
+                    <div class="terrain-selection" role="radiogroup" aria-label="Terrain type selection">
+                        <div class="terrain-card" data-terrain="Lowland" role="radio" aria-checked="false" tabindex="0">
+                            <div class="terrain-icon" aria-hidden="true">🏞️</div>
+                            <h4 data-en="Lowland" data-my="Tanah Rendah">Lowland</h4>
+                        </div>
+                        <div class="terrain-card" data-terrain="Slope" role="radio" aria-checked="false" tabindex="0">
+                            <div class="terrain-icon" aria-hidden="true">⛰️</div>
+                            <h4 data-en="Slope" data-my="Cerun">Slope</h4>
+                        </div>
+                        <div class="terrain-card" data-terrain="Upland" role="radio" aria-checked="false" tabindex="0">
+                            <div class="terrain-icon" aria-hidden="true">🏔️</div>
+                            <h4 data-en="Upland" data-my="Tanah Tinggi">Upland</h4>
+                        </div>
+                    </div>
+                    <input type="hidden" name="TerrainType" id="terrainTypeInput">
+                    
+                    <div class="step-buttons">
+                        <button class="btn prev-step" data-en="Back" data-my="Kembali" aria-label="Return to previous step">Back</button>
+                        <button class="btn next-step" data-en="Next" data-my="Seterusnya" aria-label="Proceed to next step">Next</button>
+                    </div>
+                </div>
+                
+                <!-- Step 5: Fertilizer -->
+                <div class="tool-step" data-step="5">
+                    <h3 data-en="What fertilizer will you use?" data-my="Baja apa yang akan anda gunakan?">What fertilizer will you use?</h3>
+                    <div class="form-group">
+                        <label for="FertilizerType" class="sr-only" data-en="Fertilizer type" data-my="Jenis baja">Fertilizer type</label>
+                        <select name="FertilizerType" id="FertilizerType" aria-required="true">
+                            <option value="" disabled selected data-en="Select fertilizer type" data-my="Pilih jenis baja">Select fertilizer type</option>
+                            <option value="Not" data-en="None" data-my="Tiada">None</option>
+                            <option value="NPK" data-en="NPK (Balanced)" data-my="NPK (Seimbang)">NPK (Balanced)</option>
+                            <option value="Ammonium Sulfate" data-en="Ammonium Sulfate" data-my="Ammonium Sulfate">Ammonium Sulfate</option>
+                            <option value="Organic" data-en="Organic" data-my="Organik">Organic</option>
+                        </select>
+                    </div>
+                    
+                    <div class="step-buttons">
+                        <button class="btn prev-step" data-en="Back" data-my="Kembali" aria-label="Return to previous step">Back</button>
+                        <button type="submit" class="btn get-results" data-en="Get Results" data-my="Dapatkan Keputusan">Get Results</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</form>
+
+    <section id="results" class="results hidden" role="region" aria-label="Prediction Results">
+        <div class="container">
+            <div class="result-card success">
+                <div id="result"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Chat Section -->
+    <section id="ai-chat" class="ai-chat" role="region" aria-label="AI Plant Assistant">
+        <div class="container">
+            <h2 data-en="AI Plant Assistant" data-my="Pembantu Tumbuhan AI">AI Plant Assistant</h2>
+            <div class="chat-container">
+                <div class="chat-header">
+                    <div class="chat-title" data-en="Ask me anything about planting!" data-my="Tanya saya apa-apa tentang penanaman!">Ask me anything about planting!</div>
+                    <div class="language-toggle" role="group" aria-label="Chat language selection">
+                        <button class="lang-btn active" data-lang="en" aria-label="Switch to English">EN</button>
+                        <button class="lang-btn" data-lang="my" aria-label="Switch to Bahasa Malaysia">MY</button>
+                    </div>
+                </div>
+                <div class="chat-messages" aria-live="polite">
+                    <div class="message bot">
+                        <div class="message-content" data-en="Hello! I'm here to help with your planting questions. What would you like to know?" 
+                               data-my="Helo! Saya di sini untuk membantu dengan soalan penanaman anda. Apa yang anda ingin tahu?">
+                            Hello! I'm here to help with your planting questions. What would you like to know?
+                        </div>
+                    </div>
+                </div>
+                <div class="quick-questions">
+                    <button class="quick-question" data-en="Soil Types" data-my="Jenis Tanah" aria-label="Ask about soil types">Soil Types</button>
+                    <button class="quick-question" data-en="Best Crops" data-my="Tanaman Terbaik" aria-label="Ask about best crops">Best Crops</button>
+                    <button class="quick-question" data-en="Weather Impact" data-my="Kesan Cuaca" aria-label="Ask about weather impact">Weather Impact</button>
+                </div>
+                <div class="chat-input">
+                    <label for="chat-input" class="sr-only" data-en="Type your question" data-my="Taip soalan anda">Type your question</label>
+                    <input id="chat-input" type="text" placeholder="Type your question..." data-en-placeholder="Type your question..." data-my-placeholder="Taip soalan anda..." aria-required="true">
+                    <button class="send-btn" data-en="Send" data-my="Hantar" aria-label="Send chat message">Send</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Soil Quiz Section -->
+    <section id="soil-quiz" class="soil-quiz hidden" role="region" aria-label="Soil Type Quiz">
+        <div class="container">
+            <h2 data-en="Soil Type Quiz" data-my="Kuiz Jenis Tanah">Soil Type Quiz</h2>
+            <div class="quiz-container">
+                <div class="quiz-progress" data-en="Question" data-my="Soalan">Question 1 of 4</div>
+                <div class="quiz-question" data-en="When you squeeze wet soil in your hand, what happens?" 
+                     data-my="Apabila anda memicit tanah basah di tangan anda, apa yang berlaku?">
+                    When you squeeze wet soil in your hand, what happens?
+                </div>
+                <div class="quiz-options" role="radiogroup" aria-label="Soil quiz options">
+                    <div class="quiz-option">
+                        <input type="radio" name="quiz" id="option1" value="sandy">
+                        <label for="option1" data-en="It falls apart immediately" data-my="Ia hancur serta-merta">It falls apart immediately</label>
+                    </div>
+                    <div class="quiz-option">
+                        <input type="radio" name="quiz" id="option2" value="loam">
+                        <label for="option2" data-en="It holds together but crumbles easily" data-my="Ia tetap bersama tetapi mudah hancur">It holds together but crumbles easily</label>
+                    </div>
+                    <div class="quiz-option">
+                        <input type="radio" name="quiz" id="option3" value="clay">
+                        <label for="option3" data-en="It forms a firm ball" data-my="Ia membentuk bola yang kukuh">It forms a firm ball</label>
+                    </div>
+                    <div class="quiz-option">
+                        <input type="radio" name="quiz" id="option4" value="peat">
+                        <label for="option4" data-en="It's sticky and moldable" data-my="Ia melekit dan boleh dibentuk">It's sticky and moldable</label>
+                    </div>
+                </div>
+                <div class="quiz-buttons">
+                    <button class="btn prev-question" data-en="Back" data-my="Kembali" aria-label="Return to prediction tool">Back</button>
+                    <button class="btn next-question" data-en="Next" data-my="Seterusnya" aria-label="Proceed to next quiz question">Next</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="resources" role="region" aria-label="Educational Resources">
+        <div class="container">
+            <h2 data-en="Educational Resources" data-my="Sumber Pendidikan">Educational Resources</h2>
+            <div class="resource-cards">
+                <div class="resource-card">
+                    <div class="resource-icon" aria-hidden="true">🌱</div>
+                    <h3 data-en="Planting Guides" data-my="Panduan Penanaman">Planting Guides</h3>
+                    <p data-en="Detailed guides for different crops" data-my="Panduan terperinci untuk tanaman berbeza">Detailed guides for different crops</p>
+                    <a href="/guides" class="btn secondary" data-en="View Guides" data-my="Lihat Panduan" aria-label="View planting guides">View Guides</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon" aria-hidden="true">🧪</div>
+                    <h3 data-en="Land Features" data-my="Ciri-ciri Tanah">Soil Testing</h3>
+                    <p data-en="Information about soil type and terrain" data-my="Maklumat tentang jenis tanah dan bentuk muka bumi">How to test and improve your soil</p>
+                    <a href="/data" class="btn secondary" data-en="Learn More" data-my="Ketahui Lebih Lanjut" aria-label="Learn about soil testing">Learn More</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon" aria-hidden="true">🌧️</div>
+                    <h3 data-en="Weather Patterns" data-my="Corak Cuaca">Weather Patterns</h3>
+                    <p data-en="Understanding local climate impacts" data-my="Memahami kesan iklim tempatan">Understanding local climate impacts</p>
+                    <a href="/data" class="btn secondary" data-en="Explore Data" data-my="Terokai Data" aria-label="Explore weather data">Explore Data</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="plant-icon" aria-hidden="true">🌱</span>
+                    <span class="logo-text" data-en="Smart Grow" data-my="Smart Grow">Smart Grow</span>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4 data-en="Navigation" data-my="Navigasi">Navigation</h4>
+                        <a href="#" data-en="Home" data-my="Utama">Home</a>
+                        <a href="#prediction-tool" data-en="Prediction Tool" data-my="Alatan Ramalan">Prediction Tool</a>
+                        <a href="#ai-chat" data-en="AI Chat" data-my="AI Sembang">AI Chat</a>
+                        <a href="#resources" data-en="Resources" data-my="Sumber">Resources</a>
+                    </div>
+                    <div class="link-group">
+                        <h4 data-en="Support" data-my="Sokongan">Support</h4>
+                        <a href="#" data-en="Contact Us" data-my="Hubungi Kami">Contact Us</a>
+                        <a href="#" data-en="FAQs" data-my="Soalan Lazim">FAQs</a>
+                        <a href="#" data-en="Feedback" data-my="Maklum Balas">Feedback</a>
+                    </div>
+                    <div class="link-group">
+                        <h4 data-en="Legal" data-my="Undang-undang">Legal</h4>
+                        <a href="#" data-en="Privacy Policy" data-my="Dasar Privasi">Privacy Policy</a>
+                        <a href="#" data-en="Terms of Use" data-my="Terma Penggunaan">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-en="© 2025 Smart Grow. All rights reserved." data-my="© 2025 Smart Grow. Hak cipta terpelihara.">© 2025 Smart Grow. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">📘</a>
+                    <a href="#" aria-label="Twitter">🐦</a>
+                    <a href="#" aria-label="Instagram">📷</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Add this script at the end of the body in index.html -->
+<!-- 在 </body> 标签前添加脚本 -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // 检查是否有存储的位置数据
+  const storedLocation = localStorage.getItem('selectedLocation');
+  if (storedLocation) {
+    const locationData = JSON.parse(storedLocation);
+    
+    // 自动选择土壤类型
+    setTimeout(() => {
+      document.querySelectorAll('.soil-card').forEach(card => {
+        if (card.dataset.soil.toLowerCase() === locationData.soil.toLowerCase()) {
+          card.click();
+          document.getElementById('soilTypeInput').value = locationData.soil;
+        }
+      });
+      
+      // 自动选择地形类型
+      document.querySelectorAll('.terrain-card').forEach(card => {
+        if (card.dataset.terrain.toLowerCase() === locationData.terrain.toLowerCase()) {
+          card.click();
+          document.getElementById('terrainTypeInput').value = locationData.terrain;
+        }
+      });
+      
+      // 显示通知
+      const notification = document.createElement('div');
+      notification.className = 'location-notification';
+      notification.innerHTML = `Location data loaded: ${locationData.name}`;
+      document.body.appendChild(notification);
+      
+      setTimeout(() => {
+        notification.style.opacity = '0';
+        setTimeout(() => notification.remove(), 500);
+      }, 3000);
+    }, 500);
+  }
+});
+
+// 添加通知样式
+const style = document.createElement('style');
+style.textContent = `
+.location-notification {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #4CAF50;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  z-index: 1000;
+  transition: opacity 0.5s ease;
+}
+`;
+document.head.appendChild(style);
+
+</script>
+</body>
+</html>
+
